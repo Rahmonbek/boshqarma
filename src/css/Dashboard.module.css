@@ -1,0 +1,35 @@
+.image{height:100vh; width:100%;}
+.car_item{width:100%; position:relative;}
+.car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
+.navT{position:absolute; top:50px; left:0px; width:100%; padding:0px 30px;}
+.brand_img,.brand_text{display:inline-block}
+.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:rgb(5, 5, 162)}
+
+.brand_img img{width:70px; height:70px}
+.brand_text{width:90px; height:50px; display: flex; align-items:center;}
+.brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
+.navB{width:150px; display: flex;}
+.birinchi{margin-left:90%;}
+.navG .birinchi{margin-left: 110%;}
+.navlik{color:white}
+.navlik:hover{color:rgb(255, 247, 0)}
+.text{position: absolute; top:230px; width:100%;}
+.rahbar{width:80%; margin-left:10%; padding:40px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; margin-top: 500px;}
+.colimg{width:350px; height:350px; position:relative;}
+.colimg::before{content:''; position:absolute; top:0px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; }
+.colimg img{width:100%; height:100%; border-radius:50%; }
+.text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
+@media (min-width:701px) and (max-width:1000px){
+    .image{height:520px}
+}
+
+@media (min-width:401px) and (max-width:700px){
+.birinchi{margin-left: 0px;}
+    .image{height:450px}
+}
+
+@media (max-width:400px){
+.birinchi{margin-left: 0px;}
+
+    .image{height:390px}
+}
