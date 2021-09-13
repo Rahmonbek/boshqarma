@@ -132,9 +132,9 @@ export default class Dashboard extends Component {
         <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
     Bosh sahifa
             </NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Rahbariyat</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Yangiliklar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Tumanlar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/rahbariyat">Rahbariyat</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/yangiliklar">Yangiliklar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/tumanlar">Tumanlar</NavLink></Nav.Link>
         <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
         
       </Nav>
@@ -162,10 +162,10 @@ data-aos="fade-bottom"
       <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
     Bosh sahifa
             </NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Rahbariyat</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Yangiliklar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Tumanlar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Bog'lanish</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/rahbariyat">Rahbariyat</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/yangiliklar">Yangiliklar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/tumanlar">Tumanlar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
         
       </Nav>
     </Navbar.Collapse>

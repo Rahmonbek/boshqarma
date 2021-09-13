@@ -33,55 +33,14 @@ export default class NavbarT extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link
-                style={{ textAlign: "center", width: "190px" }}
-                className={style.birinchi}
-              >
-                <NavLink
-                  className={style.navlik}
-                  style={{ textDecoration: "none" }}
-                  to="/"
-                >
-                  Bosh sahifa
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link style={{ textAlign: "center", width: "190px" }}>
-                <NavLink
-                  className={style.navlik}
-                  style={{ textDecoration: "none" }}
-                  to="/"
-                >
-                  Rahbariyat
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link style={{ textAlign: "center", width: "190px" }}>
-                <NavLink
-                  className={style.navlik}
-                  style={{ textDecoration: "none" }}
-                  to="/yangiliklar"
-                >
-                  Yangiliklar
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link style={{ textAlign: "center", width: "190px" }}>
-                <NavLink
-                  className={style.navlik}
-                  style={{ textDecoration: "none" }}
-                  to="/"
-                >
-                  Tumanlar
-                </NavLink>
-              </Nav.Link>
-              <Nav.Link style={{ textAlign: "center", width: "190px" }}>
-                <NavLink
-                  className={style.navlik}
-                  style={{ textDecoration: "none" }}
-                  to="/"
-                >
-                  Bog'lanish
-                </NavLink>
-              </Nav.Link>
-            </Nav>
+            <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
+    Bosh sahifa
+            </NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/rahbariyat">Rahbariyat</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/yangiliklar">Yangiliklar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/tumanlar">Tumanlar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
+    </Nav>
           </Navbar.Collapse>
         </Navbar>
       </div>

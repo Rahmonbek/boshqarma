@@ -6,6 +6,7 @@ import "./App.css";
 import Yangiliklar from "./pages/Yangiliklar";
 import Footer from "./pages/Footer";
 import Tumanlar from "./pages/Tumanlar";
+import Boglanish from "./pages/Boglanish";
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
@@ -21,6 +22,9 @@ export default class componentName extends Component {
           </Route>
           <Route exact path="/tumanlar">
             <Tumanlar />
+          </Route>
+          <Route exact path="/tumanlar">
+            <Boglanish />
           </Route>
         </BrowserRouter>
       </div>
