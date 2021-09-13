@@ -187,7 +187,7 @@ data-aos="fade-bottom"
             <p className="chiziq"></p>
            <br/>
           <p className={style.fio}>Ismoilov Rahmon Zohidovich</p>
-            <p className={style.qabul}>Seshanba, Juma - soat 10:00 dan 12:00 gacha</p>
+            <p className={style.qabul}>Qabul vaqtlari : Seshanba, Juma - soat 10:00 dan 12:00 gacha</p>
        <br/>   <div className={style.icon}>
            <img src="https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=s180-rw"/>
             <a href="https://archive.uz/source/images/qr_hududiy_arxiv_ishi.pdf">Boshqarma nizomi</a>
