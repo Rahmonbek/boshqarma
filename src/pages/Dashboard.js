@@ -625,7 +625,7 @@ export default class Dashboard extends Component {
                   </Card>
                 </div>
               </Carousel>
-              <Link to="/" className={style.bar}>
+              <Link to="/yangiliklar" className={style.bar}>
                 Barcha yangiliklar <i className="fas fa-arrow-right"></i>
               </Link>
             </Col>
