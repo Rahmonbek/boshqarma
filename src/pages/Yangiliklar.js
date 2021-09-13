@@ -76,22 +76,25 @@ export default class Yangiliklar extends Component {
         ) : (
           <>
             {/* ============Header============== */}
-<NavbarT/>
-            <div
-              className={styles.headerSliderText}
-              style={{
-                fontFamily: "Lobster",
-                zIndex: "100",
-                paddingTop: "60px",
-              }}
-            >
-              <h3 style={{ fontFamily: "Lobster", zIndex: "100" }}>
-                Maktabimiz so'ngi yangiliklari bilan tanishing
-              </h3>
+            <NavbarT />
+            <div className={styles.headerImage}>
+              <div className={styles.overlay}></div>
+              <div
+                className={styles.headerSliderText}
+                style={{
+                  fontFamily: "Lobster",
+                  zIndex: "100",
+                  paddingTop: "60px",
+                }}
+              >
+                <h3 style={{ fontFamily: "Lobster", zIndex: "100" }}>
+                  Boshqarmamizning so'ngi yangiliklari bilan tanishing
+                </h3>
+              </div>
             </div>
 
-            <Carousel autoplay className={styles.sliderContainer}>
-              {/* {
+            {/* <Carousel autoplay className={styles.sliderContainer}>
+              {
                             this.state.news.map(item=>{
                               return(
                                 <div>
@@ -101,20 +104,20 @@ export default class Yangiliklar extends Component {
                                 
                               )
                             })
-                          } */}
+                          }
               <div className={styles.sliderIMG}>
-                <img src={new1} />
+                <img alt="" src={new1} />
               </div>
               <div className={styles.sliderIMG}>
-                <img src={new2} />
+                <img alt="" src={new2} />
               </div>
               <div className={styles.sliderIMG}>
-                <img src={new3} />
+                <img alt="" src={new3} />
               </div>
               <div className={styles.sliderIMG}>
-                <img src={new4} />
+                <img alt="" src={new4} />
               </div>
-            </Carousel>
+            </Carousel> */}
             {/* ==================Section===================== */}
 
             <Container fluid>
