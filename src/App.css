@@ -17,6 +17,7 @@ a {
   width: 200px;
   height: 6px;
   background-color: blue;
+margin:auto;
 }
 .bar {
   color: rgb(0, 8, 255);
