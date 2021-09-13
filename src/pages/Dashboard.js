@@ -521,7 +521,7 @@ data-aos="fade-bottom"
       </Col>
 
     </Row>
-    <Link to="/" className="bar">Barcha rasmlarni ko'rish <i className="fas fa-arrow-right"></i></Link>
+    <Link to="/lavhalar" className="bar">Barcha rasmlarni ko'rish <i className="fas fa-arrow-right"></i></Link>
 
   </Col>
 </Row>
