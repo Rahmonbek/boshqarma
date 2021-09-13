@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
@@ -10,6 +11,7 @@ export default class componentName extends Component {
   render() {
     return (
       <div>
+
         <BrowserRouter>
           <Route exact path="/">
             <Dashboard />
@@ -23,5 +25,6 @@ export default class componentName extends Component {
         </BrowserRouter>
       </div>
     );
+
   }
 }

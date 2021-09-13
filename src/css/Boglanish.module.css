@@ -1,0 +1,198 @@
+.map{
+    margin-top: 95px;
+    width: 100vw;
+    border-right: 100px solid #1105e6;
+    border-left: 25px solid #1105e6;
+    height: 60vh;
+   
+}
+
+html, body {
+
+    height: 100%;
+}
+
+.card1 {
+    position: absolute;
+    top:120px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color:#1105e6;
+}
+.card2 {
+    position: absolute;
+    top:220px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color:#1105e6;
+}
+.card3 {
+    position: absolute;
+    top:320px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color:#1105e6;
+}
+.card4 {
+    position: absolute;
+    top:420px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #1105e6;
+}
+.card5 {
+    position: absolute;
+    top:520px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #1105e6;
+}
+.card6 {
+    position: absolute;
+    top:620px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #1105e6;
+}
+.card__infoicon {
+    z-index: 24;
+    position: absolute;
+    right: 13px;
+    top:-8px;
+    font-size: 2em;
+    color: #000;
+    scale: 1.2;
+    transition: ease-out 0.3s;
+    background-color: #1105e6;
+}
+
+.aloqa{
+    color:black;
+    margin:20px;
+}
+.card__title {
+ padding: 20px;
+ padding-bottom: 10px;
+    color:black;
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.8;
+}
+.card__description {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.card__credits {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 1.1em;
+}
+.card__reference {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    color: #09f;
+    text-decoration: none;
+    transition: ease-in 0.3s;
+}
+.card__reference:hover {
+    border-bottom-color: #09f;
+}
+.card1:hover, .card1:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card1:hover .card__infoicon, .card1:focus .card__infoicon {
+    opacity: 0;
+}
+.card1:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card2:hover, .card2:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card2:hover .card__infoicon, .card2:focus .card__infoicon {
+    opacity: 0;
+}
+.card2:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card3:hover, .card3:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card3:hover .card__infoicon, .card3:focus .card__infoicon {
+    opacity: 0;
+}
+.card3:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card4:hover, .card4:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card4:hover .card__infoicon, .card4:focus .card__infoicon {
+    opacity: 0;
+}
+.card4:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card5:hover, .card5:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+  
+}
+.card5:hover .card__infoicon, .card5:focus .card__infoicon {
+    opacity: 0;
+}
+.card5:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card6:hover, .card6:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card6:hover .card__infoicon, .card6:focus .card__infoicon {
+    opacity: 0;
+}
+.card6:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
