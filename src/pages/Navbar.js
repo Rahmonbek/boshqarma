@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import style from "../css/Navbar.module.css";
-import { Nav, Container, Row, Col, Card, NavLink } from "react-bootstrap";
+import { Nav, Container, Row, Col, Card, NavLink, Navbar } from "react-bootstrap";
 import gerb from "../img/gerb.png";
 
-export default class Navbar extends Component {
+export default class NavbarT extends Component {
   render() {
     return (
+      <div>
       <div
         className={style.navG}
         data-aos="fade-bottom"
@@ -84,6 +85,7 @@ export default class Navbar extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+      </div>
       </div>
     );
   }
