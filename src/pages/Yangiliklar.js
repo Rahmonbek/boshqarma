@@ -26,7 +26,7 @@ import { getNews } from "../host/Config";
 import FadeLoader from "react-spinners/FadeLoader";
 import { Carousel } from "antd";
 import Footer from "./Footer";
-import NavbarT from "./Navbar";
+import NavbarT from "./NavbarT";
 
 // import {DownCircleOutlined} from '@ant-design/icons'
 
