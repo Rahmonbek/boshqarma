@@ -5,20 +5,14 @@ import style from '../css/Dashboard.module.css'
 import gerb from '../img/gerb.png'
 import bog from '../css/Boglanish.module.css'
 import TelegramIcon from '@material-ui/icons/Telegram';
-import MailIcon from '@material-ui/icons/Mail';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faDoorOpen,
-    faEnvelope,
-    faNewspaper,
-    faPhone,
-    faSchool,
-    faSearch,
-    faSignInAlt,
-    faUserCircle,
-  } from "@fortawesome/free-solid-svg-icons";
+import MailIcon from '@material-ui/icons/AlternateEmail';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
 import CallIcon from '@material-ui/icons/Call';
 import { Map, Placemark, YMaps } from 'react-yandex-maps'
+import Footer from './Footer'
 export default class Boglanish extends Component {
   render() {
     return (
@@ -42,7 +36,7 @@ export default class Boglanish extends Component {
         <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Rahbariyat</NavLink></Nav.Link>
         <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Yangiliklar</NavLink></Nav.Link>
         <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Tumanlar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">Bog'lanish</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
         
       </Nav>
     </Navbar.Collapse>
@@ -61,7 +55,7 @@ export default class Boglanish extends Component {
 
         <div className={bog.card1} tabindex="0">
   <span className={bog.card__infoicon}>
-<CallIcon />
+<CallIcon  style={{color:'red'}}/>
   </span><div className={style.aloqa}>
   <h1 className={bog.card__title}>This is a title</h1>
   <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
@@ -72,7 +66,7 @@ export default class Boglanish extends Component {
 
 <div className={bog.card2} tabindex="0">
   <span className={bog.card__infoicon}>
-<TelegramIcon />
+<TelegramIcon  style={{color:'white'}}/>
   </span><div className={style.aloqa}>
   <h1 className={bog.card__title}>This is a title</h1>
   <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
@@ -82,44 +76,42 @@ export default class Boglanish extends Component {
 </div>
 
 
-<div className={bog.card2} tabindex="0">
-  <span className={bog.card__infoicon}>
-<TelegramIcon />
-  </span><div className={style.aloqa}>
-  <h1 className={bog.card__title}>This is a title</h1>
-  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
-  
-  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
-  </div>
-</div>
-
-<div className={bog.card2} tabindex="0">
-  <span className={bog.card__infoicon}>
-  <FontAwesomeIcon
-                      icon={faEnvelope}
-                      style={{ fontSize: "25px" }}
-                    />
-  </span><div className={style.aloqa}>
-  <h1 className={bog.card__title}>This is a title</h1>
-  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
-  
-  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
-  </div>
-</div>
-
-
-<div className={bog.card2} tabindex="0">
-  <span className={bog.card__infoicon}>
-<TelegramIcon />
-  </span><div className={style.aloqa}>
-  <h1 className={bog.card__title}>This is a title</h1>
-  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
-  
-  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
-  </div>
-</div>
 
 <div className={bog.card3} tabindex="0">
+  <span className={bog.card__infoicon}>
+  <FacebookIcon/>
+  </span><div className={style.aloqa}>
+  <h1 className={bog.card__title}>This is a title</h1>
+  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
+  
+  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
+  </div>
+</div>
+
+
+<div className={bog.card4} tabindex="0">
+  <span className={bog.card__infoicon}>
+<YouTubeIcon style={{color:'red'}}/>
+  </span><div className={style.aloqa}>
+  <h1 className={bog.card__title}>This is a title</h1>
+  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
+  
+  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
+  </div>
+</div>
+<div className={bog.card5} tabindex="0">
+  <span className={bog.card__infoicon}>
+<InstagramIcon style={{color:'rgb(195, 11, 103)'}} />
+  </span><div className={style.aloqa}>
+  <h1 className={bog.card__title}>This is a title</h1>
+  <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
+  
+  <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
+  </div>
+</div>
+
+
+<div className={bog.card6} tabindex="0">
   <span className={bog.card__infoicon}>
 <MailIcon />
   </span><div className={style.aloqa}>
@@ -129,7 +121,7 @@ export default class Boglanish extends Component {
   <p className={bog.card__credits}>Thanks <a className={bog.card__reference} >Gary Simon</a> for the inspiration</p>
   </div>
 </div>
-
+<Footer/>
 </div>
     )
   }

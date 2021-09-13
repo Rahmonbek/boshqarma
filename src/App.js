@@ -20,6 +20,9 @@ export default class componentName extends Component {
           <Route exact path="/yangiliklar">
             <Yangiliklar />
           </Route>
+          <Route exact path="/boglanish">
+            <Boglanish />
+          </Route>
         </BrowserRouter>
       </div>
     );

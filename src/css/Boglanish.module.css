@@ -1,12 +1,13 @@
 .map{
-    margin-top: 100px;
+    margin-top: 95px;
     width: 100vw;
-    border-right: 100px solid white;
+    border-right: 100px solid #1105e6;
     height: 60vh;
-    background-color: brown;
+   
 }
 
 html, body {
+
     height: 100%;
 }
 
@@ -16,41 +17,70 @@ html, body {
     right: 24px;
     clip-path: circle(5% at 95% 11%);
     transition: all ease-in-out 0.3s;
-    background-color: #fff;
+    background-color:#1105e6;
 }
 .card2 {
     position: absolute;
-    top:270px;
+    top:220px;
     right: 24px;
     clip-path: circle(5% at 95% 11%);
     transition: all ease-in-out 0.3s;
-    background-color: #fff;
+    background-color:#1105e6;
 }
 .card3 {
+    position: absolute;
+    top:320px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color:#1105e6;
+}
+.card4 {
     position: absolute;
     top:420px;
     right: 24px;
     clip-path: circle(5% at 95% 11%);
     transition: all ease-in-out 0.3s;
-    background-color: #fff;
+    background-color: #1105e6;
+}
+.card5 {
+    position: absolute;
+    top:520px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #1105e6;
+}
+.card6 {
+    position: absolute;
+    top:620px;
+    right: 24px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #1105e6;
 }
 .card__infoicon {
+    z-index: 24;
     position: absolute;
     right: 13px;
-    top:-3px;
+    top:-8px;
     font-size: 2em;
     color: #000;
+    scale: 1.2;
     transition: ease-out 0.3s;
+    background-color: #1105e6;
 }
+
 .aloqa{
     color:black;
     margin:20px;
 }
 .card__title {
- 
+ padding: 20px;
+ padding-bottom: 10px;
     color:black;
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.8;
 }
 .card__description {
@@ -77,7 +107,9 @@ html, body {
     clip-path: circle(75%);
     border-radius: 10px;
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
-   
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
     outline: none;
 }
 .card1:hover .card__infoicon, .card1:focus .card__infoicon {
@@ -90,7 +122,9 @@ html, body {
     clip-path: circle(75%);
     border-radius: 10px;
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
-   
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
     outline: none;
 }
 .card2:hover .card__infoicon, .card2:focus .card__infoicon {
@@ -103,12 +137,61 @@ html, body {
     clip-path: circle(75%);
     border-radius: 10px;
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
-   
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
     outline: none;
 }
 .card3:hover .card__infoicon, .card3:focus .card__infoicon {
     opacity: 0;
 }
 .card3:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card4:hover, .card4:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card4:hover .card__infoicon, .card4:focus .card__infoicon {
+    opacity: 0;
+}
+.card4:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card5:hover, .card5:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+  
+}
+.card5:hover .card__infoicon, .card5:focus .card__infoicon {
+    opacity: 0;
+}
+.card5:focus {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.card6:hover, .card6:focus {
+    clip-path: circle(75%);
+    border-radius: 10px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-15px);
+    transform: translateX(-15px); 
+     z-index: 1099;
+    outline: none;
+}
+.card6:hover .card__infoicon, .card6:focus .card__infoicon {
+    opacity: 0;
+}
+.card6:focus {
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
