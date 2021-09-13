@@ -91,7 +91,7 @@ export default class Boglanish extends Component {
 
 <div className={bog.card4} tabindex="0">
   <span className={bog.card__infoicon}>
-<YouTubeIcon style={{color:'red'}}/>
+<YouTubeIcon style={{color:'red',opacity:'0.7'}}/>
   </span><div className={style.aloqa}>
   <h1 className={bog.card__title}>This is a title</h1>
   <p className={bog.card__description}>Lorem ipsum dolor sit amet and this is all the lorem ipsum text I remember</p>
