@@ -1,14 +1,23 @@
+<<<<<<< Updated upstream
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import "./App.css";
 import Yangiliklar from "./pages/Yangiliklar";
 import Footer from "./pages/Footer";
+=======
+import React, { Component } from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import Dashboard from './pages/Dashboard'
+import Boglanish from './pages/Boglanish'
+import './App.css'
+>>>>>>> Stashed changes
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
     return (
       <div>
+<<<<<<< Updated upstream
         <BrowserRouter>
           <Route exact path="/">
             <Dashboard />
@@ -19,5 +28,13 @@ export default class componentName extends Component {
         </BrowserRouter>
       </div>
     );
+=======
+       <BrowserRouter>
+     
+      <Boglanish/>
+       </BrowserRouter>
+       </div>
+    )
+>>>>>>> Stashed changes
   }
 }
