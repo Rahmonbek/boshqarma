@@ -26,6 +26,7 @@ import { getNews } from "../host/Config";
 import FadeLoader from "react-spinners/FadeLoader";
 import { Carousel } from "antd";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 // import {DownCircleOutlined} from '@ant-design/icons'
 
@@ -75,7 +76,7 @@ export default class Yangiliklar extends Component {
         ) : (
           <>
             {/* ============Header============== */}
-
+<Navbar/>
             <div
               className={styles.headerSliderText}
               style={{

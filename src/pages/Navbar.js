@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import style from "../css/Dashboard.module.css";
+import style from "../css/Navbar.module.css";
 import { Nav, Container, Row, Col, Card, NavLink } from "react-bootstrap";
 import gerb from "../img/gerb.png";
 

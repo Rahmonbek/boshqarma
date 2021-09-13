@@ -1,0 +1,10 @@
+.navG{position:fixed; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:#1105e6}
+
+.brand_img img{width:70px; height:70px}
+.brand_text{width:90px; height:50px; display: flex; align-items:center;}
+.brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
+.navB{width:200px; display: flex;}
+.birinchi{margin-left:20%;}
+.navG .birinchi{margin-left: 30%;}
+.navlik{color:white}
+.navlik:hover{color:rgb(255, 247, 0)}
