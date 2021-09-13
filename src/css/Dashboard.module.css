@@ -14,11 +14,22 @@
 .navlik{color:white}
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
-.rahbar{width:80%; margin-left:10%; padding:40px 40px 60px 40px;
+.rahbar div{width:80%; margin-left:10%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-     margin-top: 500px; position:relative}
-.colimg{width:300px; height:300px; position:relative;}
-.colimg::before{content:''; position:absolute; top:0px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; }
+    position:relative;
+    padding:40px 40px 60px 40px;
+    background-color:white;
+        
+  }
+     .rahbar{
+         padding-top:100px;
+        background-image: url(../img/formnaqsh.jpg);
+        background-size: 200px 180px;
+        background-attachment: fixed;
+         margin-top: 400px; 
+     }
+.colimg{width:350px; height:350px; position:relative;}
+.colimg::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; }
 .colimg img{width:100%; height:100%; border-radius:50%; }
 .text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
 .iconsHead{

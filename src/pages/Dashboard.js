@@ -13,6 +13,7 @@ import {
   faSignInAlt,
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import bg2t from '../img/bg2t.jpg'
 import school from "../img/gerb.jpg";
 import teg from '../img/teg.jpg'
 import advice from '../img/advice.jpg'
@@ -112,10 +113,10 @@ export default class Dashboard extends Component {
              autoPlay={true}
              autoPlaySpeed={3000}
             responsive={responsive}>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
+  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
 </Carousel>
 <div className={style.navT}>
 <Navbar style={{position:"relative"}}expand="lg">
@@ -179,13 +180,15 @@ data-aos="fade-bottom"
 </div>
 <br/>
 <div className={style.rahbar}>
+  <div>
     <Row>
         <Col lg="6" md="6" sm="12">
             <h2>Boshqarma rahbari</h2>
-            <div className="chiziq"></div>
-           <br/><p className={style.fio}>Ismoilov Rahmon Zohidovich</p>
+            <p className="chiziq"></p>
+           <br/>
+          <p className={style.fio}>Ismoilov Rahmon Zohidovich</p>
             <p className={style.qabul}>Seshanba, Juma - soat 10:00 dan 12:00 gacha</p>
-          <div className={style.icon}>
+       <br/>   <div className={style.icon}>
             <img src="https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=s180-rw"/>
             <a href="https://archive.uz/source/images/qr_hududiy_arxiv_ishi.pdf">Boshqarma nizomi</a>
              </div>
@@ -277,6 +280,7 @@ data-aos="fade-bottom"
             </div>
         </Col>
     </Row>
+    </div>
 </div>
 <div className={style.stas}>
 
@@ -323,7 +327,7 @@ data-aos="fade-bottom"
             responsive={responsive1}>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -335,7 +339,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -347,7 +351,7 @@ data-aos="fade-bottom"
 </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -359,7 +363,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -371,7 +375,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -383,7 +387,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -395,7 +399,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -407,7 +411,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -419,7 +423,7 @@ data-aos="fade-bottom"
     </div>
   <div className={style.news_item}>
     <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Img variant="top" src={bg2t} />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
