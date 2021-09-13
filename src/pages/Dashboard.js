@@ -14,6 +14,9 @@ import {
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import bg2t from '../img/bg2t.jpg'
+import bg3t from '../img/bg3t.jpeg'
+import bg4t from '../img/bg4t.jpg'
+import bg5t from '../img/bg5t.jpg'
 import school from "../img/gerb.jpg";
 import teg from '../img/teg.jpg'
 import advice from '../img/advice.jpg'
@@ -114,9 +117,9 @@ export default class Dashboard extends Component {
              autoPlaySpeed={3000}
             responsive={responsive}>
   <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
-  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
-  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
-  <div className={style.car_item}><img src={bg2t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg3t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg4t} className={style.image}/></div>
+  <div className={style.car_item}><img src={bg5t} className={style.image}/></div>
 </Carousel>
 <div className={style.navT}>
 <Navbar style={{position:"relative"}}expand="lg">
