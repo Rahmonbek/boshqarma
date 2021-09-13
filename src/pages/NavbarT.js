@@ -76,7 +76,7 @@ export default class NavbarT extends Component {
                 <NavLink
                   className={style.navlik}
                   style={{ textDecoration: "none" }}
-                  to="/"
+                  to="/boglanish"
                 >
                   Bog'lanish
                 </NavLink>
