@@ -3,24 +3,147 @@
 .car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
 .navT{position:absolute; top:50px; left:0px; width:100%; padding:0px 30px;}
 .brand_img,.brand_text{display:inline-block}
-.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:rgb(5, 5, 162)}
+.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:#1105e6}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
 .brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
-.navB{width:150px; display: flex;}
-.birinchi{margin-left:90%;}
-.navG .birinchi{margin-left: 110%;}
+.navB{width:200px; display: flex;}
+.birinchi{margin-left:20%;}
+.navG .birinchi{margin-left: 30%;}
 .navlik{color:white}
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
-.rahbar{width:80%; margin-left:10%; padding:40px;
+.rahbar{width:80%; margin-left:10%; padding:40px 40px 60px 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-     margin-top: 500px;}
-.colimg{width:350px; height:350px; position:relative;}
+     margin-top: 500px; position:relative}
+.colimg{width:300px; height:300px; position:relative;}
 .colimg::before{content:''; position:absolute; top:0px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; }
 .colimg img{width:100%; height:100%; border-radius:50%; }
 .text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
+.iconsHead{
+    width: 100% ;
+    display:flex ;
+    justify-content: space-around ;
+margin-top: 60px ;
+position: absolute ;
+bottom:-20px ; 
+}
+.ahref{
+    font-size:25px ;
+    width:45px ; 
+    height:45px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid blue ;
+  
+    color:white ;
+    background:blue ;
+}
+.fio{
+    font-size:23px;
+    margin-top: 20px;
+}
+.qabul, .icon{
+    font-size:18px;
+    margin-top:20px;
+}
+.icon img{width:40px; height:40px}
+.icon {height:40px; display: flex; align-items:center;}
+.ahref:hover{
+    color:blue;
+    background-color: white;
+}
+.stas{
+    margin-top:90px;
+    width:100%;
+    padding:80px 0px;
+    background-image: url('https://www.webturizm.ru/storage/photos/uzbekistan/uzbekistan-tashkent-23467.jpg');
+  position: relative;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+
+}
+.stas_item i{
+    color:gold !important;
+    font-size:45px;
+}
+.stas_item{
+    flex:20%;
+    z-index: 2324;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.stas_item p{text-align: center; color:white;}
+.stas_black{
+    background-color: rgba(0, 0, 0, 0.474);
+    width:100%; 
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 0;
+}
+.tit{font-size: 18px;}
+.num{font-size: 28px; color:gold !important; font-weight: bold;}
+.news{margin-top:-20px;}
+.news_item{padding:20px;}
+.vaqt{font-size: 13px; color:rgb(172, 170, 170);}
+.vaqt i{ color:rgb(172, 170, 170);}
+.bar{color:rgb(0, 8, 255); margin-top:30px; font-size:25px; margin-left:80px;}
+.bar:hover{color:red;}
+.elem{margin-top:40px; height:200px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid blue; border-bottom: 2px solid blue;}
+.elem img{width:30px;}
+.elem h2{color:blue; font-size:23px}
+.colT{display: flex;color:black; align-items: center; justify-content: center; width:100%; height:30px;}
+.colT:hover{color:blue;}
+.colT p{margin-left:10px; margin-top:13px; font-size: 15px;}
+.gal{padding:60px 30px;}
+.gal img{width:100%; height:200px; border-radius: 30px 0px; transition:1s;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.gal img:hover{transform:scale(1.4, 1.4); border-radius: 0px 0px; }
+.pp{font-size:20px; color:rgb(140, 139, 139); margin-top:20px;}
+.sliderHomiy {
+    width: 100%;
+    border-top:2px solid blue;
+    padding-top:50px;
+    border-bottom:2px solid blue;
+    padding-bottom:50px;
+    height: max-content;
+    text-align: center;
+  }
+  
+  .toolpat {
+    border-radius: 10%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid lightgray;
+  }
+  .sliderHomiy p {
+    color: rgb(139, 139, 140);
+    font-size: 13px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .sliderHomiy img {
+    margin-bottom: 40px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+  .yil {
+    width: 100%;
+    margin-top: 30px;
+  }
 @media (min-width:701px) and (max-width:1000px){
     .image{height:520px}
 }
