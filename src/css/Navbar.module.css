@@ -1,4 +1,4 @@
-.navG{position:fixed; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:#1105e6}
+.navG{position:fixed; top:0px; left:0px; z-index: 4567;width:100%; padding:10px 50px; background-color:#1105e6}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}

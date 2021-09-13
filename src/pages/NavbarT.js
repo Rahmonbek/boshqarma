@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import style from "../css/Navbar.module.css";
-import { Nav, Container, Row, Col, Card, NavLink, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
+import { NavLink,} from 'react-router-dom'
 import gerb from "../img/gerb.png";
 
 export default class NavbarT extends Component {
@@ -9,8 +10,6 @@ export default class NavbarT extends Component {
       <div>
       <div
         className={style.navG}
-        data-aos="fade-bottom"
-        data-aos-anchor-placement="top-top"
       >
         <Navbar style={{ position: "relative" }} expand="lg">
           <Navbar.Brand>

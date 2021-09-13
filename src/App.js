@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import "./App.css";
 import Yangiliklar from "./pages/Yangiliklar";
 import Footer from "./pages/Footer";
+import Tumanlar from "./pages/Tumanlar";
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
@@ -15,6 +16,9 @@ export default class componentName extends Component {
           </Route>
           <Route exact path="/yangiliklar">
             <Yangiliklar />
+          </Route>
+          <Route exact path="/tumanlar">
+            <Tumanlar />
           </Route>
         </BrowserRouter>
       </div>

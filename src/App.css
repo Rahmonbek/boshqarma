@@ -13,6 +13,7 @@ a{text-decoration: none;}
   width:200px;
   height:6px; 
   background-color: blue;
+margin:auto;
 }
 .bar{color:rgb(0, 8, 255); margin-top:50px; font-size:23px;}
 .bar:hover{color:red;}
