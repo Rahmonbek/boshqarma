@@ -43,6 +43,7 @@ import {
   ZoomControl,
 } from "react-yandex-maps";
 import Footer from './Footer';
+import Tumanlar from './Tumanlar';
 
 export default class Dashboard extends Component {
     render() {
@@ -179,8 +180,10 @@ data-aos="fade-bottom"
 <div className={style.rahbar}>
     <Row>
         <Col lg="6" md="6" sm="12">
-            <h2>Boshqarma rahbari</h2>
-            <div className="chiziq"></div>
+            <div className="chiziq">
+            <h2 style={{textAlign:'center', fontWeight:'bold'}}>Boshqarma rahbari</h2>
+         
+            </div>
            <br/><p className={style.fio}>Ismoilov Rahmon Zohidovich</p>
             <p className={style.qabul}>Seshanba, Juma - soat 10:00 dan 12:00 gacha</p>
           <div className={style.icon}>
@@ -473,6 +476,9 @@ data-aos="fade-bottom"
   
   </Row>
    
+</div>
+<div className={style.tumanlar}>
+  
 </div>
 <div className={style.gal}>
 <Row>
