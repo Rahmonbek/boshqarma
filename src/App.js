@@ -6,16 +6,11 @@ import "./App.css";
 import Yangiliklar from "./pages/Yangiliklar";
 import Footer from "./pages/Footer";
 
-import Boglanish from './pages/Boglanish'
 import './App.css'
 import Lavhalar from "./pages/Lavhalar";
 
 import Tumanlar from "./pages/Tumanlar";
-<<<<<<< HEAD
 import Boglanish from "./pages/Boglanish";
-=======
-
->>>>>>> 76e5bcbcb739e00e748760fe543c96e02e81046e
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
