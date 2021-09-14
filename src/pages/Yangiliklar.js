@@ -80,7 +80,7 @@ export default class Yangiliklar extends Component {
             <div className={styles.head}>
               <div className={styles.head_text}>
                 O'zbekiston Respublikasi Jizzax viloyati xalq ta'limi
-                boshqarmasining tumanlaridagi bo'limlari
+                boshqarmasining yangiliklari
               </div>
             </div>
             {/* <div className={styles.headerImage}>
