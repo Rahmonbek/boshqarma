@@ -152,7 +152,9 @@ export default class Yangiliklar extends Component {
                           this.state.id
                         ].published_time.substring(0, 10)}
                       </p>
-                      <p>{this.state.news[this.state.id].text}</p>
+                      <p style={{ height: "100%" }}>
+                        {this.state.news[this.state.id].text}
+                      </p>
                     </div>
                   ) : (
                     ""
@@ -161,7 +163,7 @@ export default class Yangiliklar extends Component {
                 <Col lg={5}>
                   <div className={styles.recent_news} data-aos="zoom-in-left">
                     <div className={styles.title}>
-                      <h3>So'ngi yangiliklar</h3>
+                      <h3>So'nggi yangiliklar</h3>
                     </div>
                     <div className={styles.body}>
                       <Row>
