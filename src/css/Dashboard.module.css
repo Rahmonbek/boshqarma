@@ -3,7 +3,7 @@
 .car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
 .navT{position:absolute; top:50px; left:0px; width:100%; padding:0px 30px;}
 .brand_img,.brand_text{display:inline-block}
-.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 50px; background-color:#1105e6}
+.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 20px; background-color:#1105e6}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
@@ -56,6 +56,21 @@ margin-top: 30px;
     color:white ;
     background:blue ;
 }
+.hov a{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size:18px ;
+    width:30px ; 
+    height:30px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid blue ;
+margin-top: 10px;
+    color:white ;
+    background:blue ;
+}
+
 .fio{
     font-size:23px;
     margin-top: 20px;
@@ -71,7 +86,14 @@ margin-top: 30px;
     background-color: white;
     border-color:transparent;
 }
+.hov a:hover{
+    color:blue;
+    background-color: white;
+    border-color:transparent;
+}
+
 .stas{
+    
     width:100%;
     padding:130px 0px;
     background-image: url('https://www.webturizm.ru/storage/photos/uzbekistan/uzbekistan-tashkent-23467.jpg');
@@ -107,12 +129,14 @@ margin-top: 30px;
 .tit{font-size: 18px;}
 .num{font-size: 28px; color:gold !important; font-weight: bold;}
 .news{margin-top:-20px;}
-.news_item{padding:20px;}
+.news_item{padding:20px; position: relative;}
+
 .vaqt{font-size: 13px; color:rgb(172, 170, 170);}
 .vaqt i{ color:rgb(172, 170, 170);}
 .bar{color:rgb(0, 8, 255); margin-top:30px; font-size:25px; margin-left:80px;}
 .bar:hover{color:red;}
-.elem{margin-top:40px; height:200px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid blue; border-bottom: 2px solid blue;}
+.elem{margin-top:40px; height:180px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid blue;
+     border-bottom: 2px solid blue;}
 .elem img{width:30px;}
 .elem h2{color:blue; font-size:23px}
 .colT{display: flex;color:black; align-items: center; justify-content: center; width:100%; height:30px;}
@@ -158,7 +182,41 @@ margin-top: 30px;
     width: 100%;
     margin-top: 30px;
   }
-@media (min-width:701px) and (max-width:1000px){
+  .hov{position: absolute; width:100%; height:80%; top:0px; left:0px; padding: 15px 30px; opacity:0; transition: 0.5s;}
+  .hov:hover{opacity: 1;}
+ .hov_item{display: flex; justify-content:space-between; flex-direction: column;}
+.tel{position: absolute; bottom:30%; left:25%; display: flex; justify-content: center; width:50%;}
+.hov_btn{
+    background-color:blue;
+    color:white; display: block;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+    border-radius: 20px;
+border:1px solid blue;
+}
+.hov_btn:hover{background-color: white; color:blue;}
+.tel a{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size:23px ;
+    width:45px ; 
+    height:45px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid rgb(26, 179, 6) ;
+margin-top: 10px;
+    color:white ;
+    background:rgb(26, 179, 6);
+}
+.tel a:hover{
+    color:rgb(26, 179, 6);
+    background-color: white;
+    border-color:transparent;
+}
+ @media (min-width:701px) and (max-width:1000px){
     .image{height:520px}
 }
 

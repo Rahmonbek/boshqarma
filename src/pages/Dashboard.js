@@ -104,6 +104,25 @@ export default class Dashboard extends Component {
               items: 2,
             },
           };
+          const responsive3 = {
+            superLargeDesktop: {
+              // the naming can be any, depends on you.
+              breakpoint: { max: 4000, min: 3000 },
+              items: 4,
+            },
+            desktop: {
+              breakpoint: { max: 3000, min: 1024 },
+              items: 4,
+            },
+            tablet: {
+              breakpoint: { max: 1024, min: 464 },
+              items: 1,
+            },
+            mobile: {
+              breakpoint: { max: 464, min: 0 },
+              items: 1,
+            },
+          };
         return (
             <div>
             <Carousel
@@ -201,10 +220,7 @@ data-aos="fade-bottom"
                     href={`mailto: ittower01@gmail.com
                     }`}
                   >
-                    <FontAwesomeIcon
-                      icon={faEnvelope}
-                      style={{ fontSize: "25px" }}
-                    />
+                   <i className="fas fa-envelope"></i>
                   </a>
                 </Tooltip>
               </div>
@@ -260,13 +276,7 @@ data-aos="fade-bottom"
                     }}
                     href={`tel: +998 93 082 03 72}`}
                   >
-                    <FontAwesomeIcon
-                      icon={faPhone}
-                      style={{
-                        fontSize: "25px",
-                        
-                      }}
-                    />
+                  <i className="fas fa-phone"></i>
                   </a>{" "}
                 </Tooltip>
               </div>
@@ -477,9 +487,822 @@ data-aos="fade-bottom"
   </Row>
    
 </div>
+<br/><br/>
 <div className={style.tumanlar}>
-  
+<h1 className="title">Tuman bo'limlari</h1>
+  <div className="chiziq1"></div><br/>
+<Carousel
+             infinite={true}
+             autoPlay={true}
+             autoPlaySpeed={3000}
+            responsive={responsive3}>
+  <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="bottom" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="bottom" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+  <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="right" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="top" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+    <div className={style.news_item}>
+    <Card style={{ border:'1px solid lightgrey'}}>
+  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+  <Card.Body>
+    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
+    </Card.Body>
+</Card>
+ <div className={style.hov}>
+ <div className={style.hov_item}>
+ <div>
+                <Tooltip placement="bottom" title="ittower01@gmail.com">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                    href={`mailto: ittower01@gmail.com
+                    }`}
+                  >
+                   <i className="fas fa-envelope"></i>
+                  </a>
+                </Tooltip>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://t.me/samarqand_33_maktab"
+                >
+                  <i className="fab fa-telegram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.instagram.com/33_maktab_official/"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                >
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  
+                 
+                  href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                >
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+             </div>
+
+              <div className={style.tel}>
+                <Tooltip placement="bottom" title="+998 93 082 03 72">
+                  {" "}
+                  <a
+                    target="_blank"
+                   
+                   
+                    href={`tel: +998 93 082 03 72}`}
+                  >
+                  <i className="fas fa-phone"></i>
+                  </a>{" "}
+                </Tooltip>
+              </div>
+ </div>
+    </div>
+ 
+ </Carousel>
+<br/>
+ <Link to="/" className={style.bar}>Barcha tuman bo'limlarini ko'rish <i className="fas fa-arrow-right"></i></Link>
+<br/>
 </div>
+<div className="blue"></div>
 <div className={style.gal}>
 <Row>
   <Col lg={4} md={12} sm={12}>
