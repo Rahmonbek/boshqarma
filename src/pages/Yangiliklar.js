@@ -180,7 +180,10 @@ export default class Yangiliklar extends Component {
                                 onClick={() => {
                                   this.setState({ id: key });
                                 }}
-                                style={{ maxWidth: "540px" }}
+                                style={{
+                                  maxWidth: "540px",
+                                  borderRadius: "10px",
+                                }}
                               >
                                 <MDBRow className="g-0">
                                   <MDBCol md="4">
@@ -188,7 +191,10 @@ export default class Yangiliklar extends Component {
                                       src={item.image}
                                       alt="..."
                                       fluid
-                                      style={{ margin: "7px" }}
+                                      style={{
+                                        margin: "7px",
+                                        borderRadius: "5px",
+                                      }}
                                     />
                                   </MDBCol>
                                   <MDBCol md="8">
@@ -197,7 +203,10 @@ export default class Yangiliklar extends Component {
 
                                       <MDBCardText>
                                         <small className="text-muted">
-                                          <p className={styles.date}>
+                                          <p
+                                            className={styles.date}
+                                            style={{ fontSize: "15px" }}
+                                          >
                                             <i
                                               style={{ marginRight: "10px" }}
                                               class="far fa-calendar-alt"
