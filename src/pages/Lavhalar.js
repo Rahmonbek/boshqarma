@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Footer from './Footer';
+<<<<<<< Updated upstream
 import style from '../css/Lavhalar.module.css';
+=======
+import style from './Lavhalar.module.css';
+>>>>>>> Stashed changes
 import NavbarT from './NavbarT';
 
 
