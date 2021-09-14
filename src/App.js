@@ -10,12 +10,10 @@ import './App.css'
 import Lavhalar from "./pages/Lavhalar";
 
 import Tumanlar from "./pages/Tumanlar";
-<<<<<<< Updated upstream
 import Boglanish from "./pages/Boglanish";
-=======
 import Videos from "./pages/Videos";
 
->>>>>>> Stashed changes
+
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
@@ -38,13 +36,12 @@ export default class componentName extends Component {
           <Route exact path="/lavhalar">
             <Lavhalar />
           </Route>
-<<<<<<< Updated upstream
          
-=======
+
           <Route exact path="/videos">
             <Videos />
           </Route>
->>>>>>> Stashed changes
+
         </BrowserRouter>
       </div>
     );
