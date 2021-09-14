@@ -1323,7 +1323,7 @@ data-aos="fade-bottom"
                   <p className={style.pp}><i>
                     Jizzax viloyati xalq ta'limi boshqarmasiga virtual sayohat qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.</i>
                   </p>
-                  <Link to="/" className="bar">Barcha vidoelarni ko'rish <i className="fas fa-arrow-right"></i></Link>
+                  <Link to="/videos" className="bar">Barcha vidoelarni ko'rish <i className="fas fa-arrow-right"></i></Link>
 
   </Col>
   <Col lg={8} md={12} sm={12}>

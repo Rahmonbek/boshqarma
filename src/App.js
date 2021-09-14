@@ -11,6 +11,9 @@ import Lavhalar from "./pages/Lavhalar";
 
 import Tumanlar from "./pages/Tumanlar";
 import Boglanish from "./pages/Boglanish";
+import Videos from "./pages/Videos";
+
+
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
   render() {
@@ -34,6 +37,11 @@ export default class componentName extends Component {
             <Lavhalar />
           </Route>
          
+
+          <Route exact path="/videos">
+            <Videos />
+          </Route>
+
         </BrowserRouter>
       </div>
     );

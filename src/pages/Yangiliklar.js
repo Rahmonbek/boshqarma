@@ -77,7 +77,13 @@ export default class Yangiliklar extends Component {
           <>
             {/* ============Header============== */}
             <NavbarT />
-            <div className={styles.headerImage}>
+            <div className={styles.head}>
+              <div className={styles.head_text}>
+                O'zbekiston Respublikasi Jizzax viloyati xalq ta'limi
+                boshqarmasining yangiliklari
+              </div>
+            </div>
+            {/* <div className={styles.headerImage}>
               <div className={styles.overlay}></div>
               <div
                 className={styles.headerSliderText}
@@ -91,7 +97,7 @@ export default class Yangiliklar extends Component {
                   Boshqarmamizning so'ngi yangiliklari bilan tanishing
                 </h3>
               </div>
-            </div>
+            </div> */}
 
             {/* <Carousel autoplay className={styles.sliderContainer}>
               {
@@ -146,7 +152,9 @@ export default class Yangiliklar extends Component {
                           this.state.id
                         ].published_time.substring(0, 10)}
                       </p>
-                      <p>{this.state.news[this.state.id].text}</p>
+                      <p style={{ height: "100%" }}>
+                        {this.state.news[this.state.id].text}
+                      </p>
                     </div>
                   ) : (
                     ""
@@ -155,7 +163,7 @@ export default class Yangiliklar extends Component {
                 <Col lg={5}>
                   <div className={styles.recent_news} data-aos="zoom-in-left">
                     <div className={styles.title}>
-                      <h3>So'ngi yangiliklar</h3>
+                      <h3>So'nggi yangiliklar</h3>
                     </div>
                     <div className={styles.body}>
                       <Row>
@@ -172,7 +180,10 @@ export default class Yangiliklar extends Component {
                                 onClick={() => {
                                   this.setState({ id: key });
                                 }}
-                                style={{ maxWidth: "540px" }}
+                                style={{
+                                  maxWidth: "540px",
+                                  borderRadius: "10px",
+                                }}
                               >
                                 <MDBRow className="g-0">
                                   <MDBCol md="4">
@@ -180,7 +191,10 @@ export default class Yangiliklar extends Component {
                                       src={item.image}
                                       alt="..."
                                       fluid
-                                      style={{ margin: "7px" }}
+                                      style={{
+                                        margin: "7px",
+                                        borderRadius: "5px",
+                                      }}
                                     />
                                   </MDBCol>
                                   <MDBCol md="8">
@@ -189,7 +203,10 @@ export default class Yangiliklar extends Component {
 
                                       <MDBCardText>
                                         <small className="text-muted">
-                                          <p className={styles.date}>
+                                          <p
+                                            className={styles.date}
+                                            style={{ fontSize: "15px" }}
+                                          >
                                             <i
                                               style={{ marginRight: "10px" }}
                                               class="far fa-calendar-alt"

@@ -1,47 +1,109 @@
-.head{  margin-top:100px; width:100%; height:100vh; background-size:100% 100%;
-     background-image: url("https://president.uz/uploads/66a32e19-b8bb-31ec-bb1b-7b9ca371e3e0_pages_3184.jpg");
-     padding-top: 350px;
-      background-attachment: fixed; background-repeat:no-repeat}
-.head_text{background-color:rgba(0, 0, 0, 0.611); color:white; font-size:35px; text-align: center; padding:20px 80px;}
-.iconsHead{
-    width: 80% ;
-    margin-left: 10%;
-    display:flex ;
-    justify-content: space-between ;
-position: absolute ;
-bottom:-20px ; 
+.head {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("https://president.uz/uploads/66a32e19-b8bb-31ec-bb1b-7b9ca371e3e0_pages_3184.jpg");
+  padding-top: 350px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-.ahref{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    font-size:25px ;
-    width:40px ; 
-    height:40px ;
-    display:flex ;
-    align-items: center ;
-    justify-content: center ;
-    border-radius: 50% ;
-    border:1px solid blue ;
-margin-top: 30px;
-    color:white ;
-    background:blue ;
+.head_text {
+  background-color: rgba(0, 0, 0, 0.611);
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 80px;
 }
-.ahref:hover{
-    color:blue;
-    background-color: white;
-    border-color:transparent;
+.iconsHead {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -20px;
 }
-.chiziq{width:100px; height:4px; background-color: blue; margin: auto;}
-.tumanlar{margin-top: 80px; margin-bottom: 100px; position: relative;}
-.tumanlar_item{width:80%; margin-left: 10%;
-    margin-top:70px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-      position: relative; padding:30px 20px 40px;}
-.tumanlar_item img{width:100%;}
-.tumanlar_item h4, p{text-align: center;}
-.tumanlar_item p:nth-child(even){margin-top: 30px; font-size: 24px; font-weight:bold}
-.tumanlar_item p:nth-child(odd){margin-top: 20px;margin-bottom: 20px; font-size: 18px; color:grey; font-weight:bold}
-.pp{font-size:20px; color:rgb(140, 139, 139); margin-top:20px;}
-.but{padding:10px 40px; background-color:blue;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    color:white; font-size: 18px; display:block; margin:auto;  border:1px solid transparent; margin-top: 50px; width:350px; text-align:center; border-radius: 20px; font-weight:bold; }
-.but:hover{color:blue; background-color:white; border:1px solid blue;}
+.ahref {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid blue;
+  margin-top: 30px;
+  color: white;
+  background: blue;
+}
+.ahref:hover {
+  color: blue;
+  background-color: white;
+  border-color: transparent;
+}
+.chiziq {
+  width: 100px;
+  height: 4px;
+  background-color: blue;
+  margin: auto;
+}
+.tumanlar {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.tumanlar_item {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  position: relative;
+  padding: 30px 20px 40px;
+}
+.tumanlar_item img {
+  width: 100%;
+}
+.tumanlar_item h4,
+.tumanlar_item p {
+  text-align: center;
+}
+.tumanlar_item p:nth-child(even) {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.tumanlar_item p:nth-child(odd) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: grey;
+  font-weight: bold;
+}
+.pp {
+  font-size: 20px;
+  color: rgb(140, 139, 139);
+  margin-top: 20px;
+}
+.but {
+  padding: 10px 40px;
+  background-color: blue;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: white;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  border: 1px solid transparent;
+  margin-top: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.but:hover {
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+}

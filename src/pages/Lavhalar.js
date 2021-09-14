@@ -1,403 +1,74 @@
-import React, { Component } from "react";
-import style from "../css/Lavhalar.module.css";
-import img1 from "../img/b1.JPG";
-import img2 from "../img/b2.jpg";
-import img3 from "../img/b3.jpg";
-import img4 from "../img/b4.jpg";
-import img5 from "../img/b5.jpg";
-import img6 from "../img/b6.jpg";
-import img7 from "../img/b7.png";
-import FadeLoader from "react-spinners/FadeLoader";
-import { idMaktab, url, user } from "../host/Host";
-import axios from "axios";
-import { Col, Container, Row } from "react-bootstrap";
-import Global from "../host/Global";
-import NavbarT from "./NavbarT";
-export default class Gallery extends Component {
-  state = {
-    school: [],
-    loader: true,
-  };
-  getSchool = () => {
-    // var a = window.location.href.split("/");
-    var v = user;
-    axios
-      .get(`${url}/school-by-admin/${v}`)
-      .then((res) => {
-        this.setState({
-          school: res.data,
-        });
-        setTimeout(() => {
-          this.setState({
-            loader: false,
-          });
-        }, 4000);
+import React, { Component } from 'react';
+import Footer from './Footer';
+import style from '../css/Lavhalar.module.css';
+import NavbarT from './NavbarT';
 
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
 
-  componentDidMount() {
-    this.getSchool();
-  }
+
+export default class Lavhalar extends Component {
   render() {
     return (
       <div>
-          <NavbarT/>
-        {this.state.loader ? (
-          <div className="loaderT">
-            <FadeLoader color="blue" loading={this.state.loader} size={120} />
-          </div>
-        ) : (
-          <div className={style.mat}>
-         
+        <NavbarT/>
+        <div >
+        <header className={style.header} >
+  <div className={style.badge} >
+    <div className={style.text}>Suratlar</div>
+  </div>
+</header>
+    
 
-            <Container>
-              <Row style={{ justifyContent: "center" }}>
-                <Col lg={6} md={6} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto1 !== null
-                            ? this.state.school.foto1
-                            : img2
-                          : img2
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto1 !== null
-                            ? this.state.school.foto1
-                            : img2
-                          : img2
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto1 !== null
-                            ? this.state.school.foto1
-                            : img2
-                          : img2
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto1 !== null
-                            ? this.state.school.foto1
-                            : img2
-                          : img2
-                      }
-                    />
-                  </div>{" "}
-                </Col>
-                <Col lg={6} md={6} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto2 !== null
-                            ? this.state.school.foto2
-                            : img3
-                          : img3
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto2 !== null
-                            ? this.state.school.foto2
-                            : img3
-                          : img3
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto2 !== null
-                            ? this.state.school.foto2
-                            : img3
-                          : img3
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto2 !== null
-                            ? this.state.school.foto2
-                            : img3
-                          : img3
-                      }
-                    />
-                  </div>
-                </Col>
-                <Col lg={6} md={6} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto3 !== null
-                            ? this.state.school.foto3
-                            : img4
-                          : img4
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto3 !== null
-                            ? this.state.school.foto3
-                            : img4
-                          : img4
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto3 !== null
-                            ? this.state.school.foto3
-                            : img4
-                          : img4
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto3 !== null
-                            ? this.state.school.foto3
-                            : img4
-                          : img4
-                      }
-                    />
-                  </div>
-                </Col>
-                <Col lg={6} md={6} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto4 !== null
-                            ? this.state.school.foto4
-                            : img5
-                          : img5
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto4 !== null
-                            ? this.state.school.foto4
-                            : img5
-                          : img5
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto4 !== null
-                            ? this.state.school.foto4
-                            : img5
-                          : img5
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto4 !== null
-                            ? this.state.school.foto4
-                            : img5
-                          : img5
-                      }
-                    />
-                  </div>
-                </Col>
-                <Col lg={6} md={6} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto6 !== null
-                            ? this.state.school.foto6
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto6 !== null
-                            ? this.state.school.foto6
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto6 !== null
-                            ? this.state.school.foto6
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto6 !== null
-                            ? this.state.school.foto6
-                            : img6
-                          : img6
-                      }
-                    />
-                  </div>
-                </Col>
-                <Col lg={6} md={12} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto5 !== null
-                            ? this.state.school.foto5
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto5 !== null
-                            ? this.state.school.foto5
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto5 !== null
-                            ? this.state.school.foto5
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto5 !== null
-                            ? this.state.school.foto5
-                            : img6
-                          : img6
-                      }
-                    />
-                  </div>
-                </Col>
-                <Col lg={6} md={12} cm={12}>
-                  <div class={style.imagewrapper}>
-                    <img
-                      alt=" "
-                      class={style.image1}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto7 !== null
-                            ? this.state.school.foto7
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image2}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto7 !== null
-                            ? this.state.school.foto7
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image3}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto7 !== null
-                            ? this.state.school.foto7
-                            : img6
-                          : img6
-                      }
-                    />
-                    <img
-                      alt=" "
-                      class={style.image4}
-                      src={
-                        this.state.school !== null
-                          ? this.state.school.foto7 !== null
-                            ? this.state.school.foto7
-                            : img6
-                          : img6
-                      }
-                    />
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        )}
+
+</div>
+        <h3 className={style.title} >Tashkiliy topshiriqlar</h3>
+        <div className={style.still}><div className={style.container}>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Al_mabruk_Qorabuloq.jpg"/>
+    <div className={style.card__head}>Maktab qurilishi</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/17maktab.jpg"/>
+    <div className={style.card__head}>Obod mahalla</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Qorabuloq_kiraverish.jpg"/>
+    <div className={style.card__head}>Madiyat ishlari</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Qorabuloq.kollej.jpg/1920px-Qorabuloq.kollej.jpg"/>
+    <div className={style.card__head}>Maktab ochilishi</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Qorabuloq.Alisher_Navoiy.jpg/1920px-Qorabuloq.Alisher_Navoiy.jpg"/>
+    <div className={style.card__head}>Yutuqlarimiz</div>
+  </div>
+</div></div>
+<hr/>
+<h3 className={style.title} >Milliy bayramlar</h3>
+        <div className={style.still}><div className={style.container}>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/17maktab.jpg"/>
+    <div className={style.card__head}>Plotting Cat</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Arofat_opa.JPG/1280px-Arofat_opa.JPG"/>
+    <div className={style.card__head}>Angry Cat</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Qorabuloq_02.jpg/1920px-Qorabuloq_02.jpg"/>
+    <div className={style.card__head}>Curious Cat</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Karabula_masjid.jpg/1920px-Karabula_masjid.jpg"/>
+    <div className={style.card__head}>Prowling Cat</div>
+  </div>
+  <div className={style.card}>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Xiyobon.jpg/1920px-Xiyobon.jpg"/>
+    <div className={style.card__head}>Sleepy Cat</div>
+  </div>
+</div></div>
+<Footer/>
       </div>
-    );
+    )
   }
 }
