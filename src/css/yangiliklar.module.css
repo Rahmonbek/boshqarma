@@ -22,7 +22,7 @@
 }
 .headerImage {
   width: 100%;
-  height: 100vh;
+  height: 650px;
   position: relative;
   object-fit: cover;
   background-position: center center;
@@ -47,9 +47,27 @@
 .sliderHeader {
   width: 100%;
 }
+.head {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("https://president.uz/uploads/66a32e19-b8bb-31ec-bb1b-7b9ca371e3e0_pages_3184.jpg");
+  padding-top: 350px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.head_text {
+  background-color: rgba(0, 0, 0, 0.611);
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 80px;
+}
 .headerSliderText {
   position: absolute;
-  top: 50% !important;
+  top: 70% !important;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10 !important;
@@ -228,6 +246,13 @@
 /* @media============== */
 
 @media (min-width: 0px) and (max-width: 566px) {
+  .head {
+    padding-top: 235px;
+    height: 450px;
+  }
+  .head_text {
+    font-size: 18px;
+  }
   .sliderContainer {
     height: 400px !important;
   }
@@ -268,6 +293,13 @@
 }
 
 @media (min-width: 567px) and (max-width: 767px) {
+  .head {
+    padding-top: 255px;
+    height: 475px;
+  }
+  .head_text {
+    font-size: 23px;
+  }
   .sliderContainer {
     height: 400px !important;
   }
@@ -307,6 +339,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .head {
+    padding-top: 260px;
+    height: 500px;
+  }
+  .head_text {
+    font-size: 28px;
+  }
   .sliderContainer {
     height: 97vh !important;
   }
@@ -324,10 +363,13 @@
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
+  .head {
+    padding-top: 275px;
+    height: 550px;
+  }
   .sliderContainer {
     height: 97vh !important;
   }
-
   .headerSliderText h3 {
     font-size: 60px !important;
   }

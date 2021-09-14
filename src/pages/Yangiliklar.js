@@ -77,7 +77,13 @@ export default class Yangiliklar extends Component {
           <>
             {/* ============Header============== */}
             <NavbarT />
-            <div className={styles.headerImage}>
+            <div className={styles.head}>
+              <div className={styles.head_text}>
+                O'zbekiston Respublikasi Jizzax viloyati xalq ta'limi
+                boshqarmasining tumanlaridagi bo'limlari
+              </div>
+            </div>
+            {/* <div className={styles.headerImage}>
               <div className={styles.overlay}></div>
               <div
                 className={styles.headerSliderText}
@@ -91,7 +97,7 @@ export default class Yangiliklar extends Component {
                   Boshqarmamizning so'ngi yangiliklari bilan tanishing
                 </h3>
               </div>
-            </div>
+            </div> */}
 
             {/* <Carousel autoplay className={styles.sliderContainer}>
               {
