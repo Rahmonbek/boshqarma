@@ -130,7 +130,7 @@ export default class Dashboard extends Component {
              autoPlay={true}
              autoPlaySpeed={3000}
             responsive={responsive}>
-  <div className={style.car_item}><img src="https://www.uzedu.uz/uploads/2020/03/photo2020-03-1221-39-35-760x500.jpg" className={style.image}/></div>
+  {/* <div className={style.car_item}><img src="https://www.uzedu.uz/uploads/2020/03/photo2020-03-1221-39-35-760x500.jpg" className={style.image}/></div> */}
   <div className={style.car_item}><img src="https://www.gazeta.uz/media/img/2019/09/TzSlyW15681190612830_l.jpg" className={style.image}/></div>
   <div className={style.car_item}><img src="https://static.review.uz/crop/1/0/1400__100_1004528215.jpg" className={style.image}/></div>
   <div className={style.car_item}><img src="https://storage.kun.uz/source/4/ILAspvrLpXnT0IHX_5BbxdhZePCWP4X3.jpg" className={style.image}/></div>
@@ -173,6 +173,7 @@ data-aos="fade-bottom"
             </div>
             
             <div class={style.brand_text}>
+            <p className={style.lrt}>O'zbekiston Respublikasi <br/> Jizzax viloyati  <br/>  xalq ta'limi boshqarmasi </p>
                <p>O'zbekiston Respublikasi Jizzax viloyati  <br/>  xalq ta'limi boshqarmasi </p>
                </div>
             </NavLink></Navbar.Brand>
@@ -501,7 +502,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -581,7 +582,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -661,7 +662,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -741,7 +742,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -821,7 +822,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -901,7 +902,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -981,7 +982,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -1061,7 +1062,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -1141,7 +1142,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -1221,7 +1222,7 @@ data-aos="fade-bottom"
     <Card style={{ border:'1px solid lightgrey'}}>
   <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
-    <Card.Text style={{fontSize:'16px'}}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}} className={style.ptr}>Baxmal tumani xaql ta'limi boshqarmasi</Card.Text>
     <a className={style.hov_btn} href="#">Bo'lim veb saytini ko'rish</a>
     </Card.Body>
 </Card>
@@ -1300,7 +1301,7 @@ data-aos="fade-bottom"
  
  </Carousel>
 <br/>
- <Link to="/" className={style.bar}>Barcha tuman bo'limlarini ko'rish <i className="fas fa-arrow-right"></i></Link>
+ <Link to="/" className={style.bar} id="btr">Barcha tuman bo'limlarini ko'rish <i className="fas fa-arrow-right"></i></Link>
 <br/>
 </div>
 <div className="blue"></div>
@@ -1507,12 +1508,12 @@ data-aos="fade-bottom"
                <Row style={{width:'100%',  marginTop:'20px', padding:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>
                <Col lg={6} md={6} sm={6}>
                    <a target="_blank" href="https://t.me/huquqiyaxborot">
-                     <img src={teg}/>
+                     <img className={style.str} src={teg}/>
                    </a>
                  </Col>
                  <Col lg={6} md={6} sm={6}>
                    <a target="_blank" href="https://advice.uz/uz">
-                     <img src={advice}/>
+                     <img className={style.str} src={advice}/>
                    </a>
                  </Col>
                </Row>
