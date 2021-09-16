@@ -308,3 +308,6 @@
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
+      @media (max-width:700px){
+        .dk-footer-box-info img{display: none;}
+      }

@@ -146,7 +146,7 @@ export default class Dashboard extends Component {
                <p>O'zbekiston Respublikasi Jizzax viloyati  <br/>  xalq ta'limi boshqarmasi </p>
                </div>
             </NavLink></Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
@@ -176,7 +176,7 @@ data-aos="fade-bottom"
                <p>O'zbekiston Respublikasi Jizzax viloyati  <br/>  xalq ta'limi boshqarmasi </p>
                </div>
             </NavLink></Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
       <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
@@ -443,7 +443,8 @@ data-aos="fade-bottom"
 </Carousel>
 <Link to="/" className={style.bar}>Barcha yangiliklar <i className="fas fa-arrow-right"></i></Link>
       </Col>
-      <Col lg={4} md={12} sm={12} style={{display:'flex', alignItems:'center'}}>
+      
+      <Col lg={4} md={12} sm={12}  className={style.gtr} style={{display:'flex', alignItems:'center'}}>
       <img style={{width:"100%"}} src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"/>
       </Col>
       </Row>
@@ -452,33 +453,33 @@ data-aos="fade-bottom"
   
   <Row style={{alignItems:'center'}}>
   
-  <Col lg={2} md={12} sm={12}>
+  <Col className={style.htr} lg={2} md={12} sm={12}>
   <h2  className={style.colT}>
     Bizning ijtimoiy sahifalarimiz:
   </h2>
   </Col>
   
-  <Col lg={2} md={6} sm={12}>
+  <Col className={style.htr} lg={2} md={6} sm={12}>
   <a src="#"  className={style.colT} target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Telegram_Messenger.png"/> 
   <p>Telegram sahifasi</p></a>
     </Col>
-  <Col lg={2} md={6} sm={12}>
+  <Col className={style.htr} lg={2} md={6} sm={12}>
   <a src="#"  className={style.colT} target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"/> 
   <p>Instagram sahifasi</p></a>
     </Col>
-  <Col lg={2} md={6} sm={12}>
+  <Col className={style.htr} lg={2} md={6} sm={12}>
   <a src="#"  className={style.colT} target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"/> 
   <p>Facebook sahifasi</p></a>
     </Col>
-  <Col lg={2} md={6} sm={12}>
+  <Col className={style.htr} lg={2} md={6} sm={12}>
   <a src="#"  className={style.colT} target="_blank">
   <img src="https://toppng.com/uploads/preview/logo-twitter-11549535419aik8i3pkro.png"/> 
   <p>Twitter sahifasi</p></a>
     </Col>
-  <Col lg={2} md={6} sm={12}>
+  <Col className={style.htr} lg={2} md={6} sm={12}>
   <a src="#"  className={style.colT} target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"/> 
   <p>You tube sahifasi</p></a>
@@ -1326,7 +1327,7 @@ data-aos="fade-bottom"
                   <Link to="/videos" className="bar">Barcha vidoelarni ko'rish <i className="fas fa-arrow-right"></i></Link>
 
   </Col>
-  <Col lg={8} md={12} sm={12}>
+  <Col lg={8} md={12} sm={12} className={style.jtr}>
   <h1 className="title">Foto lavhalar</h1>
   <div className="chiziq1"></div><br/>
     <Row>
@@ -1503,13 +1504,13 @@ data-aos="fade-bottom"
                   </Map>
                 </YMaps>
                 <br />
-               <Row style={{paddingLeft:'20px', marginTop:'20px'}}>
-               <Col lg={6}>
+               <Row style={{width:'100%',  marginTop:'20px', padding:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+               <Col lg={6} md={6} sm={6}>
                    <a target="_blank" href="https://t.me/huquqiyaxborot">
                      <img src={teg}/>
                    </a>
                  </Col>
-                 <Col lg={6}>
+                 <Col lg={6} md={6} sm={6}>
                    <a target="_blank" href="https://advice.uz/uz">
                      <img src={advice}/>
                    </a>
