@@ -130,10 +130,10 @@ export default class Dashboard extends Component {
              autoPlay={true}
              autoPlaySpeed={3000}
             responsive={responsive}>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
-  <div className={style.car_item}><img src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" className={style.image}/></div>
+  <div className={style.car_item}><img src="https://www.uzedu.uz/uploads/2020/03/photo2020-03-1221-39-35-760x500.jpg" className={style.image}/></div>
+  <div className={style.car_item}><img src="https://www.gazeta.uz/media/img/2019/09/TzSlyW15681190612830_l.jpg" className={style.image}/></div>
+  <div className={style.car_item}><img src="https://static.review.uz/crop/1/0/1400__100_1004528215.jpg" className={style.image}/></div>
+  <div className={style.car_item}><img src="https://storage.kun.uz/source/4/ILAspvrLpXnT0IHX_5BbxdhZePCWP4X3.jpg" className={style.image}/></div>
 </Carousel>
 <div className={style.navT}>
 <Navbar style={{position:"relative"}}expand="lg">
@@ -292,28 +292,28 @@ data-aos="fade-bottom"
 <div className={style.stas}>
 
 <div className={style.stas_item}>
-<p><i className="fab fa-youtube"></i></p>
+<p><i className="fas fa-map-marked-alt"></i></p>
 <p className={style.tit}>Tuman bo'limlar</p>
 <p className={style.num}>15 ta</p>
 </div>
 
 <div className={style.stas_item}>
-<p><i className="fab fa-youtube"></i></p>
+<p><i className="fas fa-school"></i></p>
 <p className={style.tit}>Maktablar</p>
 <p className={style.num}>350 ta</p>
 </div>
 <div className={style.stas_item}>
-<p><i className="fab fa-youtube"></i></p>
+<p><i className="fas fa-university"></i></p>
 <p className={style.tit}>B.A.M. lar</p>
 <p className={style.num}>25 ta</p>
 </div>
 <div className={style.stas_item}>
-<p><i className="fab fa-youtube"></i></p>
+<p><i className="fas fa-book-reader"></i></p>
 <p className={style.tit}>O'quvchilar</p>
 <p className={style.num}>16545 ta</p>
 </div>
 <div className={style.stas_item}>
-<p><i className="fab fa-youtube"></i></p>
+<p><i className="fas fa-chalkboard-teacher"></i></p>
 <p className={style.tit}>O'quvchilar</p>
 <p className={style.num}>7832 ta</p>
 </div>
@@ -333,8 +333,8 @@ data-aos="fade-bottom"
              autoPlaySpeed={3000}
             responsive={responsive1}>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
@@ -345,98 +345,98 @@ data-aos="fade-bottom"
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/YKARQQicDmPFAXIZ5k0pbMWHclKl1UeR.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>1-kursga qabul qilingan talabalar uchun tanishtiruv haftaligi 6 sentyabrdan boshlanadi</Card.Text>
     </Card.Body>
 </Card>
 </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/KkLEve_DkJvTBnx9-vqciHeTaSry84H1.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Mahalliy OTMlardan o‘qishni ko‘chirish natijalari 6 sentyabrda e'lon qilinadi</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/nniHcJCjqbs4LP7EUhb_HHkkl2xCKaPL.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Ta'lim inspeksiyasi abituriyentlardan hujjat qabul qilayotgan nodavlat OTMlar haqida ma'lumot berdi</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/CT4sAcUUqCD_61lPh_66m7E91vkCg2QC.jpeg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Mercedes-Benz kompaniyasi S-Class sedanining zirhlangan versiyasini ishlab chiqdi</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/9pkzRhIUz-vvKVxNH7ZcdBKJJzKYjlfE.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>SpaceX sentyabrda butun sayyorani sun'iy yo‘ldosh interneti bilan ta'minlamoqchi</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/Dd9U4g7AvpMNugeKTc3Ogn5lJ2IwRGNz.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Mustaqillik bayrami arafasida O‘zbekiston bayrog‘i stratosferaga uchirildi</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/px0xcRw5sWx70dr1lFDGxqULu9kjKQp8.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Xitoy fazoda quyosh energiyasini yig‘ib, uni Yerga jo‘natish ustida ish olib bormoqda</Card.Text>
     </Card.Body>
 </Card>
     </div>
   <div className={style.news_item}>
-    <Card style={{ border:'1px solid lightgrey'}}>
-  <Card.Img variant="top" src="https://president.uz/uploads/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg" />
+    <Card style={{ border:'1px solid lightgrey', height: '400px'}}>
+  <Card.Img variant="top" style={{height: '250px'}} src="https://storage.kun.uz/source/7/ZM--s9ItIwkhxzA7kau5Kx0nhEbsRu2m.jpg" />
   <Card.Body>
     <p className={style.vaqt}> <i
                                       style={{ marginRight: "10px" }}
                                       className="far fa-calendar-alt"
                                     ></i>12.03.2021</p> 
-    <Card.Text style={{fontSize:'16px'}}>Shavkat Mirziyoyev O‘zLiDeP partiyasidan prezidentlikka nomzod sifatida tasdiqlandi</Card.Text>
+    <Card.Text style={{fontSize:'16px'}}>Toyota kompaniyasi Corolla modelining 50 millioninchi nusxasini sotdi</Card.Text>
     </Card.Body>
 </Card>
     </div>
@@ -1331,22 +1331,22 @@ data-aos="fade-bottom"
   <div className="chiziq1"></div><br/>
     <Row>
     <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://uzreport.news/fotobank/image/218299750e25b463ff5a6796c9fa3794.jpeg"/>
       </Col>
       <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Registan_Samarkand_Timurid_Renaissance.jpg"/>
       </Col>
       <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://www.univ-silkroad.uz/media/k2/items/cache/8f704c6e91e045c72378c71d940a59ce_XL.jpg"/>
       </Col>
       <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://fs.tonkosti.ru/em/vx/emvxsz12yg0ks0osw0kw8s4wk.jpg"/>
       </Col>
       <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Tashkent-City_name_statue.jpg"/>
       </Col>
       <Col lg={4} md={4} sm={6} style={{paddingBottom:'20px'}}>
-        <img src="https://uznews.uz/upload/cache/a8/a9/a8a9e3dbf3c58fa209c6677bee350344.webp"/>
+        <img src="https://xabar.uz/static/crop/7/4/920__95_745261863.jpg"/>
       </Col>
 
     </Row>
