@@ -190,3 +190,18 @@ margin:auto;
   align-items: center;
   padding: 0px;
 }
+@media (min-width:701px) and (max-width:1000px){
+  
+
+}
+
+@media (min-width:401px) and (max-width:700px){
+.me-auto{display: flex; flex-direction: column; width:100%; align-items: center; justify-content: center;}
+.chiziq{display: flex; align-items: center !important; justify-content: center;}  
+
+}
+
+@media (max-width:400px){
+  .me-auto{display: flex; flex-direction: column; width:100%; align-items: center; justify-content: center;}
+
+}

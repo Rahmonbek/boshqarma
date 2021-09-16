@@ -31,7 +31,7 @@
          margin-top: 360px; 
      }
 .colimg{width:400px; position:relative; left:-30px;}
-.colimg::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; }
+/* .colimg::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; } */
 .colimg img{width:100%;  }
 .text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
 .iconsHead{
@@ -218,15 +218,58 @@ margin-top: 10px;
 }
  @media (min-width:701px) and (max-width:1000px){
     .image{height:520px}
+
 }
 
-@media (min-width:401px) and (max-width:700px){
-.birinchi{margin-left: 0px;}
+@media (min-width:451px) and (max-width:700px){
+ .birinchi{margin-left: 0px !important;}
     .image{height:450px}
+    .text h1{font-size: 27px;}
+    .text{top:200px}
+    .navT{top:20px}
+    .rahbar h2{font-size: 20px; margin-top:20px}
+    .fio{font-size: 18px; font-weight: bold;}
+    .qabul{font-size: 15px;}
+    .ahref{margin-left: -20px !important;}
+    .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
+    .colimg img{transform:scale(1.6, 1.6);}
+    .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+    .stas_item{flex:50% !important; margin-top: 20px;}
+.gtr{padding-top: 40px;}
+.elem{height: 340px;}
+.htr{margin-top: 20px;}
+.hov{opacity: 1;}
+.hov a{margin-top: 35px; margin-left:35px !important;}
+.tel{bottom:40px}
+.jtr{margin-top:40px}
+
+
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
+    /* body{width:100%; overflow-x: hidden;} */
 .birinchi{margin-left: 0px;}
-
+.brand_text{width:60%;}
+.brand_text p{width:50% !important;}
     .image{height:390px}
+    .text h1{font-size: 22px;}
+    .text{top:200px}
+    .navT{top:20px}
+    .rahbar h2{font-size: 20px; margin-top:20px}
+    .fio{font-size: 18px; font-weight: bold;}
+    .qabul{font-size: 15px;}
+    .ahref{margin-left: -20px !important;}
+    .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
+    .colimg img{transform:scale(1.6, 1.6);}
+    .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+    .stas_item{flex:50% !important; margin-top: 20px;}
+.gtr{padding-top: 40px;}
+.elem{height: 340px;}
+.htr{margin-top: 20px;}
+.hov{opacity: 1;}
+.hov a{margin-top: 35px; margin-left:35px !important;}
+.tel{bottom:40px}
+.jtr{margin-top:40px}
+
+
 }

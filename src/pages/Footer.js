@@ -10,7 +10,7 @@ export default class Footer extends Component {
             <div className="row">
                 <div className="col-md-12 col-lg-4">
                     <div className="dk-footer-box-info">
-                        <a href="index.html" className="footer-logo">
+                        <a className="footer-logo">
                             <img style={{width:"70%", marginLeft:'15%', height:'auto'}} src={gerb} alt="footer_logo" className="img-fluid"/>
                         </a>
                        
