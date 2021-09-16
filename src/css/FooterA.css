@@ -11,7 +11,7 @@
 
 
 .page-wrapper
-{
+.foot {
      
   
     width: 100%;
@@ -19,11 +19,11 @@
 
 }
 
-footer p, footer strong, footer b, footer {
+.foot footer p, footer strong, footer b, footer {
     color:white;
 }
 
-.footer-top {
+.foot .footer-top {
     background: #303030;
     background-size: cover;
     background-position: center;
@@ -33,11 +33,11 @@ footer p, footer strong, footer b, footer {
   
 }
 
-.footer-top, .footer-bottom {
+.foot .footer-top, .footer-bottom {
     background-color: rgb(38, 38, 240);
 }
 
-.footer-bottom {
+.foot .footer-bottom {
     padding: 15px 0;
     border-top: 1px solid #313646;
     background-color: blue!important;
@@ -46,46 +46,46 @@ footer p, footer strong, footer b, footer {
 }
 
 
-.footer-site-info {
+.foot .footer-site-info {
     font-size: 92.86%;
 }
-#footer-navigation, #footer-navigation li a:hover, .custom-footer, .custom-footer li a:hover {
+.foot #footer-navigation, #footer-navigation li a:hover, .custom-footer, .custom-footer li a:hover {
     color: white;
 }
 
-#footer-navigation, #footer-navigation li a, .custom-footer, .custom-footer li a {
+.foot #footer-navigation, #footer-navigation li a, .custom-footer, .custom-footer li a {
     color:white;
     padding-top: 15px;
 }
 
-.footer-bottom ul {
+.foot .footer-bottom ul {
     margin: 0;
 }
-.inline-inside {
+.foot .inline-inside {
     font-size: 0;
     line-height: 0;
 }
-.clearfix:after, .clearfix:before {
+.foot .clearfix:after, .clearfix:before {
     content: "";
     display: table;
 }
-#footer-menu li {
+.foot #footer-menu li {
     display: inline-block;
     padding: 0 21px;
     position: relative;
     line-height: 1;
 }
 
-#footer-navigation, #footer-navigation li a, .custom-footer, .custom-footer li a {
+.foot #footer-navigation,.foot  #footer-navigation li a,.foot  .custom-footer,.foot  .custom-footer li a {
     color:white;
     padding-top: 15px;
 }
 
-#footer-navigation, #footer-navigation li a, .custom-footer, .custom-footer li a {
+.foot #footer-navigation,.foot  #footer-navigation li a,.foot  .custom-footer,.foot  .custom-footer li a {
     color:white;
     padding-top: 15px;
 }
-#footer-menu li+li:before {
+.foot #footer-menu li+li:before {
     content: '';
     width: 0;
     height: 100%;
@@ -98,23 +98,23 @@ footer p, footer strong, footer b, footer {
 }
 
 
-navigation li a, .custom-footer, .custom-footer li a {
+.foot navigation li a,.foot  .custom-footer,.foot  .custom-footer li a {
     color:white;
     padding-top: 15px;
 }
 
-#footer-socials {
+.foot #footer-socials {
     text-align: right;
 }
 
-#footer-socials .socials {
+.foot #footer-socials .socials {
     text-align: right;
     margin: 0 -7px;
     display: inline-block;
     vertical-align: middle;
 }
 
-a.socials-item {
+.foot a.socials-item {
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -127,10 +127,10 @@ a.socials-item {
     border-radius: 50%;
     background-color: #141421;
     border: 1px solid #2e2e4c;
-    box-shadow: 3px 9px 16px rgb(0,0,0,0.4), -3px -3px 10px rgba(255,255,255, 0.06), inset 14px 14px 26px rgb(0,0,0,0.3), inset -3px -3px 15px rgba(255,255,255, 0.05);
+    box-shadow: 3px 9px 16px rgb(0, 0,0,0.4), -3px -3px 10px rgba(255,255,255, 0.06), inset 14px 14px 26px rgb(0,0,0,0.3), inset -3px -3px 15px rgba(255,255,255, 0.05);
 }
 
-.socials-item i {
+.foot .socials-item i {
     display: inline-block;
     font-weight: normal;
     width: 1em;
@@ -151,45 +151,45 @@ a.socials-item {
     text-rendering: auto;
 }
 
-.facebook {
+.foot .facebook {
     color: #4e64b5;
 }
 
-.twitter {
+.foot .twitter {
     color: #00aced;
 }
-.instagram {
+.foot .instagram {
     color: #9a8f62;
 }
-.youtube {
+.foot .youtube {
     color: #c82929;
 }
 
-.telegram {
+.foot .telegram {
     color: #2ca5e0;
 }
 
 
-a.socials-item:hover {
+.foot a.socials-item:hover {
    scale: 1.2;
 }
 
-.footer-bottom a:hover {
+.foot .footer-bottom a:hover {
     color: black;
 }
 
 
-footer p, footer li {
+.foot footer p, footer li {
     font-size: 15px;
     line-height: 22px;
 }
 
 
-.widget {
+.foot .widget {
     margin-bottom: 50px;
 }
 
-.footer-title {
+.foot .footer-title {
     margin-bottom: 40px;
     color: #fff;
     font-weight: 500;
@@ -199,7 +199,7 @@ footer p, footer li {
     position: relative;
 }
 
-.footer-title:after {
+.foot .footer-title:after {
     width: 50px;
     background: #fff;
     opacity: 0.2;
@@ -210,47 +210,47 @@ footer p, footer li {
     left: 0;
 }
 
-.gem-contacts-item {
+.foot .gem-contacts-item {
     padding-top: 10px;
     font-size: 15px;
 }
 
-.gem-contacts-item i {
+.foot .gem-contacts-item i {
     padding-right: 10px;
 }
 
-footer .widget ul {
+.foot footer .widget ul {
     list-style: none;
     margin-top: 5px;
 }
 
-.posts li {
+.foot .posts li {
     border-bottom: 1px solid #393d50;
     padding-bottom: 12px;
     padding-top: 6px;
 }
 
-footer p, footer li {
+.foot footer p, footer li {
     font-size: 15px;
     line-height: 22px;
 }
 
-.gem-pp-posts-date {
+.foot .gem-pp-posts-date {
     color: #00bcd4;
     font-size: 89.5%;
 }
 
-footer p {
+.foot footer p {
     line-height: 24px;
     margin-bottom: 10px;font-size: 15px;
 }
 
-.wpcf7-form-control-wrap .wpcf7-form-control {
+.foot .wpcf7-form-control-wrap .wpcf7-form-control {
     padding: 7px!important;
     width: 100%;
 }
 
-.wpcf7-form-control-wrap input {
+.foot .wpcf7-form-control-wrap input {
     background: rgb(38, 38, 240);
     overflow: hidden;
     border: 1px solid #2e344d;
@@ -260,26 +260,26 @@ footer p {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.wpcf7-form-control-wrap input:hover {
+.foot .wpcf7-form-control-wrap input:hover {
     background-color: transparent;
     box-shadow: 10px 10px 36px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03), inset 14px 14px 70px rgb(0,0,0,0.2), inset -15px -15px 30px rgba(255,255,255, 0.04);
     border-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
-.wpcf7 .wpcf7-form .contact-form-footer textarea {
+.foot .wpcf7 .wpcf7-form .contact-form-footer textarea {
     height: 160px;
     width: 100%;
 }
 
-.wpcf7-form-control-wrap textarea:hover {
+.foot .wpcf7-form-control-wrap textarea:hover {
     background-color: transparent;
     box-shadow: 10px 10px 36px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03), inset 14px 14px 70px rgb(0,0,0,0.2), inset -15px -15px 30px rgba(255,255,255, 0.04);
     border-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
-.wpcf7-form-control-wrap textarea {
+.foot .wpcf7-form-control-wrap textarea {
     background: rgb(38, 38, 240);
     overflow: hidden;
     border: 1px solid #2e344d;
@@ -289,18 +289,18 @@ footer p {
     transition: all 0.3s ease-in-out 0s;
 }
 
-textarea {
+.foot textarea {
     overflow: auto;
     resize: vertical;
 }
 
-.wpcf7 .wpcf7-form .contact-form-footer .wpcf7-submit {
+.foot .wpcf7 .wpcf7-form .contact-form-footer .wpcf7-submit {
     width: 100%;
     padding: 11px;
     margin: 0;
     line-height: 0;
 }
-.wpcf7-form .contact-form-footer .wpcf7-submit {
+.foot .wpcf7-form .contact-form-footer .wpcf7-submit {
    
     color:white;
     border: none;
@@ -325,40 +325,40 @@ textarea {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.wpcf7-form input[type=submit] {
+.foot .wpcf7-form input[type=submit] {
     height: 40px;
     line-height: 21px;
     padding: 10px 40px;
     font-size: 14px;
 }
 
-.posts li a {
+.foot .posts li a {
     color:white;
 }
 
-.wpcf7-form .contact-form-footer .wpcf7-submit:hover {
+.foot .wpcf7-form .contact-form-footer .wpcf7-submit:hover {
 scale: 1.03;
 }
 
-img {
+.foot img {
     border-style: none;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
 }
-.widget_gallery a {
+.foot .widget_gallery a {
     display: inline-block;
 }
-footer .widget ul {
+.foot footer .widget ul {
     list-style: none;
     margin-top: 5px;
 }
-.widget_gallery ul {
+.foot .widget_gallery ul {
     padding-left: 0;
     display: table;
 }
 
-.widget_gallery li {
+.foot .widget_gallery li {
     display: inline-block;
     width: 33.33%;
     transition: all 0.5s;
@@ -368,21 +368,172 @@ footer .widget ul {
     padding: 2px;
 }
 
-.widget_gallery.gallery-grid-4 li {
+.foot .widget_gallery.gallery-grid-4 li {
     width: 30%;
 }
 
 
-#waterdrop {
+.foot #waterdrop {
     height: 30px;
 }
 
-#waterdrop canvas {
+.foot #waterdrop canvas {
     bottom: -70px !important;
 }
 
-.footer-site-info
-{
+.foot .footer-site-info{
   padding-top: 10px;
 }
 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+.formFER .container {
+  position: relative;
+  width: 450px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.formFER .brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("https://e7.pngegg.com/pngimages/736/317/png-clipart-tashkent-emblem-of-uzbekistan-coat-of-arms-symbol-flag-of-uzbekistan-usa-gerb-miscellaneous-emblem.png");
+  background-size: 100%;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.formFER .brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #2939ab;
+  letter-spacing: 1px;
+}
+
+.formFER .inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.formFER label,
+.formFER input,
+.formFER button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.formFER label {
+  margin-bottom: 4px;
+}
+
+.formFER label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+.formFER input::placeholder,
+.formFER textarea::placeholder {
+  color: gray;
+}
+
+.formFER input {
+  background: #cbeeff85;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.formFER textarea {
+  background: #c0eafe59;
+  padding: 10px;
+  outline: none;
+  padding-left: 20px;
+  height: 130px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.formFER button {
+  margin-top: 20px;
+  background: #0a95cae0;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.formFER button:hover {
+  box-shadow: none;
+}
+.formFER {
+  margin: 0;
+  width: 100%;
+  height: 700px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("../img/formnaqsh.jpg");
+  background-attachment: fixed;
+
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+.formFER a {
+  position: absolute;
+  font-size: 8px;
+  bottom: 4px;
+  right: 4px;
+  text-decoration: none;
+  color: black;
+  background: yellow;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.formFER h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loaderT {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  z-index: 5534434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
