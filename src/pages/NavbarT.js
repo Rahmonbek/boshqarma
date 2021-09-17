@@ -30,7 +30,7 @@ export default class NavbarT extends Component {
               </div>
             </NavLink>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color:'white', borderColor:'white'}}>wefe</Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
             <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
