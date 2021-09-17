@@ -201,11 +201,13 @@ export default class Rahbariyat extends Component {
                                   style={{ width: "302px", height: "290px" }}
                                 />
                               </div>
-                              <div className={styles.frontText}>
-                                <h2 className={styles.frontH2}>
+                              <div className={styles.frontText}> 
+                              
+                                <h2 className={styles.frontH2} >
+                                  <span >{item.lavozimi}</span><br/>
                                   {item.fullName}
                                 </h2>
-                                <p className={styles.frontp}>{item.lavozimi}</p>
+                               
                               </div>
                             </div>
                           </div>

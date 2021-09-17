@@ -164,15 +164,19 @@
 .frontText {
   position: absolute;
   padding: 10px;
-  top: 190px;
+  top: 200px;
   text-align: center;
   color: white;
 }
 
 .frontH2 {
   font-size: 20px;
+  background-color: rgba(241, 241, 245, 0.466);
+  border-radius: 10px;
 }
-
+.frontH2 span{
+  font-size: 14px;
+}
 /* style the maincontainer class with all child div's of class .front */
 .maincontainer > .front {
   position: absolute;
