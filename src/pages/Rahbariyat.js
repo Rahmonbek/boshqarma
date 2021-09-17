@@ -6,14 +6,14 @@ import styles from "../css/Rahbariyat.module.css";
 import sanakulov from "../img/sanakulov.jpg";
 import sharahmetov from "../img/sharahmetov.jpg";
 import djulibekov from "../img/djulibekov.jpg";
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCardImage,
-  MDBBtn,
-} from "mdb-react-ui-kit";
+// import {
+//   MDBCard,
+//   MDBCardBody,
+//   MDBCardTitle,
+//   MDBCardText,
+//   MDBCardImage,
+//   MDBBtn,
+// } from "mdb-react-ui-kit";
 
 import { Button, Card, Col, Row } from "react-bootstrap";
 
@@ -201,13 +201,12 @@ export default class Rahbariyat extends Component {
                                   style={{ width: "302px", height: "290px" }}
                                 />
                               </div>
-                              <div className={styles.frontText}> 
-                              
-                                <h2 className={styles.frontH2} >
-                                  <span >{item.lavozimi}</span><br/>
+                              <div className={styles.frontText}>
+                                <h2 className={styles.frontH2}>
+                                  <span>{item.lavozimi}</span>
+                                  <br />
                                   {item.fullName}
                                 </h2>
-                               
                               </div>
                             </div>
                           </div>
@@ -221,7 +220,7 @@ export default class Rahbariyat extends Component {
             </div>
           </div>
         </div>
-        <Modal
+        {/* <Modal
           title="Rahbar haqida ma'lumotlar"
           centered
           onCancel={() => this.closeModal()}
@@ -255,7 +254,7 @@ export default class Rahbariyat extends Component {
           <Button variant="primary" onClick={() => this.closeModal()}>
             Yopish
           </Button>
-        </Modal>
+        </Modal> */}
         <Footer />
       </div>
     );
