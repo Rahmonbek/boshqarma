@@ -15,7 +15,7 @@ import djulibekov from "../img/djulibekov.jpg";
 //   MDBBtn,
 // } from "mdb-react-ui-kit";
 
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Button, Card, Col, Row, Container } from "react-bootstrap";
 
 export default class Rahbariyat extends Component {
   state = {
@@ -24,6 +24,7 @@ export default class Rahbariyat extends Component {
         id: 1,
         fullName: "Sanaqulov Quvondiq Sanaqulovich",
         phone: "+99879-227-71-54",
+        qabul: "9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor",
@@ -34,6 +35,7 @@ export default class Rahbariyat extends Component {
         id: 2,
         fullName: "Jo'libekov Nurmat Qarshibekovich",
         phone: "+99879-227-71-54",
+        qabul: "9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor o'rinbosari",
@@ -44,6 +46,7 @@ export default class Rahbariyat extends Component {
         id: 3,
         fullName: "DASDASDSAD dasdasdas dsadasdasd",
         phone: "+99879-227-71-54",
+        qabul: "9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor o'rinbosari",
@@ -98,7 +101,61 @@ export default class Rahbariyat extends Component {
           </div>
           <div className={styles.line}></div>
           <div className={styles.rahbariyatBody}>
-            <div className={styles.cardButton}>
+            <Container>
+              <Row>
+                {this.state.rahbariyat !== []
+                  ? this.state.rahbariyat.map((item, key) => {
+                      return item.daraja === this.state.daraja ? (
+                        <Col lg={9} sm={12}>
+                          <div className={styles.card}>
+                            <Row>
+                              <Col md={4} sm={12}>
+                                <img
+                                  src={item.image}
+                                  style={{ width: "100%", margin: "15px" }}
+                                  alt=""
+                                />
+                              </Col>
+                              <Col md={8} sm={12}>
+                                <div className={styles.cardBody}>
+                                  <h4>{item.lavozimi}</h4>
+                                  <h4>{item.fullName}</h4>
+                                  <h6>
+                                    <b>Qabul:</b> {item.qabul}
+                                  </h6>
+                                  <h6>
+                                    <b>Telefon:</b> {item.phone}
+                                  </h6>
+                                  <h6>
+                                    <b>Email:</b> {item.email}
+                                  </h6>
+                                  <div className={styles.cardBodyBtn}>
+                                    <Button
+                                      style={{
+                                        backgroundColor: "#1105e6",
+                                        borderRadius: "none",
+                                      }}
+                                      onClick={() => this.openModal(key)}
+                                    >
+                                      Batafsil
+                                    </Button>
+                                  </div>
+                                </div>
+                              </Col>
+                            </Row>
+                          </div>
+                        </Col>
+                      ) : (
+                        ""
+                      );
+                    })
+                  : ""}
+                <Col lg={3} sm={6}>
+                  dasdasda
+                </Col>
+              </Row>
+            </Container>
+            {/* <div className={styles.cardButton}>
               <Button
                 variant="primary"
                 style={{ marginRight: "10px" }}
@@ -112,8 +169,8 @@ export default class Rahbariyat extends Component {
               >
                 Xodimlar
               </Button>
-            </div>
-            <div className={styles.cards}>
+            </div> */}
+            {/* <div className={styles.cards}>
               <Row>
                 {this.state.rahbariyat !== []
                   ? this.state.rahbariyat.map((item, key) => {
@@ -186,10 +243,18 @@ export default class Rahbariyat extends Component {
                         >
                           <div className={styles.maincontainer}>
                             <div className={styles.back}>
-                              <h2 className={styles.backH2}>{item.fullName}</h2>
-                              <p className={styles.backp}>{item.phone}</p>
-                              <p className={styles.backp}>{item.email}</p>
-                              <p className={styles.backp}>{item.describe}</p>
+                              <h2 className={styles.backH2}>
+                                <b>{item.fullName}</b>
+                              </h2>
+                              <p className={styles.backp}>
+                                <b>Tel. raqami:</b> {item.phone}
+                              </p>
+                              <p className={styles.backp}>
+                                <b>Email:</b> {item.email}
+                              </p>
+                              <p className={styles.backp}>
+                                <b>Ma'lumot:</b> {item.describe}
+                              </p>
                             </div>
                             <div className={styles.front}>
                               <div>
@@ -217,16 +282,20 @@ export default class Rahbariyat extends Component {
                     })
                   : ""}
               </Row>
-            </div>
+            </div> */}
           </div>
         </div>
-        {/* <Modal
+        <Modal
           title="Rahbar haqida ma'lumotlar"
-          centered
+          // centered
           onCancel={() => this.closeModal()}
-          footer={false}
+          footer={
+            <Button variant="primary" onClick={() => this.closeModal()}>
+              Yopish
+            </Button>
+          }
           visible={this.state.show}
-          style={{ zIndex: "9456 !important" }}
+          style={{ zIndex: "9456", top: "150px", border: "#1150e6" }}
         >
           <Row>
             <Col lg={4}>
@@ -250,11 +319,7 @@ export default class Rahbariyat extends Component {
               </p>
             </Col>
           </Row>
-          <br />
-          <Button variant="primary" onClick={() => this.closeModal()}>
-            Yopish
-          </Button>
-        </Modal> */}
+        </Modal>
         <Footer />
       </div>
     );
