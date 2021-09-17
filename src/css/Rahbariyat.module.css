@@ -44,6 +44,7 @@
 }
 .cardsCol {
   margin: 10px auto;
+  min-width: 310px;
 }
 .modalRow {
   display: flex;
