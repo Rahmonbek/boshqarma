@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
+import Footer from './FooterA';
 import style from '../css/Lavhalar.module.css';
 import NavbarT from './NavbarT';
 

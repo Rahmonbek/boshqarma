@@ -1,4 +1,4 @@
-import Footer from './Footer'
+import Footer from './FooterA'
 import React, { Component } from 'react'
 import NavbarT from "./NavbarT"
 import './videos.css'
