@@ -8,3 +8,105 @@
 .navG .birinchi{margin-left: 30%;}
 .navlik{color:white}
 .navlik:hover{color:rgb(255, 247, 0)}
+
+
+
+@media (max-width:558px){
+    .brand_img img{width:50px; height:50px;margin-left:-10px;}
+    .brand_text p{width:90px; height:50px; display: flex; align-items:center;font-size: 8px;
+    top:0px;left:10px;}
+    .navB{width:120px; display: flex;position: relative;left: -40px;}
+
+}
+ @media (min-width:701px) and (max-width:1000px){
+    .image{height:520px}
+
+}
+
+@media (min-width:451px) and (max-width:700px){
+ .birinchi{margin-left: 0px !important;}
+    .image{height:450px}
+    .text h1{font-size: 27px;}
+    .text{top:200px}
+    .navT{top:20px}
+    .rahbar h2{font-size: 20px; margin-top:20px}
+    .fio{font-size: 18px; font-weight: bold;}
+    .qabul{font-size: 15px;}
+    .ahref{margin-left: -20px !important;}
+    .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
+    .colimg img{transform:scale(1.6, 1.6);}
+    .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+    .stas_item{flex:50% !important; margin-top: 20px;}
+.gtr{padding-top: 40px;}
+.elem{height: 340px;}
+.htr{margin-top: 20px;}
+.hov{opacity: 1;}
+.hov a{margin-top: 35px; margin-left:35px !important;}
+.tel{bottom:40px}
+.jtr{margin-top:40px}
+
+
+}
+
+@media (max-width:450px){
+    /* body{width:100%; overflow-x: hidden;} */
+.birinchi{margin-left: 0px !important;}
+.brand_text{width:60%;}
+.text{top:120px;}
+
+
+    .image{height:300px !important}
+    .text h1{font-size: 22px;}
+    .navT{top:20px}
+    
+    .lrt{display: inline-block !important;}
+    .rahbar div{padding:20px !important;}
+    .rahbar h2{font-size: 15px; margin-top:-20px; text-align: center; width:100%; margin-left: 0px;}
+    .fio{font-size: 16px; font-weight: bold;}
+    .qabul{font-size: 14px;}
+    .icon a{font-size: 13px; margin-left:20px;}
+    .icon img{width:30px; margin-left:-10px; height:30px} 
+    .ahref{margin-left: -20px !important; position: relative; left:10px; top:-10px; width:30px; height:30px;}
+    .ahref i{font-size: 18px;}
+    .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
+    .colimg img{transform:scale(1.6, 1.6);}
+    .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+    .stas_item{flex:50% !important; margin-top: 20px;}
+.gtr{padding-top: 40px;}
+.elem{height: 340px;}
+.htr{margin-top: 20px;}
+.hov{opacity: 1;}
+.hov a{margin-top: 18px; margin-left:35px !important;}
+.tel{bottom:65px}
+.bar{font-size: 20px;}
+.jtr{margin-top:40px}
+.str{margin-left: 40px;}
+
+}
+@media (min-width:1500px){
+    .navlik{font-size: 23px;}
+    .navG img{margin-left: 100px;}
+    .navT img{margin-left: -120px;}
+    .birinchi{margin-left:400px !important;}
+    .navG .birinchi{margin-left:700px !important;}
+    .brand_img img{width:100px; height:100px;}
+    .brand_text p{font-size:23px; margin-top:30px;}
+    .text{top:450px}
+    .rahbar h2{font-size:30px}
+    
+.fio{font-size: 25px;}
+.qabul{font-size: 22px;}
+.icon img{width:60px; height:60px;}
+.icon a{font-size: 20px;}
+.stas{background-size:100% 100% ;}
+.gtr{padding-top:40px;}
+.elem{width:100%; justify-content: center;}
+.colT{font-size: 30px;}
+.colT p{font-size: 20px; margin-top: 20px;}
+.colT img{width:40px}
+.ptr{font-size: 23px !important;}
+.hov_btn{font-size: 22px !important;}
+.tel{bottom:80px}
+.hov a{margin-top: 30px;}
+
+}
