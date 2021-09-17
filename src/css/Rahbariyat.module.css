@@ -44,6 +44,7 @@
 }
 .cardsCol {
   margin: 10px auto;
+  min-width: 310px;
 }
 .modalRow {
   display: flex;
@@ -153,6 +154,7 @@
 .backH2 {
   /* position: absolute; */
   font-size: 15px;
+  color: white;
 }
 
 .backp {
@@ -174,7 +176,7 @@
   background-color: rgba(241, 241, 245, 0.466);
   border-radius: 10px;
 }
-.frontH2 span{
+.frontH2 span {
   font-size: 14px;
 }
 /* style the maincontainer class with all child div's of class .front */
