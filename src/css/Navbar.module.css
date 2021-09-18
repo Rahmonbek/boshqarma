@@ -1,5 +1,4 @@
 .navG{position:fixed; top:0px; left:0px; z-index: 4567;width:100%; padding:10px 50px; background-color:#1105e6}
-
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
 .brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
@@ -20,7 +19,10 @@
 }
  @media (min-width:701px) and (max-width:1000px){
     .image{height:520px}
-
+.navlik{
+    margin:auto;
+    text-align: left;
+}
 }
 
 @media (min-width:451px) and (max-width:700px){
@@ -84,7 +86,7 @@
 
 }
 @media (min-width:1500px){
-    .navlik{font-size: 23px;}
+    .navlik{font-size: 20px;}
     .navG img{margin-left: 100px;}
     .navT img{margin-left: -120px;}
     .birinchi{margin-left:400px !important;}
@@ -109,4 +111,11 @@
 .tel{bottom:80px}
 .hov a{margin-top: 30px;}
 
+}
+@media (min-width:991px) and (max-width:1500px){
+    .image{height:520px}
+.navlik{
+    padding-left:30px;
+  
+}
 }

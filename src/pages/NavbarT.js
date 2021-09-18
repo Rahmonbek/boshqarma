@@ -3,7 +3,7 @@ import style from "../css/Navbar.module.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink,} from 'react-router-dom'
 import gerb from "../img/gerb.png";
-
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 export default class NavbarT extends Component {
   render() {
     return (
@@ -30,16 +30,16 @@ export default class NavbarT extends Component {
               </div>
             </NavLink>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color:'white', borderColor:'white'}}>wefe</Navbar.Toggle>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{color:'white', border:'none'}}><AccountBalanceIcon/></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link style={{textAlign:"center", width:'190px'}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
+            <Nav.Link style={{textAlign:"center",}} className={style.birinchi}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/">
     Bosh sahifa
             </NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/rahbariyat">Rahbariyat</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/yangiliklar">Yangiliklar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/tumanlar">Tumanlar</NavLink></Nav.Link>
-        <Nav.Link style={{textAlign:"center", width:'190px'}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center",}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/rahbariyat">Rahbariyat</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center",}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/yangiliklar">Yangiliklar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center",}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/tumanlar">Tumanlar</NavLink></Nav.Link>
+        <Nav.Link style={{textAlign:"center",}}><NavLink className={style.navlik} style={{textDecoration:'none'}} to="/boglanish">Bog'lanish</NavLink></Nav.Link>
     </Nav>
           </Navbar.Collapse>
         </Navbar>
