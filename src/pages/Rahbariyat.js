@@ -331,6 +331,7 @@ export default class Rahbariyat extends Component {
           onCancel={() => this.closeModal()}
           zIndex="6524"
           centered
+          width="80%"
           footer={
             <Button variant="primary" onClick={() => this.closeModal()}>
               Yopish
@@ -339,10 +340,10 @@ export default class Rahbariyat extends Component {
           visible={this.state.show}
         >
           <Row>
-            <Col lg={4}>
+            <Col md={4}>
               <img src={this.state.image} alt="" style={{ width: "100%" }} />
             </Col>
-            <Col lg={8} className={styles.modalBody}>
+            <Col md={8} className={styles.modalBody}>
               <p>
                 <b>Rahbar F.I.Sh. si:</b> {this.state.fullName}
               </p>

@@ -70,6 +70,7 @@
 }
 .cardBody {
   margin: 15px;
+  min-height: 350px;
 }
 .cardBody > h4 {
   text-align: center;
@@ -102,6 +103,10 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+.modalBody > p {
+  color: #1105e6;
+  font-size: 20px;
+}
 @media (min-width: 0px) and (max-width: 566px) {
   .head {
     padding-top: 235px;
@@ -121,7 +126,7 @@
     font-size: 16px;
   }
   .cardBody {
-    min-height: 350px;
+    min-height: 300px;
   }
   .cardBodyBtn > .btn {
     font-size: 15px;
@@ -163,6 +168,9 @@
   .head_text {
     font-size: 28px;
   }
+  .cardBody {
+    min-height: 250px;
+  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   .head {
@@ -171,6 +179,9 @@
   }
   .head_text {
     padding: 20px 120px;
+  }
+  .cardBody {
+    min-height: 275px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -220,6 +231,9 @@
   .rahbariyatBody {
     padding: 3%;
     padding-top: 0;
+  }
+  .cardBody {
+    min-height: 400px;
   }
   .cardBody > h4 {
     font-size: 36px;
