@@ -15,7 +15,13 @@ import djulibekov from "../img/djulibekov.jpg";
 //   MDBBtn,
 // } from "mdb-react-ui-kit";
 
-import { Button, Card, Col, Row, Container } from "react-bootstrap";
+import {
+  Button,
+  // Card,
+  Col,
+  Row,
+  Container,
+} from "react-bootstrap";
 
 export default class Rahbariyat extends Component {
   state = {
@@ -24,7 +30,7 @@ export default class Rahbariyat extends Component {
         id: 1,
         fullName: "Sanaqulov Quvondiq Sanaqulovich",
         phone: "+99879-227-71-54",
-        qabul: "9:00 - 13:00",
+        qabul: "Dushanba - Juma 9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor",
@@ -35,7 +41,7 @@ export default class Rahbariyat extends Component {
         id: 2,
         fullName: "Jo'libekov Nurmat Qarshibekovich",
         phone: "+99879-227-71-54",
-        qabul: "9:00 - 13:00",
+        qabul: "Dushanba - Juma 9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor o'rinbosari",
@@ -46,7 +52,7 @@ export default class Rahbariyat extends Component {
         id: 3,
         fullName: "DASDASDSAD dasdasdas dsadasdasd",
         phone: "+99879-227-71-54",
-        qabul: "9:00 - 13:00",
+        qabul: "Dushanba - Juma 9:00 - 13:00",
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor o'rinbosari",
@@ -101,22 +107,18 @@ export default class Rahbariyat extends Component {
           </div>
           <div className={styles.line}></div>
           <div className={styles.rahbariyatBody}>
-            <Container>
+            <Container fluid="md">
               <Row>
-                {this.state.rahbariyat !== []
-                  ? this.state.rahbariyat.map((item, key) => {
-                      return item.daraja === this.state.daraja ? (
-                        <Col lg={9} sm={12}>
+                <Col lg={9} sm={12}>
+                  {this.state.rahbariyat !== []
+                    ? this.state.rahbariyat.map((item, key) => {
+                        return item.daraja === this.state.daraja ? (
                           <div className={styles.card}>
                             <Row>
-                              <Col md={4} sm={12}>
-                                <img
-                                  src={item.image}
-                                  style={{ width: "100%", margin: "15px" }}
-                                  alt=""
-                                />
+                              <Col md={4} sm={5} xs={12}>
+                                <img src={item.image} alt="" />
                               </Col>
-                              <Col md={8} sm={12}>
+                              <Col md={8} sm={7} xs={12}>
                                 <div className={styles.cardBody}>
                                   <h4>{item.lavozimi}</h4>
                                   <h4>{item.fullName}</h4>
@@ -136,6 +138,7 @@ export default class Rahbariyat extends Component {
                                         borderRadius: "none",
                                       }}
                                       onClick={() => this.openModal(key)}
+                                      className={styles.btn}
                                     >
                                       Batafsil
                                     </Button>
@@ -144,14 +147,51 @@ export default class Rahbariyat extends Component {
                               </Col>
                             </Row>
                           </div>
-                        </Col>
-                      ) : (
-                        ""
-                      );
-                    })
-                  : ""}
-                <Col lg={3} sm={6}>
-                  dasdasda
+                        ) : (
+                          ""
+                        );
+                      })
+                    : ""}
+                </Col>
+                <Col lg={3} sm={12}>
+                  <div className={styles.card} style={{ padding: "15px" }}>
+                    <h4>Rahbariyat</h4>
+                    <ul style={{ listStyle: "none" }}>
+                      <li
+                        onClick={() => this.setState({ daraja: 1 })}
+                        style={{
+                          cursor: "pointer",
+                          // color: "#1105e6",
+                          fontSize: "20px",
+                        }}
+                      >
+                        1-daraja
+                      </li>
+                      <li
+                        onClick={() => this.setState({ daraja: 2 })}
+                        style={{
+                          cursor: "pointer",
+                          // color: "#1105e6",
+                          fontSize: "20px",
+                        }}
+                      >
+                        2-daraja
+                      </li>
+                    </ul>
+                    {/* <Button
+                      variant="primary"
+                      style={{ marginRight: "10px" }}
+                      onClick={() => this.setState({ daraja: 1 })}
+                    >
+                      Rahbariyat
+                    </Button>
+                    <Button
+                      variant="primary"
+                      onClick={() => this.setState({ daraja: 2 })}
+                    >
+                      Xodimlar
+                    </Button> */}
+                  </div>
                 </Col>
               </Row>
             </Container>
@@ -289,19 +329,20 @@ export default class Rahbariyat extends Component {
           title="Rahbar haqida ma'lumotlar"
           // centered
           onCancel={() => this.closeModal()}
+          zIndex="6524"
+          centered
           footer={
             <Button variant="primary" onClick={() => this.closeModal()}>
               Yopish
             </Button>
           }
           visible={this.state.show}
-          style={{ zIndex: "9456", top: "150px", border: "#1150e6" }}
         >
           <Row>
             <Col lg={4}>
               <img src={this.state.image} alt="" style={{ width: "100%" }} />
             </Col>
-            <Col lg={8}>
+            <Col lg={8} className={styles.modalBody}>
               <p>
                 <b>Rahbar F.I.Sh. si:</b> {this.state.fullName}
               </p>
