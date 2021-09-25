@@ -7,11 +7,12 @@ import Footer from "./pages/Footer";
 
 import "./App.css";
 import Lavhalar from "./pages/Lavhalar";
-
+import Loader from "./pages/Loader";
 import Tumanlar from "./pages/Tumanlar";
 import Boglanish from "./pages/Boglanish";
 import Rahbariyat from "./pages/Rahbariyat";
 import Videos from "./pages/Videos";
+import { Height } from "@material-ui/icons";
 
 // import {Dashboard} from './pages/Dashboard'
 export default class componentName extends Component {
