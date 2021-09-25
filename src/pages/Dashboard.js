@@ -41,7 +41,7 @@ import pic16 from "../img/8f704c6e91e045c72378c71d940a59ce_XL.jpg";
 import pic17 from "../img/emvxsz12yg0ks0osw0kw8s4wk.jpg";
 import pic18 from "../img/Tashkent-City_name_statue.jpg";
 import pic19 from "../img/920__95_745261863.jpg";
-import pic20 from "../img/twitter 3.png";
+import pic20 from "../img/twitter 2.png";
 import "antd/dist/antd.css";
 import rahbar from "../img/rahbar.jpg";
 import style from "../css/Dashboard.module.css";
