@@ -107,54 +107,58 @@ export default class Rahbariyat extends Component {
           </div>
           <div className={styles.line}></div>
           <div className={styles.rahbariyatBody}>
-            <Container fluid="md">
+            <Container fluid>
               <Row>
                 <Col lg={9} sm={12}>
-                  {this.state.rahbariyat !== []
-                    ? this.state.rahbariyat.map((item, key) => {
-                        return item.daraja === this.state.daraja ? (
-                          <div className={styles.card}>
-                            <Row>
-                              <Col md={4} sm={5} xs={12}>
-                                <img src={item.image} alt="" />
-                              </Col>
-                              <Col md={8} sm={7} xs={12}>
-                                <div className={styles.cardBody}>
-                                  <h4>{item.lavozimi}</h4>
-                                  <h4>{item.fullName}</h4>
-                                  <h6>
-                                    <b>Qabul:</b> {item.qabul}
-                                  </h6>
-                                  <h6>
-                                    <b>Telefon:</b> {item.phone}
-                                  </h6>
-                                  <h6>
-                                    <b>Email:</b> {item.email}
-                                  </h6>
-                                  <div className={styles.cardBodyBtn}>
-                                    <Button
-                                      style={{
-                                        backgroundColor: "#1105e6",
-                                        borderRadius: "none",
-                                      }}
-                                      onClick={() => this.openModal(key)}
-                                      className={styles.btn}
-                                    >
-                                      Batafsil
-                                    </Button>
-                                  </div>
-                                </div>
-                              </Col>
-                            </Row>
-                          </div>
-                        ) : (
-                          ""
-                        );
-                      })
-                    : ""}
+                  <Row>
+                    {this.state.rahbariyat !== []
+                      ? this.state.rahbariyat.map((item, key) => {
+                          return item.daraja === this.state.daraja ? (
+                            <Col>
+                              <div className={styles.card}>
+                                <Row>
+                                  <Col xl={4} lg={5} md={5} sm={5} xs={12}>
+                                    <img src={item.image} alt="" />
+                                  </Col>
+                                  <Col xl={8} lg={7} md={7} sm={7} xs={12}>
+                                    <div className={styles.cardBody}>
+                                      <h4>{item.lavozimi}</h4>
+                                      <h4>{item.fullName}</h4>
+                                      <h6>
+                                        <b>Qabul:</b> {item.qabul}
+                                      </h6>
+                                      <h6>
+                                        <b>Telefon:</b> {item.phone}
+                                      </h6>
+                                      <h6>
+                                        <b>Email:</b> {item.email}
+                                      </h6>
+                                      <div className={styles.cardBodyBtn}>
+                                        <Button
+                                          style={{
+                                            backgroundColor: "#1105e6",
+                                            borderRadius: "none",
+                                          }}
+                                          onClick={() => this.openModal(key)}
+                                          className={styles.btn}
+                                        >
+                                          Batafsil
+                                        </Button>
+                                      </div>
+                                    </div>
+                                  </Col>
+                                </Row>
+                              </div>
+                            </Col>
+                          ) : (
+                            ""
+                          );
+                        })
+                      : ""}
+                  </Row>
                 </Col>
                 <Col lg={3} sm={12}>
-                  <div className={styles.card} style={{ padding: "15px" }}>
+                  <div className={styles.card1}>
                     <h4>Rahbariyat</h4>
                     <ul style={{ listStyle: "none" }}>
                       <li
@@ -331,7 +335,6 @@ export default class Rahbariyat extends Component {
           onCancel={() => this.closeModal()}
           zIndex="6524"
           centered
-          width="80%"
           footer={
             <Button variant="primary" onClick={() => this.closeModal()}>
               Yopish
@@ -340,25 +343,19 @@ export default class Rahbariyat extends Component {
           visible={this.state.show}
         >
           <Row>
-            <Col md={4}>
+            <Col md={4} style={{ minHeight: "320px" }}>
               <img src={this.state.image} alt="" style={{ width: "100%" }} />
             </Col>
-            <Col md={8} className={styles.modalBody}>
-              <p>
-                <b>Rahbar F.I.Sh. si:</b> {this.state.fullName}
+            <Col
+              md={8}
+              className={styles.modalBody}
+              style={{ minHeight: "320px" }}
+            >
+              <p style={{ textAlign: "center", marginBottom: "0" }}>
+                {this.state.lavozimi}
               </p>
-              <p>
-                <b>Rahbar lavozimi:</b> {this.state.lavozimi}
-              </p>
-              <p>
-                <b>Rahbar telefon raqami:</b> {this.state.phone}
-              </p>
-              <p>
-                <b>Rahbar elektron pochtasi:</b> {this.state.email}
-              </p>
-              <p>
-                <b>Rahbar haqida qo'shimcha ma'lumot:</b> {this.state.describe}
-              </p>
+              <p style={{ textAlign: "center" }}>{this.state.fullName}</p>
+              <p>Qo'shimcha ma'lumot: {this.state.describe}</p>
             </Col>
           </Row>
         </Modal>
