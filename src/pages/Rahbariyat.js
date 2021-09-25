@@ -144,7 +144,7 @@ export default class Rahbariyat extends Component {
                                           <h6>
                                             <b>Email:</b> {item.email}
                                           </h6>
-                                          <div className={styles.cardBodyBtn}>
+                                          {/* <div className={styles.cardBodyBtn}>
                                             <Button
                                               style={{
                                                 backgroundColor: "#1105e6",
@@ -157,7 +157,7 @@ export default class Rahbariyat extends Component {
                                             >
                                               Batafsil
                                             </Button>
-                                          </div>
+                                          </div> */}
                                         </div>
                                       </Col>
                                     </Row>
@@ -342,7 +342,7 @@ export default class Rahbariyat extends Component {
             </div> */}
               </div>
             </div>
-            <Modal
+            {/* <Modal
               title="Rahbar haqida ma'lumotlar"
               // centered
               onCancel={() => this.closeModal()}
@@ -375,7 +375,7 @@ export default class Rahbariyat extends Component {
                   <p>Qo'shimcha ma'lumot: {this.state.describe}</p>
                 </Col>
               </Row>
-            </Modal>
+            </Modal> */}
             <Footer />
           </div>
         )}
