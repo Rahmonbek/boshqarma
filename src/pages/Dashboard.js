@@ -64,12 +64,19 @@ import {
 } from "react-yandex-maps";
 import Footer from "./Footer";
 import Tumanlar from "./Tumanlar";
+import Loader from "./Loader";
+
 
 export default class Dashboard extends Component {
+state={timePassed:false}
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ timePassed: true });
+    }, 5000);
+  }
   render() {
     const responsive = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 1,
       },
@@ -98,7 +105,7 @@ export default class Dashboard extends Component {
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2,
+        items: 1,
       },
       mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -145,6 +152,10 @@ export default class Dashboard extends Component {
     };
     return (
       <div>
+      {this.state.timePassed == false ? (
+        <Loader />
+      ) : (
+      <div>
         <Carousel
           infinite={true}
           autoPlay={true}
@@ -176,6 +187,10 @@ export default class Dashboard extends Component {
                     <img src={gerb} />
                   </div>
                   <div class={style.brand_text}>
+                  <p className={style.lrt}>
+                    O'zbekiston Respublikasi <br /> Jizzax viloyati <br /> xalq
+                    ta'limi boshqarmasi{" "}
+                  </p>
                     <p>
                       O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
                       ta'limi boshqarmasi{" "}
@@ -1737,6 +1752,8 @@ export default class Dashboard extends Component {
         </div>
         <Footer />
       </div>
+       )}
+       </div>
     );
   }
 }

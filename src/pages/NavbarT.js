@@ -22,6 +22,10 @@ export default class NavbarT extends Component {
                   <img src={gerb} />
                 </div>
                 <div class={style.brand_text}>
+                {/* <p className={style.lrt}>
+                    O'zbekiston Respublikasi <br /> Jizzax viloyati <br /> xalq
+                    ta'limi boshqarmasi{" "}
+                  </p> */}
                   <p>
                     O'zbekiston Respublikasi Jizzax viloyati <br /> xalq ta'limi
                     boshqarmasi{" "}
@@ -37,7 +41,7 @@ export default class NavbarT extends Component {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link style={{ textAlign: "center" }}>
+                <Nav.Link className={style.birinchi} style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
                     style={{ textDecoration: "none" }}

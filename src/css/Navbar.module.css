@@ -7,6 +7,7 @@
   padding: 10px 50px;
   background-color: #1105e6;
 }
+.lrt{display:none !important;}
 .brand_img img {
   width: 70px;
   height: 70px;
@@ -170,10 +171,9 @@
     top: 20px;
   }
 
-  .lrt {
-    display: inline-block !important;
-  }
-  .rahbar div {
+  .brand_text p{width:100px !important; display: none;}
+  .lrt{display: inline-block !important;} 
+   .rahbar div {
     padding: 20px !important;
   }
   .rahbar h2 {
@@ -207,6 +207,7 @@
     width: 30px;
     height: 30px;
   }
+
   .ahref i {
     font-size: 18px;
   }
@@ -218,6 +219,7 @@
   .colimg img {
     transform: scale(1.6, 1.6);
   }
+  .navG p{font-size: 14px;}
   .stas {
     display: flex;
     align-items: center;
@@ -264,14 +266,13 @@
   .navG img {
     margin-left: 100px;
   }
+  .lrt{display: none !important;}
   .navT img {
     margin-left: -120px;
   }
-  .birinchi {
-    margin-left: 100px !important;
-  }
+  
   .navG .birinchi {
-    margin-left: 700px !important;
+    margin-left: 600px !important;
   }
   .brand_img img {
     width: 100px;

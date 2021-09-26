@@ -24,16 +24,18 @@ export default class Boglanish extends Component {
           <div>
             <NavbarT />
 
-            <h1
+            <h2
               style={{
                 margin: "auto",
+                fontWeight:'bold',
                 textAlign: "center",
                 marginTop: "160px",
+                width:'100%',
                 marginBottom: "50px",
               }}
             >
               Bizning Manzilimiz
-            </h1>
+            </h2>
 
             <YMaps>
               <div>

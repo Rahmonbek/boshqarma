@@ -125,7 +125,7 @@ export default class Rahbariyat extends Component {
                         {this.state.rahbariyat !== []
                           ? this.state.rahbariyat.map((item, key) => {
                               return item.daraja === this.state.daraja ? (
-                                <Col>
+                                <Col lg={6} md={6} sm={12}>
                                   <div className={styles.card}>
                                     <Row>
                                       <Col xl={4} lg={5} md={5} sm={5} xs={12}>
@@ -182,7 +182,7 @@ export default class Rahbariyat extends Component {
                               fontSize: "20px",
                             }}
                           >
-                            1-daraja
+                        Rahbariyat a'zolari
                           </li>
                           <li
                             onClick={() => this.setState({ daraja: 2 })}
@@ -192,7 +192,7 @@ export default class Rahbariyat extends Component {
                               fontSize: "20px",
                             }}
                           >
-                            2-daraja
+                            Xodimlar
                           </li>
                         </ul>
                         {/* <Button
