@@ -44,38 +44,3 @@ a {
   height: 6px;
   background-color: blue;
 }
-
-@media (min-width: 991px) and (max-width: 1920px) {
-  .me-auto {
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    margin: auto;
-    margin-right: 24px;
-  }
-}
-
-@media (min-width: 401px) and (max-width: 700px) {
-  .me-auto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .chiziq {
-    display: flex;
-    align-items: center !important;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 400px) {
-  .me-auto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-}

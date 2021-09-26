@@ -36,7 +36,7 @@ export default class NavbarT extends Component {
               <TiThMenu style={{ fontSize: "25px" }} />
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="me-auto" className={style.meauto}>
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
