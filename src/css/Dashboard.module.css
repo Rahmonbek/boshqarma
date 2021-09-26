@@ -1,866 +1,241 @@
-.image {
-  height: 100vh;
-  width: 100%;
-}
-.car_item {
-  width: 100%;
-  position: relative;
-}
-.car_item::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.433);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.navT {
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  width: 100%;
-  padding: 0px 30px;
-}
-.brand_img,
-.brand_text {
-  display: inline-block;
-}
-.navG {
-  position: sticky;
-  top: 0px;
-  left: 0px;
-  z-index: 4567;
-  margin-top: -500px;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: #1105e6;
-}
 
-.brand_img img {
-  width: 70px;
-  height: 70px;
-}
-.brand_text {
-  width: 90px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.brand_text p {
-  font-size: 16px;
-  width: 90px;
-  height: 50px;
-  display: flex;
-  position: relative;
-  top: 18px;
-  left: 15px;
-  align-items: center;
-}
-.navB {
-  width: 200px;
-  display: flex;
-}
-.birinchi {
-  margin-left: 20%;
-}
-.navG .birinchi {
-  margin-left: 30%;
-}
-.navlik {
-  color: white;
-}
-.navlik:hover {
-  color: rgb(255, 247, 0);
-}
-.text {
-  position: absolute;
-  top: 230px;
-  width: 100%;
-}
-.rahbar div {
-  width: 80%;
-  margin-left: 10%;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  position: relative;
-  padding: 40px 40px 60px 40px;
-  background-color: white;
-}
-.rahbar {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-image: url(../img/formnaqsh.jpg);
-  background-size: 200px 180px;
-  background-attachment: fixed;
-  margin-top: 360px;
-}
-.rahbar p {
-  text-align: center;
-}
-.colimg {
-  width: 400px;
-  position: relative;
-  left: -30px;
-}
+.image{height:100vh; width:100%;}
+.car_item{width:100%; position:relative;}
+.car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
+.navT{position:absolute; top:50px; left:0px; width:100%; padding:0px 30px;}
+.brand_img,.brand_text{display:inline-block}
+.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 20px; background-color:#1105e6}
+
+.brand_img img{width:70px; height:70px}
+.brand_text{width:90px; height:50px; display: flex; align-items:center;}
+.brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
+.navB{width:200px; display: flex;}
+.birinchi{margin-left:20%;}
+.navG .birinchi{margin-left: 30%;}
+.navlik{color:white}
+.navlik:hover{color:rgb(255, 247, 0)}
+.text{position: absolute; top:230px; width:100%;}
+.rahbar div{width:80%; margin-left:10%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position:relative;
+    padding:40px 40px 60px 40px;
+    background-color:white;
+ 
+        
+  }
+     .rahbar{
+        padding-top:100px;
+        padding-bottom:100px;
+        background-image: url(../img/formnaqsh.jpg);
+        background-size: 200px 180px;
+        background-attachment: fixed;
+         margin-top: 360px; 
+     }
+     .rahbar p{text-align: center;}
+.colimg{width:400px; position:relative; left:-30px;}
 /* .colimg::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; } */
-.colimg img {
-  width: 100%;
+.colimg img{width:100%;  }
+.text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
+.iconsHead{
+    width: 100% ;
+    display:flex ;
+    justify-content: space-around ;
+margin-top: 60px ;
+position: absolute ;
+bottom:-20px ; 
 }
-.text h1 {
-  font-size: 45px;
-  color: white;
-  text-shadow: 1px 1px 6px black;
-  text-transform: uppercase;
-  width: 50%;
-  margin: auto;
-  line-height: 1.5;
-  text-align: center;
+.ahref{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-size:30px ;
+    width:55px ; 
+    height:55px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid blue ;
+margin-top: 30px;
+    color:white ;
+    background:blue ;
 }
-.iconsHead {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 60px;
-  position: absolute;
-  bottom: -20px;
-}
-.ahref {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  font-size: 30px;
-  width: 55px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 1px solid blue;
-  margin-top: 30px;
-  color: white;
-  background: blue;
-}
-.hov a {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 18px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 1px solid blue;
-  margin-top: 10px;
-  color: white;
-  background: blue;
+.hov a{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size:18px ;
+    width:30px ; 
+    height:30px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid blue ;
+margin-top: 10px;
+    color:white ;
+    background:blue ;
 }
 
-.fio {
-  font-size: 23px;
-  margin-top: 20px;
+.fio{
+    font-size:23px;
+    margin-top: 20px;
 }
-.qabul,
-.icon {
-  font-size: 18px;
-  margin-top: 20px;
+.qabul, .icon{
+    font-size:18px;
+    margin-top:20px;
 }
-.icon img {
-  width: 40px;
-  height: 40px;
+.icon img{width:40px; height:40px; }
+.icon {height:40px; display: flex; justify-content:center; align-items:center;padding-top:60px !important;}
+.ahref:hover{
+    color:blue;
+    background-color: white;
+    border-color:transparent;
 }
-.icon {
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 60px !important;
-}
-.ahref:hover {
-  color: blue;
-  background-color: white;
-  border-color: transparent;
-}
-.hov a:hover {
-  color: blue;
-  background-color: white;
-  border-color: transparent;
+.hov a:hover{
+    color:blue;
+    background-color: white;
+    border-color:transparent;
 }
 
-.stas {
-  width: 100%;
-  padding: 130px 0px;
-  background-image: url("https://www.webturizm.ru/storage/photos/uzbekistan/uzbekistan-tashkent-23467.jpg");
+.stas{
+    
+    width:100%;
+    padding:130px 0px;
+    background-image: url('https://www.webturizm.ru/storage/photos/uzbekistan/uzbekistan-tashkent-23467.jpg');
   position: relative;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-}
-.stas_item i {
-  color: gold !important;
-  font-size: 45px;
-}
-.stas_item {
-  flex: 20%;
-  z-index: 2324;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.stas_item p {
-  text-align: center;
-  color: white;
-}
-.stas_black {
-  background-color: rgba(0, 0, 0, 0.474);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-}
-.tit {
-  font-size: 18px;
-}
-.num {
-  font-size: 28px;
-  color: gold !important;
-  font-weight: bold;
-}
-.news {
-  margin-top: -20px;
-}
-.news_item {
-  padding: 20px;
-  position: relative;
-}
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
 
-.vaqt {
-  font-size: 13px;
-  color: rgb(172, 170, 170);
 }
-.vaqt i {
-  color: rgb(172, 170, 170);
+.stas_item i{
+    color:gold !important;
+    font-size:45px;
 }
-.bar {
-  color: rgb(0, 8, 255);
-  margin-top: 30px;
-  font-size: 25px;
-  margin-left: 80px;
+.stas_item{
+    flex:20%;
+    z-index: 2324;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
-.bar:hover {
-  color: red;
+.stas_item p{text-align: center; color:white;}
+.stas_black{
+    background-color: rgba(0, 0, 0, 0.474);
+    width:100%; 
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 0;
 }
-.elem {
-  margin-top: 40px;
-  height: 180px;
-  padding-left: 5%;
-  display: flex;
-  align-items: center;
-  border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
-}
-.lrt {
-  display: none !important;
-}
-.elem img {
-  width: 30px;
-}
-.elem h2 {
-  color: blue;
-  font-size: 23px;
-}
-.colT {
-  display: flex;
-  color: black;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 30px;
-}
-.colT:hover {
-  color: blue;
-}
-.colT p {
-  margin-left: 10px;
-  margin-top: 13px;
-  font-size: 15px;
-}
-.gal {
-  padding: 60px 30px;
-}
-.gal img {
-  width: 100%;
-  height: 200px;
-  border-radius: 30px 0px;
-  transition: 1s;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.gal img:hover {
-  transform: scale(1.4, 1.4);
-  border-radius: 0px 0px;
-}
-.pp {
-  font-size: 20px;
-  color: rgb(140, 139, 139);
-  margin-top: 20px;
-}
+.tit{font-size: 18px;}
+.num{font-size: 28px; color:gold !important; font-weight: bold;}
+.news{margin-top:-20px;}
+.news_item{padding:20px; position: relative;}
+
+.vaqt{font-size: 13px; color:rgb(172, 170, 170);}
+.vaqt i{ color:rgb(172, 170, 170);}
+.bar{color:rgb(0, 8, 255); margin-top:30px; font-size:25px; margin-left:80px;}
+.bar:hover{color:red;}
+.elem{margin-top:40px; height:180px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid blue;
+     border-bottom: 2px solid blue;}
+     .lrt{display: none !important;}
+.elem img{width:30px;}
+.elem h2{color:blue; font-size:23px}
+.colT{display: flex;color:black; align-items: center; justify-content: center; width:100%; height:30px;}
+.colT:hover{color:blue;}
+.colT p{margin-left:10px; margin-top:13px; font-size: 15px;}
+.gal{padding:60px 30px;}
+.gal img{width:100%; height:200px; border-radius: 30px 0px; transition:1s;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.gal img:hover{transform:scale(1.4, 1.4); border-radius: 0px 0px; }
+.pp{font-size:20px; color:rgb(140, 139, 139); margin-top:20px;}
 .sliderHomiy {
-  width: 100%;
-  border-top: 2px solid blue;
-  padding-top: 50px;
-  border-bottom: 2px solid blue;
-  padding-bottom: 50px;
-  height: max-content;
-  text-align: center;
-}
-
-.toolpat {
-  border-radius: 10%;
-  padding: 10px;
-  width: 100px;
-  height: 100px;
-  box-sizing: border-box;
-  margin: auto;
-  border: 1px solid lightgray;
-}
-.sliderHomiy p {
-  color: rgb(139, 139, 140);
-  font-size: 13px;
-  margin-top: 20px;
-  width: 80%;
-  margin-left: 10%;
-}
-.sliderHomiy img {
-  margin-bottom: 40px;
-  border-radius: 50%;
-  width: 100%;
-  height: auto;
-}
-.yil {
-  width: 100%;
-  margin-top: 30px;
-}
-.hov {
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  top: 0px;
-  left: 0px;
-  padding: 15px 30px;
-  opacity: 0;
-  transition: 0.5s;
-}
-.hov:hover {
-  opacity: 1;
-}
-.hov_item {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.tel {
-  position: absolute;
-  bottom: 30%;
-  left: 25%;
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-.hov_btn {
-  background-color: blue;
-  color: white;
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 20px;
-  border: 1px solid rgb(38, 38, 240);
-}
-.hov_btn:hover {
-  background-color: white;
-  color: blue;
-}
-.lrt {
-  display: none;
-}
-.ptr {
-  text-align: center;
-  width: 100%;
-}
-.tel a {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 23px;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 1px solid rgb(26, 179, 6);
-  margin-top: 10px;
-  color: white;
-  background: rgb(26, 179, 6);
-}
-.tel a:hover {
-  color: rgb(26, 179, 6);
-  background-color: white;
-  border-color: transparent;
-}
-@media (min-width: 701px) and (max-width: 1000px) {
-  .image {
-    height: 520px;
-  }
-}
-
-@media (min-width: 451px) and (max-width: 700px) {
-  .birinchi {
-    margin-left: 0px !important;
-  }
-  .image {
-    height: 450px;
-  }
-  .text h1 {
-    font-size: 27px;
-  }
-  .text {
-    top: 200px;
-  }
-  .navT {
-    top: 20px;
-  }
-  .rahbar h2 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .fio {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .qabul {
-    font-size: 15px;
-  }
-  .ahref {
-    margin-left: -20px !important;
-  }
-  .colimg {
-    transform: scale(1.3, 1.3);
-    left: -13px;
-    padding: 0px;
-  }
-  .colimg img {
-    transform: scale(1.6, 1.6);
-  }
-  .stas {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .stas_item {
-    flex: 50% !important;
-    margin-top: 20px;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    height: 340px;
-  }
-  .htr {
-    margin-top: 20px;
-  }
-  .hov {
-    opacity: 1;
-  }
-  .hov a {
-    margin-top: 35px;
-    margin-left: 35px !important;
-  }
-  .tel {
-    bottom: 40px;
-  }
-  .jtr {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 450px) {
-  /* body{width:100%; overflow-x: hidden;} */
-  .birinchi {
-    margin-left: 0px !important;
-  }
-  .brand_text {
-    width: 200px;
-  }
-  .text {
-    top: 120px;
-  }
-
-  .brand_text p {
-    font-size: 12px;
-  }
-  .image {
-    height: 300px !important;
-  }
-  .text h1 {
-    font-size: 22px;
-  }
-
-  .navT {
-    top: 20px;
-  }
-  .navG img {
-    margin-top: 10px;
-  }
-  .navG .brand_text p {
-    width: 100px !important;
-    display: none;
-  }
-  .lrt {
-    display: inline-block !important;
-  }
-  .rahbar div {
-    padding: 20px !important;
-  }
-  .rahbar h2 {
-    font-size: 15px;
-    margin-top: -20px;
-    text-align: center;
     width: 100%;
-    margin-left: 0px;
+    border-top:2px solid blue;
+    padding-top:50px;
+    border-bottom:2px solid blue;
+    padding-bottom:50px;
+    height: max-content;
+    text-align: center;
   }
-  .fio {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .qabul {
-    font-size: 14px;
-  }
-  .icon a {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .icon img {
-    width: 30px;
-    margin-left: -10px;
-    height: 30px;
-  }
-  .ahref {
-    margin-left: -20px !important;
-    position: relative;
-    left: 10px;
-    top: -10px;
-    width: 30px;
-    height: 30px;
-  }
-  .ahref i {
-    font-size: 18px;
-  }
-  .colimg {
-    transform: scale(1.3, 1.3);
-    left: -13px;
-    padding: 0px;
-  }
-  .colimg img {
-    transform: scale(1.6, 1.6);
-  }
-  .stas {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .stas_item {
-    flex: 50% !important;
-    margin-top: 20px;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    height: 340px;
-  }
-  .htr {
-    margin-top: 20px;
-  }
-  .hov {
-    opacity: 1;
-  }
-  .hov a {
-    margin-top: 18px;
-    margin-left: 35px !important;
-  }
-  .tel {
-    bottom: 65px;
-  }
-  .bar {
-    font-size: 20px;
-  }
-  .jtr {
-    margin-top: 40px;
-  }
-  .str {
-    margin-left: 40px;
-  }
-}
-@media (min-width: 1500px) {
-  .navlik {
-    font-size: 23px;
-  }
-  .navG img {
-    margin-left: 100px;
-  }
-  .navT img {
-    margin-left: -120px;
-  }
-  .birinchi {
-    margin-left: 400px !important;
-  }
-  .navG .birinchi {
-    margin-left: 700px !important;
-  }
-  .brand_img img {
+  
+  .toolpat {
+    border-radius: 10%;
+    padding: 10px;
     width: 100px;
     height: 100px;
-  }
-  .brand_text p {
-    font-size: 23px;
-    margin-top: 30px;
-  }
-  .text {
-    top: 450px;
-  }
-  .rahbar h2 {
-    font-size: 30px;
-  }
-
-  .fio {
-    font-size: 25px;
-  }
-  .qabul {
-    font-size: 22px;
-  }
-  .icon img {
-    width: 60px;
-    height: 60px;
-  }
-  .icon a {
-    font-size: 20px;
-  }
-  .stas {
-    background-size: 100% 100%;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    width: 100%;
-    justify-content: center;
-  }
-  .colT {
-    font-size: 30px;
-  }
-  .colT p {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .colT img {
-    width: 40px;
-  }
-  .ptr {
-    font-size: 23px !important;
-  }
-  .hov_btn {
-    font-size: 22px !important;
-  }
-  .tel {
-    bottom: 80px;
-  }
-  .hov a {
-    margin-top: 30px;
-  }
-}
-.navG {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 4567;
-  width: 100%;
-  padding: 10px 50px;
-  background-color: #1105e6;
-}
-.brand_img img {
-  width: 70px;
-  height: 70px;
-}
-.brand_text {
-  width: 90px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.brand_text p {
-  font-size: 16px;
-  width: 90px;
-  height: 50px;
-  display: flex;
-  position: relative;
-  top: 18px;
-  left: 15px;
-  align-items: center;
-}
-.navB {
-  width: 200px;
-  display: flex;
-}
-.birinchi {
-  margin-left: 20%;
-}
-.navG .birinchi {
-  margin-left: 30%;
-}
-.navlik {
-  color: white;
-}
-.navlik:hover {
-  color: rgb(255, 247, 0);
-}
-
-@media (max-width: 558px) {
-  .brand_img img {
-    width: 50px;
-    height: 50px;
-    margin-left: -10px;
-  }
-  .brand_text p {
-    width: 90px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    font-size: 8px;
-    top: 0px;
-    left: 10px;
-  }
-  .navB {
-    width: 120px;
-    display: flex;
-    position: relative;
-    left: -40px;
-  }
-}
-@media (min-width: 701px) and (max-width: 1000px) {
-  .image {
-    height: 520px;
-  }
-  .navlik {
+    box-sizing: border-box;
     margin: auto;
-    text-align: left;
+    border: 1px solid lightgray;
   }
-}
-
-@media (min-width: 451px) and (max-width: 700px) {
-  .birinchi {
-    margin-left: 0px !important;
-  }
-  .image {
-    height: 450px;
-  }
-  .text h1 {
-    font-size: 27px;
-  }
-  .text {
-    top: 200px;
-  }
-  .navT {
-    top: 20px;
-  }
-  .rahbar h2 {
-    font-size: 20px;
+  .sliderHomiy p {
+    color: rgb(139, 139, 140);
+    font-size: 13px;
     margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
   }
-  .fio {
-    font-size: 18px;
+  .sliderHomiy img {
+    margin-bottom: 40px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+  .yil {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .hov{position: absolute; width:100%; height:80%; top:0px; left:0px; padding: 15px 30px; opacity:0; transition: 0.5s;}
+  .hov:hover{opacity: 1;}
+ .hov_item{display: flex; justify-content:space-between; flex-direction: column;}
+.tel{position: absolute; bottom:30%; left:25%; display: flex; justify-content: center; width:50%;}
+.hov_btn{
+    background-color:blue;
+    color:white; display: block;
+    padding:10px;
+    text-align: center;
     font-weight: bold;
-  }
-  .qabul {
-    font-size: 15px;
-  }
-  .ahref {
-    margin-left: -20px !important;
-  }
-  .colimg {
-    transform: scale(1.3, 1.3);
-    left: -13px;
-    padding: 0px;
-  }
-  .colimg img {
-    transform: scale(1.6, 1.6);
-  }
-  .stas {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .stas_item {
-    flex: 50% !important;
-    margin-top: 20px;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    height: 340px;
-  }
-  .htr {
-    margin-top: 20px;
-  }
-  .hov {
-    opacity: 1;
-  }
-  .hov a {
-    margin-top: 35px;
-    margin-left: 35px !important;
-  }
-  .tel {
-    bottom: 40px;
-  }
-  .jtr {
-    margin-top: 40px;
-  }
+    font-size:15px;
+    border-radius: 20px;
+border:1px solid rgb(38, 38, 240);
+}
+.hov_btn:hover{background-color: white; color:blue;}
+.lrt{display:none}
+.ptr{text-align:center; width:100%;}
+.tel a{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size:23px ;
+    width:45px ; 
+    height:45px ;
+    display:flex ;
+    align-items: center ;
+    justify-content: center ;
+    border-radius: 50% ;
+    border:1px solid rgb(26, 179, 6) ;
+margin-top: 10px;
+    color:white ;
+    background:rgb(26, 179, 6);
+}
+.tel a:hover{
+    color:rgb(26, 179, 6);
+    background-color: white;
+    border-color:transparent;
+}
+ @media (min-width:701px) and (max-width:1000px){
+    .image{height:520px}
+
 }
 
-@media (max-width: 450px) {
-  /* body{width:100%; overflow-x: hidden;} */
-  .birinchi {
-    margin-left: 0px !important;
-  }
-  .brand_text {
-    width: 60%;
-  }
-  .text {
-    top: 120px;
-  }
-
-.brand_text p{font-size:14px}
-    .image{height:300px !important}
-    .text h1{font-size: 22px;}
-    
+@media (min-width:451px) and (max-width:700px){
+ .birinchi{margin-left: 0px !important;}
+    .image{height:450px}
+    .text h1{font-size: 27px;}
+    .text{top:200px}
     .navT{top:20px}
-    .navG img{margin-top:10px}
-    .brand_text p{width:100px !important; display: none;}
-    .lrt{display: inline-block !important;}
-    .rahbar div{padding:20px !important;}
-    .rahbar h2{font-size: 15px; margin-top:-20px; text-align: center; width:100%; margin-left: 0px;}
-    .fio{font-size: 16px; font-weight: bold;}
-    .qabul{font-size: 14px;}
-    .icon a{font-size: 13px; margin-left:20px;}
-    .icon img{width:30px; margin-left:-10px; height:30px} 
-    .ahref{margin-left: -20px !important; position: relative; left:10px; top:-10px; width:30px; height:30px;}
-    .ahref i{font-size: 18px;}
+    .rahbar h2{font-size: 20px; margin-top:20px}
+    .fio{font-size: 18px; font-weight: bold;}
+    .qabul{font-size: 15px;}
+    .ahref{margin-left: -20px !important;}
     .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
     .colimg img{transform:scale(1.6, 1.6);}
     .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
@@ -869,181 +244,28 @@
 .elem{height: 340px;}
 .htr{margin-top: 20px;}
 .hov{opacity: 1;}
-.hov a{margin-top: 18px; margin-left:35px !important;}
-.tel{bottom:65px}
-.bar{font-size: 20px;}
+.hov a{margin-top: 35px; margin-left:35px !important;}
+.tel{bottom:40px}
 .jtr{margin-top:40px}
-.str{margin-left: 40px;}
 
-  .lrt {
-    display: inline-block !important;
-  }
-  .rahbar div {
-    padding: 20px !important;
-  }
-  .rahbar h2 {
-    font-size: 15px;
-    margin-top: -20px;
-    text-align: center;
-    width: 100%;
-    margin-left: 0px;
-  }
-  .fio {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .qabul {
-    font-size: 14px;
-  }
-  .icon a {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .icon img {
-    width: 30px;
-    margin-left: -10px;
-    height: 30px;
-  }
-  .ahref {
-    margin-left: -20px !important;
-    position: relative;
-    left: 10px;
-    top: -10px;
-    width: 30px;
-    height: 30px;
-  }
-  .ahref i {
-    font-size: 18px;
-  }
-  .colimg {
-    transform: scale(1.3, 1.3);
-    left: -13px;
-    padding: 0px;
-  }
-  .colimg img {
-    transform: scale(1.6, 1.6);
-  }
-  .stas {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .stas_item {
-    flex: 50% !important;
-    margin-top: 20px;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    height: 340px;
-  }
-  .htr {
-    margin-top: 20px;
-  }
-  .hov {
-    opacity: 1;
-  }
-  .hov a {
-    margin-top: 18px;
-    margin-left: 35px !important;
-  }
-  .tel {
-    bottom: 65px;
-  }
-  .bar {
-    font-size: 20px;
-  }
-  .jtr {
-    margin-top: 40px;
-  }
-  .str {
-    margin-left: 40px;
-  }
-}
-@media (min-width: 1500px) {
-  .navlik {
-    font-size: 20px;
-  }
-  .navG img {
-    margin-left: 100px;
-  }
-  .navT img {
-    margin-left: -120px;
-  }
-  .birinchi {
-    margin-left: 100px !important;
-  }
-  .navG .birinchi {
-    margin-left: 700px !important;
-  }
-  .brand_img img {
-    width: 100px;
-    height: 100px;
-  }
-  .brand_text p {
-    font-size: 23px;
-    margin-top: 30px;
-  }
-  .text {
-    top: 450px;
-  }
-  .rahbar h2 {
-    font-size: 30px;
-  }
 
-  .fio {
-    font-size: 25px;
-  }
-  .qabul {
-    font-size: 22px;
-  }
-  .icon img {
-    width: 60px;
-    height: 60px;
-  }
-  .icon a {
-    font-size: 20px;
-  }
-  .stas {
-    background-size: 100% 100%;
-  }
-  .gtr {
-    padding-top: 40px;
-  }
-  .elem {
-    width: 100%;
-    justify-content: center;
-  }
-  .colT {
-    font-size: 30px;
-  }
-  .colT p {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .colT img {
-    width: 40px;
-  }
-  .ptr {
-    font-size: 23px !important;
-  }
-  .hov_btn {
-    font-size: 22px !important;
-  }
-  .tel {
-    bottom: 80px;
-  }
-  .hov a {
-    margin-top: 30px;
-  }
 }
-@media (min-width: 991px) and (max-width: 1500px) {
-  .image {
-    height: 520px;
-  }
-  .navlik {
-    padding-left: 30px;
-  }
+
+@media (max-width:450px){
+    /* body{width:100%; overflow-x: hidden;} */
+.birinchi{margin-left: 0px !important;}
+.brand_text{width:60%;}
+.text{top:120px;}
+
+.brand_text p{font-size:14px}
+    .image{height:300px !important}
+    .text h1{font-size: 22px;}
+    
+    .navT{top:20px}
+    .navG img{margin-top:10px}
+    .navG .brand_text p{width:100px !important; display: none;}
+    .brand_text p{width:100px !important; display: none;}
+    .lrt{display: inline-block !important;}
+    .rahbar div{padding:20px !important;}
+    .rahbar h2{font-size: 15px; margin-top:-20px; text-align: center; width:100%; margin-left: 0px;}
 }
