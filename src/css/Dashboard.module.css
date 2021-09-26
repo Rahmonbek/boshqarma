@@ -12,7 +12,7 @@
 .navB{width:200px; display: flex;}
 .birinchi{margin-left:20%;}
 .navG .birinchi{margin-left: 30%;}
-.navlik{color:white;margin-right: 15px; }
+.navlik{color:white;margin-right: 25px; font-size:16px;}
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
 .rahbar div{width:80%; margin-left:10%;
@@ -100,6 +100,7 @@ margin-top: 10px;
     padding:130px 0px;
     background-image: url('https://www.webturizm.ru/storage/photos/uzbekistan/uzbekistan-tashkent-23467.jpg');
   position: relative;
+  background-size:100%;
     background-repeat:no-repeat;
     background-attachment: fixed;
     display: flex;

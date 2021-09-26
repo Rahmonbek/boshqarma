@@ -65,6 +65,7 @@ import {
 import Footer from "./Footer";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
+import AOS from 'aos';
 
 export default class Dashboard extends Component {
   state = { timePassed: false };
@@ -72,6 +73,8 @@ export default class Dashboard extends Component {
     setTimeout(() => {
       this.setState({ timePassed: true });
     }, 5000);
+    
+  AOS.init();
   }
   render() {
     const responsive = {
@@ -257,7 +260,8 @@ export default class Dashboard extends Component {
             </div>
             <div
               className={style.navG}
-             
+          data-aos={"fade-down"}
+           data-aos-anchor-placement={"top-top"}
             >
               <Navbar style={{ position: "relative" }} expand="lg">
                 <Navbar.Brand>
