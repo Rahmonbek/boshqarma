@@ -12,7 +12,7 @@
 .navB{width:200px; display: flex;}
 .birinchi{margin-left:20%;}
 .navG .birinchi{margin-left: 30%;}
-.navlik{color:white}
+.navlik{color:white;margin-right: 15px; }
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
 .rahbar div{width:80%; margin-left:10%;
@@ -221,12 +221,31 @@ margin-top: 10px;
     background-color: white;
     border-color:transparent;
 }
- @media (min-width:701px) and (max-width:1000px){
-    .image{height:520px}
+ @media (min-width:991px) and (max-width:1000px){
+    .image{height:400px}
+
 
 }
 
-@media (min-width:451px) and (max-width:700px){
+#nav{
+    font-size: 20px;
+margin: auto;
+width: 100vw;
+margin-right: 24px;
+border-radius: 1px solid red;
+}
+@media (max-width:991px){
+    
+    #nav{
+        margin: auto;
+    text-align: center;
+        }
+
+}
+
+
+
+@media (min-width:451px) and (max-width:991px){
  .birinchi{margin-left: 0px !important;}
     .image{height:450px}
     .text h1{font-size: 27px;}
@@ -260,7 +279,6 @@ margin-top: 10px;
 .brand_text p{font-size:14px}
     .image{height:300px !important}
     .text h1{font-size: 22px;}
-    
     .navT{top:20px}
     .navG img{margin-top:10px}
     .navG .brand_text p{width:100px !important; display: none;}

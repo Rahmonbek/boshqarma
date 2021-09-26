@@ -66,9 +66,8 @@ import Footer from "./Footer";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
 
-
 export default class Dashboard extends Component {
-state={timePassed:false}
+  state = { timePassed: false };
   componentDidMount() {
     setTimeout(() => {
       this.setState({ timePassed: true });
@@ -152,59 +151,59 @@ state={timePassed:false}
     };
     return (
       <div>
-      {this.state.timePassed == false ? (
-        <Loader />
-      ) : (
-      <div>
-        <Carousel
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          responsive={responsive}
-        >
-          {/* <div className={style.car_item}><img src="https://www.uzedu.uz/uploads/2020/03/photo2020-03-1221-39-35-760x500.jpg" className={style.image}/></div> */}
-          <div className={style.car_item}>
-            <img src={pic1} className={style.image} />
-          </div>
-          <div className={style.car_item}>
-            <img src={pic2} className={style.image} />
-          </div>
-          <div className={style.car_item}>
-            <img src={pic3} className={style.image} />
-          </div>
-        </Carousel>
-        <div className={style.navT}>
-          <Navbar style={{ position: "relative" }} expand="lg">
-            <Container>
-              <Navbar.Brand>
-                <NavLink
-                  className={style.navB}
-                  style={{ color: "white", textDecoration: "none" }}
-                  to="/"
-                >
-                  {" "}
-                  <div class={style.brand_img}>
-                    <img src={gerb} />
-                  </div>
-                  <div class={style.brand_text}>
-                  <p className={style.lrt}>
-                    O'zbekiston Respublikasi <br /> Jizzax viloyati <br /> xalq
-                    ta'limi boshqarmasi{" "}
-                  </p>
-                    <p>
-                      O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
-                      ta'limi boshqarmasi{" "}
-                    </p>
-                  </div>
-                </NavLink>
-              </Navbar.Brand>
-              {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
-            
+        {this.state.timePassed == false ? (
+          <Loader />
+        ) : (
+          <div>
+            <Carousel
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={3000}
+              responsive={responsive}
+            >
+              {/* <div className={style.car_item}><img src="https://www.uzedu.uz/uploads/2020/03/photo2020-03-1221-39-35-760x500.jpg" className={style.image}/></div> */}
+              <div className={style.car_item}>
+                <img src={pic1} className={style.image} />
+              </div>
+              <div className={style.car_item}>
+                <img src={pic2} className={style.image} />
+              </div>
+              <div className={style.car_item}>
+                <img src={pic3} className={style.image} />
+              </div>
+            </Carousel>
+            <div className={style.navT}>
+              <Navbar style={{ position: "relative" }} expand="lg">
+                <Container>
+                  <Navbar.Brand>
+                    <NavLink
+                      className={style.navB}
+                      style={{ color: "white", textDecoration: "none" }}
+                      to="/"
+                    >
+                      {" "}
+                      <div class={style.brand_img}>
+                        <img src={gerb} />
+                      </div>
+                      <div class={style.brand_text}>
+                        <p className={style.lrt}>
+                          O'zbekiston Respublikasi <br /> Jizzax viloyati <br />{" "}
+                          xalq ta'limi boshqarmasi{" "}
+                        </p>
+                        <p>
+                          O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
+                          ta'limi boshqarmasi{" "}
+                        </p>
+                      </div>
+                    </NavLink>
+                  </Navbar.Brand>
+                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
+
                   {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
                   <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="me-auto" id={style.nav}>
                       <Nav.Link
-                        style={{ textAlign: "center", width: "190px" }}
+                        style={{ textAlign: "center", }}
                         className={style.birinchi}
                       >
                         <NavLink
@@ -215,7 +214,7 @@ state={timePassed:false}
                           Bosh sahifa
                         </NavLink>
                       </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                      <Nav.Link style={{ textAlign: "center",  }}>
                         <NavLink
                           className={style.navlik}
                           style={{ textDecoration: "none" }}
@@ -224,7 +223,7 @@ state={timePassed:false}
                           Rahbariyat
                         </NavLink>
                       </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                      <Nav.Link style={{ textAlign: "center",  }}>
                         <NavLink
                           className={style.navlik}
                           style={{ textDecoration: "none" }}
@@ -233,7 +232,7 @@ state={timePassed:false}
                           Yangiliklar
                         </NavLink>
                       </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                      <Nav.Link style={{ textAlign: "center",  }}>
                         <NavLink
                           className={style.navlik}
                           style={{ textDecoration: "none" }}
@@ -242,7 +241,7 @@ state={timePassed:false}
                           Tumanlar
                         </NavLink>
                       </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                      <Nav.Link style={{ textAlign: "center", }}>
                         <NavLink
                           className={style.navlik}
                           style={{ textDecoration: "none" }}
@@ -258,8 +257,7 @@ state={timePassed:false}
             </div>
             <div
               className={style.navG}
-              data-aos="fade-bottom"
-              data-aos-anchor-placement="top-top"
+             
             >
               <Navbar style={{ position: "relative" }} expand="lg">
                 <Navbar.Brand>
@@ -289,9 +287,9 @@ state={timePassed:false}
                   style={{ zIndex: 345 }}
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="me-auto">
+                  <Nav className="me-auto" id={style.nav}>
                     <Nav.Link
-                      style={{ textAlign: "center", width: "190px" }}
+                      style={{ textAlign: "center", }}
                       className={style.birinchi}
                     >
                       <NavLink
@@ -302,7 +300,7 @@ state={timePassed:false}
                         Bosh sahifa
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                    <Nav.Link style={{ textAlign: "center", }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -311,7 +309,7 @@ state={timePassed:false}
                         Rahbariyat
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                    <Nav.Link style={{ textAlign: "center", }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -320,7 +318,7 @@ state={timePassed:false}
                         Yangiliklar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                    <Nav.Link style={{ textAlign: "center", }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -329,7 +327,7 @@ state={timePassed:false}
                         Tumanlar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", width: "190px" }}>
+                    <Nav.Link style={{ textAlign: "center", }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -759,7 +757,7 @@ state={timePassed:false}
                       </Card>
                     </div>
                   </Carousel>
-                  <Link to="/" className={style.bar}>
+                  <Link to="/yangiliklar" className={style.bar}>
                     Barcha yangiliklar <i className="fas fa-arrow-right"></i>
                   </Link>
                 </Col>
@@ -1562,7 +1560,7 @@ state={timePassed:false}
                 </div>
               </Carousel>
               <br />
-              <Link to="/" className={style.bar} id="btr">
+              <Link to="/tumanlar" className={style.bar} id="btr">
                 Barcha tuman bo'limlarini ko'rish{" "}
                 <i className="fas fa-arrow-right"></i>
               </Link>
@@ -1854,7 +1852,8 @@ state={timePassed:false}
           </div>
         )}
       </div>
-       )}
-      //  </div>
-    // );
+    );
   }
+  //  </div>
+  // );
+}
