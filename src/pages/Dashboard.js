@@ -370,7 +370,7 @@ export default class Dashboard extends Component {
                     </a>
                   </div>
                   <div className={style.iconsHead}>
-                    <div>
+                    <div id={style.mediaa12}>
                       <Tooltip placement="bottom" title="ittower01@gmail.com">
                         {" "}
                         <a
@@ -402,7 +402,7 @@ export default class Dashboard extends Component {
                         <i className="fab fa-instagram"></i>
                       </a>
                     </div>
-                    <div>
+                    <div id={style.mediaa11}>
                       <a
                         target="_blank"
                         className={style.ahref}
@@ -411,9 +411,10 @@ export default class Dashboard extends Component {
                         <i className="fab fa-facebook"></i>
                       </a>
                     </div>
-                    <div>
+                    <div id={style.mediaa11}>
                       <a
                         target="_blank"
+                       
                         className={style.ahref}
                         href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
                       >
@@ -462,18 +463,18 @@ export default class Dashboard extends Component {
                 <p className={style.num}>15 ta</p>
               </div>
 
-              <div className={style.stas_item}>
+              <div className={style.stas_item} id={style.mediaa11}>
                 <p>
                   <i className="fas fa-school"></i>
                 </p>
                 <p className={style.tit}>Maktablar</p>
                 <p className={style.num}>350 ta</p>
               </div>
-              <div className={style.stas_item}>
+              <div className={style.stas_item} id={style.mediaa11}>
                 <p>
                   <i className="fas fa-university"></i>
                 </p>
-                <p className={style.tit}>B.A.M. lar</p>
+                <p className={style.tit} >B.A.M. lar</p>
                 <p className={style.num}>25 ta</p>
               </div>
               <div className={style.stas_item}>

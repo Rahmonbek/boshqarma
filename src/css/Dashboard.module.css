@@ -276,7 +276,10 @@ border-radius: 1px solid red;
 .birinchi{margin-left: 0px !important;}
 .brand_text{width:60%;}
 .text{top:120px;}
-
+.stas{
+    display: flex;
+}
+.colT{padding:10px}
 .brand_text p{font-size:14px}
     .image{height:300px !important}
     .text h1{font-size: 22px;}
@@ -284,7 +287,29 @@ border-radius: 1px solid red;
     .navG img{margin-top:10px}
     .navG .brand_text p{width:100px !important; display: none;}
     .brand_text p{width:100px !important; display: none;}
-    .lrt{display: inline-block !important;}
+    .lrt{display: inline-block;font-size: 9px;}
     .rahbar div{padding:20px !important;}
     .rahbar h2{font-size: 15px; margin-top:-20px; text-align: center; width:100%; margin-left: 0px;}
+#mediaa11{
+    display: none;
+}
+#mediaa12{
+    display: flex;
+}
+}
+@media (max-width:370px) {
+    #mediaa12{
+        display: none;
+    }
+    #mediaa11{
+        display: none;
+    }
+    .elem{height: 40vh ;}
+    .colT{margin-top:10px}
+
+}
+@media (max-width:560px) {
+    #mediaa12{
+        display: none;
+    }
 }
