@@ -125,7 +125,7 @@ export default class Rahbariyat extends Component {
                         {this.state.rahbariyat !== []
                           ? this.state.rahbariyat.map((item, key) => {
                               return item.daraja === this.state.daraja ? (
-                                <Col lg={6} md={6} sm={12}>
+                                <Col lg={12} md={12} sm={12}>
                                   <div className={styles.card}>
                                     <Row>
                                       <Col xl={4} lg={5} md={5} sm={5} xs={12}>

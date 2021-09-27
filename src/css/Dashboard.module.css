@@ -12,7 +12,7 @@
 .navB{width:200px; display: flex;}
 .birinchi{margin-left:20%;}
 .navG .birinchi{margin-left: 30%;}
-.navlik{color:white;margin-right: 25px; font-size:16px;}
+.navlik{color:white;margin-right: 15px; font-size:17px}
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
 .rahbar div{width:80%; margin-left:10%;
