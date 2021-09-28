@@ -24,7 +24,7 @@ export default class NavbarT extends Component {
                     <div class={style.brand_img}>
                       <img src={gerb} />
                     </div>
-                    <div class={style.brand_text}>
+                    <div class={style.brand_text} id={style.mediaa11}>
                       <p className={style.lrt}>
                         O'zbekiston Respublikasi <br /> Jizzax viloyati <br />{" "}
                         xalq ta'limi boshqarmasi{" "}

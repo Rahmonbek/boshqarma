@@ -55,7 +55,7 @@ export default class Tumanlar extends Component {
 
                       <p>Bo'limning ijtimoiy sahifalari:</p>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -89,7 +89,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
