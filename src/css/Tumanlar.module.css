@@ -112,6 +112,7 @@
  scale: 0.6;
  position: relative;
  left: -40px;
+
 }
 }
 @media (max-width:650px) {
@@ -128,7 +129,7 @@ font-size: 20px;
  
  .iconsHead{
     bottom: 0px;
-    margin: 0px;
+    margin-bottom: 10px;
   }
 }
 
@@ -139,6 +140,9 @@ font-size: 20px;
     position: relative;
     left: -20px;
   }
+  .ahref{
+    scale: 0.7;
+      }
  }
  @media (max-width:430px) {
  
@@ -155,7 +159,7 @@ scale: 0.7;
  @media (max-width:360px) {
  
   .ahref{
-scale: 0.7;
+font-size: 10px;
 position: relative;
 left: -30px;
   }

@@ -304,14 +304,22 @@ border-radius: 1px solid red;
     #mediaa11{
         display: none;
     }
+    .ahref{
+        scale: 0.7;
+    }
    
 }
 @media (max-width:560px) {
      .elem{height: 40vh ;}
     .colT{margin-top:10px}
-
+    .ahref{
+        scale: 0.7;
+    }
     #mediaa12{
         display: none;
+    }
+    .stas_item{
+        scale: 0.7;
     }
     .colimg{
     scale: 1.8;
