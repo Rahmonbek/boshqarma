@@ -72,7 +72,7 @@ export default class Dashboard extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ timePassed: true });
-    }, 1000);
+    }, 5000);
     
   AOS.init();
   }

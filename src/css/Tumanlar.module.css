@@ -173,7 +173,10 @@ body {
 
     @media(min-width:768px) and (max-width:991px) {
 
+.head{
+  background-size: 200% 100%;
 
+}
       .but {
         width: 100%;
         height: auto;
@@ -232,6 +235,10 @@ font-size: 20px;
 
 }
 @media (max-width:767px) {
+  .head{
+    background-size: 200% 100%;
+  
+  }
   .container {
     display: block;
   }
@@ -257,6 +264,10 @@ font-size: 20px;
     }
     }
 @media(max-width:550px) {
+  .head{
+    background-size: 200% 100%;
+  
+  }
   .iconsHead {
     width: 90%;
   }
@@ -282,9 +293,21 @@ margin-bottom: 10px;
 .ahref {
   scale: 0.7;
 }
+.iconsHead{
+  padding:0;
+  border: 1px solid black;
+}
+#mediaa11{
+  margin: 0;
+}
+
 }
 
  @media (max-width:430px) {
+  .head{
+    background-size: 200% 100%;
+  
+  }
  .ahref {
    width: 30px;
    height: 30px;
@@ -308,6 +331,14 @@ margin-bottom: 10px;
 
  }
  @media (max-width:360px) {
+  .head{
+    height: 600px;
+    background-size: 200% 100%;
+  
+  }
+   .tumanlar_item h1{
+     font-size: 3.5vh;
+   }
  
   .ahref {
     width: 25px;
@@ -322,7 +353,6 @@ margin-bottom: 10px;
 .ahref {
   font-size: 10px;
   position: relative;
-  left: -30px;
   }
   .but{
    width: 100%;
@@ -348,7 +378,12 @@ margin-bottom: 10px;
    .pp {
      font-size: 10px;
    }
-
+   
+    .iconsHead div:nth-child(1){
+      border: 1px solid black;
+    } 
+      
+    
    }
 
    @media(max-width:300px) {

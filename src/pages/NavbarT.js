@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import style from "../css/Navbar.module.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { TiThMenu } from "react-icons/ti";
 import gerb from "../img/gerb.png";
 export default class NavbarT extends Component {
   render() {
     return (
       <div>
         <div className={style.navG}>
-          <Navbar style={{ position: "relative" }} expand="lg">
+          <Navbar className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
             <Navbar.Brand>
               <NavLink
                 className={style.navB}
@@ -65,7 +64,7 @@ export default class NavbarT extends Component {
                     style={{ textDecoration: "none" }}
                     to="/yangiliklar"
                   >
-                    Yangiliklarr
+                    Yangiliklar
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
