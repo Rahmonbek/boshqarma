@@ -295,7 +295,6 @@ margin-bottom: 10px;
 }
 .iconsHead{
   padding:0;
-  border: 1px solid black;
 }
 #mediaa11{
   margin: 0;
@@ -379,10 +378,7 @@ margin-bottom: 10px;
      font-size: 10px;
    }
    
-    .iconsHead div:nth-child(1){
-      border: 1px solid black;
-    } 
-      
+    
     
    }
 
