@@ -158,7 +158,7 @@ export default class Dashboard extends Component {
           <Loader />
         ) : (
           <div>
-            <Carousel
+          <Carousel
               infinite={true}
               autoPlay={true}
               autoPlaySpeed={3000}
@@ -175,6 +175,9 @@ export default class Dashboard extends Component {
                 <img src={pic3} className={style.image} />
               </div>
             </Carousel>
+
+            <div style={{height:'auto'}} className="fixed-top">
+
             <div className={style.navT}>
               <Navbar style={{ position: "relative" }} expand="lg">
                 <Container>
@@ -197,10 +200,10 @@ export default class Dashboard extends Component {
                           O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
                           ta'limi boshqarmasi{" "}
                         </p>
-                      </div>
+                      </div>  
                     </NavLink>
                   </Navbar.Brand>
-                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
+                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
 
                   {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
                   <Navbar.Collapse id="basic-navbar-nav">
@@ -232,7 +235,7 @@ export default class Dashboard extends Component {
                           style={{ textDecoration: "none" }}
                           to="/yangiliklar"
                         >
-                          Yangiliklar
+                          Yangiliklarf
                         </NavLink>
                       </Nav.Link>
                       <Nav.Link style={{ textAlign: "center",  }}>
@@ -258,12 +261,13 @@ export default class Dashboard extends Component {
                 </Container>
               </Navbar>
             </div>
+            </div>
             <div
               className={style.navG}
           data-aos={"fade-down"}
            data-aos-anchor-placement={"top-top"}
             >
-              <Navbar style={{ position: "relative" }} expand="lg">
+              <Navbar className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
                 <Navbar.Brand>
                   <NavLink
                     className={style.navB}
@@ -288,7 +292,7 @@ export default class Dashboard extends Component {
                 </Navbar.Brand>
                 <Navbar.Toggle
                   aria-controls="basic-navbar-nav"
-                  style={{ zIndex: 345 }}
+                  style={{ zIndex: 345,}}
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto" id={style.nav}>
@@ -301,7 +305,7 @@ export default class Dashboard extends Component {
                         style={{ textDecoration: "none" }}
                         to="/"
                       >
-                        Bosh sahifa
+                        Bosh sahifaTogle
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
@@ -319,7 +323,7 @@ export default class Dashboard extends Component {
                         style={{ textDecoration: "none" }}
                         to="/yangiliklar"
                       >
-                        Yangiliklar
+                        Yangiliklarr
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
@@ -344,6 +348,7 @@ export default class Dashboard extends Component {
                 </Navbar.Collapse>
               </Navbar>
             </div>
+           
             <div className={style.text}>
               <h1>
                 Yoshlarimizning bilim olishi biz uchun katta ahamiyatga ega
@@ -353,7 +358,7 @@ export default class Dashboard extends Component {
             <div className={style.rahbar}>
               <Row>
                 <Col lg="6" md="6" sm="12">
-                  <div className="chiziq">
+                  <div className={style.ManagerItem}>
                     <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
                       Boshqarma rahbari
                     </h2>
@@ -369,22 +374,23 @@ export default class Dashboard extends Component {
                       Boshqarma nizomi
                     </a>
                   </div>
+
                   <div className={style.iconsHead}>
                     <div id={style.mediaa12}>
                       <Tooltip placement="bottom" title="ittower01@gmail.com">
                         {" "}
                         <a
                           target="_blank"
-                          style={{ borderRight: " 1px solid blue" }}
+                          // style={{ borderRight: " 1px solid blue" }}
+                          id={style.ahref1}
                           className={style.ahref}
-                          href={`mailto: ittower01@gmail.com
-                    }`}
+                          href={`mailto: ittower01@gmail.com`}
                         >
                           <i className="fas fa-envelope"></i>
                         </a>
                       </Tooltip>
                     </div>
-                    <div>
+                    <div id={style.mediaa12} >
                       <a
                         target="_blank"
                         className={style.ahref}
@@ -393,7 +399,7 @@ export default class Dashboard extends Component {
                         <i className="fab fa-telegram"></i>
                       </a>
                     </div>
-                    <div>
+                    <div id={style.mediaa12}>
                       <a
                         target="_blank"
                         className={style.ahref}
@@ -421,15 +427,15 @@ export default class Dashboard extends Component {
                         <i className="fab fa-youtube"></i>
                       </a>
                     </div>
-                    <div>
-                      <Tooltip placement="bottom" title="+998 93 082 03 72">
+                    <div id={style.mediaa11}>
+                      <Tooltip  placement="bottom" title="+998 93 082 03 72">
                         {" "}
                         <a
                           target="_blank"
                           className={style.ahref}
-                          style={{
-                            borderRight: " 1px solid blue",
-                          }}
+                          // style={{
+                          //   borderRight: " 0px solid blue",
+                          // }}
                           href={`tel: +998 93 082 03 72}`}
                         >
                           <i className="fas fa-phone"></i>
@@ -448,7 +454,7 @@ export default class Dashboard extends Component {
                     alignItems: "center",
                   }}
                 >
-                  <div className={style.colimg}>
+                  <div className={style.colimg} >
                     <img src={rahbar} />
                   </div>
                 </Col>
@@ -463,14 +469,14 @@ export default class Dashboard extends Component {
                 <p className={style.num}>15 ta</p>
               </div>
 
-              <div className={style.stas_item} id={style.mediaa11}>
+              <div className={style.stas_item} id={style.mediaa1}>
                 <p>
                   <i className="fas fa-school"></i>
                 </p>
                 <p className={style.tit}>Maktablar</p>
                 <p className={style.num}>350 ta</p>
               </div>
-              <div className={style.stas_item} id={style.mediaa11}>
+              <div className={style.stas_item} id={style.mediaa1}>
                 <p>
                   <i className="fas fa-university"></i>
                 </p>
@@ -900,7 +906,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -973,7 +979,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1046,7 +1052,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1119,7 +1125,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1192,7 +1198,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1265,7 +1271,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="bottom" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1338,7 +1344,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1411,7 +1417,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1484,7 +1490,7 @@ export default class Dashboard extends Component {
                       <Tooltip placement="top" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
+                        <i class="fas fa-phone-alt"></i>
                         </a>{" "}
                       </Tooltip>
                     </div>
@@ -1557,8 +1563,9 @@ export default class Dashboard extends Component {
                       <Tooltip placement="bottom" title="+998 93 082 03 72">
                         {" "}
                         <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                          <i className="fas fa-phone"></i>
-                        </a>{" "}
+                        <i class="fas fa-phone-alt"></i>
+
+</a>{" "}
                       </Tooltip>
                     </div>
                   </div>
@@ -1596,8 +1603,8 @@ export default class Dashboard extends Component {
                       qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.
                     </i>
                   </p>
-                  <Link to="/videos" className="bar">
-                    Barcha vidoelarni ko'rish{" "}
+                  <Link to="/videos" className={style.bar}>
+                    Barcha videolarni ko'rish{" "}
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </Col>
@@ -1802,6 +1809,7 @@ export default class Dashboard extends Component {
                     </YMaps>
                     <br />
                     <Row
+                    className={style.AdviceImg}
                       style={{
                         width: "100%",
                         marginTop: "20px",
@@ -1811,12 +1819,12 @@ export default class Dashboard extends Component {
                         justifyContent: "center",
                       }}
                     >
-                      <Col lg={6} md={6} sm={6}>
+                      <Col className={style.AdviceImgItem} lg={6} md={6} sm={6}>
                         <a target="_blank" href="https://t.me/huquqiyaxborot">
                           <img className={style.str} src={teg} />
                         </a>
                       </Col>
-                      <Col lg={6} md={6} sm={6}>
+                      <Col className={style.AdviceImgItem} lg={6} md={6} sm={6}>
                         <a target="_blank" href="https://advice.uz/uz">
                           <img className={style.str} src={advice} />
                         </a>

@@ -15,7 +15,18 @@
   width: 115px;
   height: 3px;
   background: #007bff; }
+ .CopyRight{
 
+    font-family: "Andale Mono", monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+    margin-top: 2%;
+    text-align: center;
+  
+ }
 .footer .animate-border:after {
   position: absolute;
   content: "";
@@ -310,6 +321,14 @@
       border-color: #FA6742; }
       @media (max-width:700px){
         .dk-footer-box-info img{display: none;}
+        .CopyRight {
+          font-size: 2vh;
+        }
+      }
+      @media(max-width:400px){
+        .CopyRight {
+          font-size: 11px;
+        }
       }
       @media (min-width:1500px){
         .dk-footer-box-info{left:100px; top:30px}
