@@ -4,6 +4,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { TiThMenu } from "react-icons/ti";
 import gerb from "../img/gerb.png";
+
 export default class NavbarT extends Component {
   render() {
     return (
@@ -47,10 +48,10 @@ export default class NavbarT extends Component {
                     >
                       <NavLink
                         className={style.navlik}
-                        style={{ textDecoration:"none"}}
+                        style={{ textDecoration: "none" }}
                         to="/"
                       >
-                        Bosh_sahifa
+                        Bosh sahifa
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>

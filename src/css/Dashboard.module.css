@@ -310,11 +310,26 @@ border-radius: 1px solid red;
     }
    
 }
-@media (max-width:560px) {
+@media (max-width:575px) {
      .elem{height: 40vh ;}
     .colT{margin-top:10px}
     .ahref{
-        scale: 0.7;
+        scale: 0.5;
+        position: relative;
+        left: -10px;
+    }
+    .stas_item i, .stas_item p{
+        font-size: 18px;
+    }
+    .colimg img{
+       scale: 2;
+       margin: auto;
+       text-align: center;
+       position: relative;
+       left: 18px;
+    }
+    .icon a{
+        font-size: 10px;
     }
     #mediaa12{
         display: none;
@@ -322,8 +337,4 @@ border-radius: 1px solid red;
     .stas_item{
         scale: 0.7;
     }
-    .colimg{
-    scale: 1.8;
-   transform: translateX(15px);
-    margin-top: 30px;
-    }}
+  }

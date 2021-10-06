@@ -18,7 +18,7 @@ export default class Tumanlar extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ timePassed: true });
-    }, 2500);
+    }, 2);
   }
   render() {
     return (
@@ -42,18 +42,21 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
                         <div id={style.mediaa11}>
                           <a
@@ -120,11 +123,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -132,8 +137,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -141,16 +144,16 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
               <br />
@@ -161,20 +164,23 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -208,7 +214,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -239,11 +245,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -251,8 +259,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -260,16 +266,16 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
               <br />
@@ -280,20 +286,23 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -327,7 +336,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -358,11 +367,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -370,8 +381,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -379,16 +388,16 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
               <br />
@@ -399,20 +408,23 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -446,7 +458,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -477,11 +489,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -489,8 +503,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -498,16 +510,16 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
               <br />
@@ -518,20 +530,23 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -565,7 +580,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -596,11 +611,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -608,8 +625,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -617,16 +632,16 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
               <br />
@@ -637,20 +652,23 @@ export default class Tumanlar extends Component {
                 <br />
                 <br />
                 <Row>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
-                    >
+                  <Container className={style.container}>
+                    <Col className={style.Col1} lg={6} md={6} sm={12}>
                       <h4>Bo'lim direktori</h4>
                       <div className={style.chiziq}></div>
                       <br />
-                      <img src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg" />
+                      <img
+                        className={style.Rasm}
+                        src="https://as1.ftcdn.net/v2/jpg/02/94/62/14/500_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
+                      />
                       <br />
-                      <p>Ismoilov Rahmon Zohid o'g'li</p>
 
-                      <p>Bo'limning ijtimoiy sahifalari:</p>
+                      <div className={style.NameTag}>
+                        <p>Ismoilov Rahmon Zohid o'g'li</p>
+                        <p>Bo'limning ijtimoiy sahifalari:</p>
+                      </div>
                       <div className={style.iconsHead}>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -684,7 +702,7 @@ export default class Tumanlar extends Component {
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
-                        <div>
+                        <div id={style.mediaa11}>
                           <a
                             target="_blank"
                             className={style.ahref}
@@ -715,11 +733,13 @@ export default class Tumanlar extends Component {
                           </Tooltip>
                         </div>
                       </div>
-                    </Container>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} style={{ position: "relative" }}>
-                    <Container
-                      style={{ position: "relative", paddingBottom: "40px" }}
+                    </Col>
+                    <Col
+                      className={style.Col1}
+                      lg={6}
+                      md={6}
+                      sm={12}
+                      style={{ position: "relative" }}
                     >
                       <h4>Bo'lim haqida</h4>
                       <div className={style.chiziq}></div>
@@ -727,8 +747,6 @@ export default class Tumanlar extends Component {
                       <YouTube
                         videoId="vRypTFwbdqI"
                         opts={{
-                          width: "100%",
-                          height: "300px",
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
                             autoplay: 0,
@@ -736,18 +754,20 @@ export default class Tumanlar extends Component {
                         }}
                         className={style.video}
                       />
-                      <p className={style.pp}>
+                      <p   className={style.pp}>
                         Jizzax viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
                       <a href="#" className={style.but} target="_blank">
-                        Bo'limning veb saytiga o'tish
+                       Bo'limning veb saytiga o'tish
                       </a>
-                    </Container>
-                  </Col>
+                    </Col>
+                  </Container>
                 </Row>
               </div>
+              <br />
+              
             </div>
             <Footer />
           </div>
