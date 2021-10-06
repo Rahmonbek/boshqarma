@@ -235,7 +235,7 @@ export default class Dashboard extends Component {
                           style={{ textDecoration: "none" }}
                           to="/yangiliklar"
                         >
-                          Yangiliklarf
+                          Yangiliklar
                         </NavLink>
                       </Nav.Link>
                       <Nav.Link style={{ textAlign: "center",  }}>
@@ -305,7 +305,7 @@ export default class Dashboard extends Component {
                         style={{ textDecoration: "none" }}
                         to="/"
                       >
-                        Bosh sahifaTogle
+                        Bosh sahifa
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
@@ -323,7 +323,7 @@ export default class Dashboard extends Component {
                         style={{ textDecoration: "none" }}
                         to="/yangiliklar"
                       >
-                        Yangiliklarr
+                        Yangiliklar
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
@@ -446,15 +446,15 @@ export default class Dashboard extends Component {
                 </Col>
                 <Col
                   lg="6"
-                  md="6"
-                  sm="12"
+                  md="12"
+                  sm="24"
                   style={{
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
                   }}
                 >
-                  <div className={style.colimg} >
+                  <div className={style.colimg1} >
                     <img src={rahbar} />
                   </div>
                 </Col>
