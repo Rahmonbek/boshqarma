@@ -42,6 +42,34 @@ import pic17 from "../img/emvxsz12yg0ks0osw0kw8s4wk.jpg";
 import pic18 from "../img/Tashkent-City_name_statue.jpg";
 import pic19 from "../img/920__95_745261863.jpg";
 import pic20 from "../img/twitter 2.png";
+import drasm1 from "../img/drasm1.jpeg"
+import drasm3 from "../img/drasm3.jpeg"
+import drasm2 from "../img/drasm2.png"
+import drasm8 from "../img/drasm8.png"
+import drasm5 from "../img/drasm5.png"
+import drasm6 from "../img/drasm6.jpg";
+import drasm7 from "../img/drasm7.jpg";
+import drasm9 from "../img/drasm9.jpg";
+import drasm10 from "../img/drasm10.jpg";
+import drasm11 from "../img/drasm11.jpg";
+import dxorazm1 from "../img/dxorazm1.jpg";
+import dxorazm3 from "../img/dxorazm3.jpg";
+import dxorazm4 from "../img/dxorazm4.jpg";
+import dxorazm5 from "../img/dxorazm5.jpg";
+import dxorazm6 from "../img/dxorazm6.jpg";
+import dxorazm7 from "../img/dxorazm7.jpg";
+import dxorazm8 from "../img/dxorazm8.jpg";
+import dxorazm9 from "../img/dxorazm9.jpg";
+
+
+
+
+
+// import drasm4 from "../img/drasm4.jpeg"
+
+
+
+
 import "antd/dist/antd.css";
 import rahbar from "../img/rahbar.jpg";
 import style from "../css/Dashboard.module.css";
@@ -193,11 +221,11 @@ export default class Dashboard extends Component {
                       </div>
                       <div class={style.brand_text}>
                         <p className={style.lrt}>
-                          O'zbekiston Respublikasi <br /> Jizzax viloyati <br />{" "}
+                          O'zbekiston Respublikasi <br /> Xorazm viloyati <br />{" "}
                           xalq ta'limi boshqarmasi{" "}
                         </p>
                         <p>
-                          O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
+                          O'zbekiston Respublikasi Xorazm viloyati <br /> xalq
                           ta'limi boshqarmasi{" "}
                         </p>
                       </div>  
@@ -280,11 +308,11 @@ export default class Dashboard extends Component {
                     </div>
                     <div class={style.brand_text}>
                       <p className={style.lrt}>
-                        O'zbekiston Respublikasi <br /> Jizzax viloyati <br />{" "}
+                        O'zbekiston Respublikasi <br /> Xorazm viloyati <br />{" "}
                         xalq ta'limi boshqarmasi{" "}
                       </p>
                       <p>
-                        O'zbekiston Respublikasi Jizzax viloyati <br /> xalq
+                        O'zbekiston Respublikasi Xorazm viloyati <br /> xalq
                         ta'limi boshqarmasi{" "}
                       </p>
                     </div>
@@ -840,14 +868,14 @@ export default class Dashboard extends Component {
                 responsive={responsive3}
               >
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
                     <Card.Img variant="top" src={pic13} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -913,14 +941,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm1} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -986,14 +1014,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm3} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1059,14 +1087,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm2} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1132,14 +1160,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm5} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1205,14 +1233,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm8} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1278,14 +1306,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm6} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1351,14 +1379,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm7} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1424,14 +1452,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img variant="top" src={drasm9}  />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1497,8 +1525,8 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey" }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px" }}>
+                    <Card.Img variant="top" src={drasm10} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
@@ -1586,7 +1614,10 @@ export default class Dashboard extends Component {
                   <div className="chiziq1"></div>
                   <br />
                   <YouTube
-                    videoId="vRypTFwbdqI"
+// <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+
+                  videoId="vRypTFwbdqI"
                     opts={{
                       width: "100%",
                       height: "300px",
@@ -1599,7 +1630,7 @@ export default class Dashboard extends Component {
                   />
                   <p className={style.pp}>
                     <i>
-                      Jizzax viloyati xalq ta'limi boshqarmasiga virtual sayohat
+                    Xorazm viloyati xalq ta'limi boshqarmasiga virtual sayohat
                       qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.
                     </i>
                   </p>
@@ -1614,22 +1645,22 @@ export default class Dashboard extends Component {
                   <br />
                   <Row>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic14} />
+                      <img src={dxorazm1} />
                     </Col>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic15} />
+                      <img src={dxorazm7} />
                     </Col>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic16} />
+                      <img src={dxorazm3} />
                     </Col>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic17} />
+                      <img src={dxorazm4} />
                     </Col>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic18} />
+                      <img src={dxorazm5} />
                     </Col>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
-                      <img src={pic19} />
+                      <img src={dxorazm6} />
                     </Col>
                   </Row>
                   <Link to="/lavhalar" className="bar">

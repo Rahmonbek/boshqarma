@@ -1,22 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
 .page-wrapper
 .foot {
-     
-  
     width: 100%;
     z-index: 11111;
-
 }
 
 .foot footer p, footer strong, footer b, footer {
@@ -34,13 +19,13 @@
 }
 
 .foot .footer-top, .footer-bottom {
-    background-color: rgb(38, 38, 240);
+    background-color: #126dc2;
 }
 
 .foot .footer-bottom {
     padding: 15px 0;
     border-top: 1px solid #313646;
-    background-color: blue!important;
+    background-color: #243779!important;
     color: #b0b0b0;
     font-family: rubik;
 }
