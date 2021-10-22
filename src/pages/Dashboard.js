@@ -85,7 +85,7 @@ import {
   YMaps,
   ZoomControl,
 } from "react-yandex-maps";
-import Footer from "./Footer";
+import FooterA from "./FooterA";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
 import AOS from 'aos';
@@ -545,9 +545,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic4}
                         />
                         <Card.Body>
@@ -573,9 +573,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic5}
                         />
                         <Card.Body>
@@ -601,9 +601,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic6}
                         />
                         <Card.Body>
@@ -629,9 +629,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic7}
                         />
                         <Card.Body>
@@ -657,9 +657,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic8}
                         />
                         <Card.Body>
@@ -685,9 +685,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic9}
                         />
                         <Card.Body>
@@ -713,9 +713,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic10}
                         />
                         <Card.Body>
@@ -741,9 +741,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic11}
                         />
                         <Card.Body>
@@ -769,9 +769,9 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img
+                        <Card.Img className={style.yang1}
                           variant="top"
-                          style={{ height: "250px" }}
+                          // style={{ height: "250px" }}
                           src={pic12}
                         />
                         <Card.Body>
@@ -1888,7 +1888,7 @@ export default class Dashboard extends Component {
                 </Col>
               </Row>
             </div>
-            <Footer />
+            <FooterA />
           </div>
         )}
       </div>

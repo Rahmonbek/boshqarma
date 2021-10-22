@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Footer from "./FooterA";
+import FooterA from "./FooterA";
 import style from "../css/Lavhalar.module.css";
 import NavbarT from "./NavbarT";
 import Loader from "./Loader";
@@ -82,7 +82,7 @@ export default class Lavhalar extends Component {
                 </div>
               </div>
             </div>
-            <Footer />
+            <FooterA />
           </div>
         )}
       </div>

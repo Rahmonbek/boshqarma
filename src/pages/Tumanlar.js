@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
+import FooterA from "./FooterA";
 import NavbarT from "./NavbarT";
 import style from "../css/Tumanlar.module.css";
 import { Col, Container, Row } from "react-bootstrap";
@@ -1409,7 +1409,7 @@ export default class Tumanlar extends Component {
 
 
             </div>
-            <Footer />
+            <FooterA />
           </div>
         )}
       </div>

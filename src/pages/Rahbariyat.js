@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarT from "./NavbarT";
-import Footer from "./Footer";
+import FooterA from "./FooterA";
 import { Modal } from "antd";
 import styles from "../css/Rahbariyat.module.css";
 import sanakulov from "../img/sanakulov.jpg";
@@ -376,7 +376,7 @@ export default class Rahbariyat extends Component {
                 </Col>
               </Row>
             </Modal>
-            <Footer />
+            <FooterA />
           </div>
         )}
       </div>
