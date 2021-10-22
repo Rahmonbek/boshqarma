@@ -8,7 +8,8 @@ body {
 }
 * {
   box-sizing: border-box;
-  font-family: "Oxygen", sans-serif;
+  /* font-family: "Oxygen", sans-serif; */
+  font-family:Arial, Helvetica, sans-serif
 }
 a {
   text-decoration: none;
@@ -16,7 +17,7 @@ a {
 .chiziq {
   width: 200px;
   height: 6px;
-  background-color: blue;
+  background-color: rgb(3, 3, 145);
   margin: auto;
 }
 .bar {

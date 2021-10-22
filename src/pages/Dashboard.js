@@ -60,15 +60,10 @@ import dxorazm6 from "../img/dxorazm6.jpg";
 import dxorazm7 from "../img/dxorazm7.jpg";
 import dxorazm8 from "../img/dxorazm8.jpg";
 import dxorazm9 from "../img/dxorazm9.jpg";
-
-
-
-
+import priz1 from "../img/priz1.jpg"
+import dir2 from "../img/dir2.jpg"
 
 // import drasm4 from "../img/drasm4.jpeg"
-
-
-
 
 import "antd/dist/antd.css";
 import rahbar from "../img/rahbar.jpg";
@@ -483,7 +478,7 @@ export default class Dashboard extends Component {
                   }}
                 >
                   <div className={style.colimg1} >
-                    <img src={rahbar} />
+                    <img src={dir2} />
                   </div>
                 </Col>
               </Row>
@@ -522,7 +517,7 @@ export default class Dashboard extends Component {
                 <p>
                   <i className="fas fa-chalkboard-teacher"></i>
                 </p>
-                <p className={style.tit}>O'quvchilar</p>
+                <p className={style.tit}>O'qituvchilar</p>
                 <p className={style.num}>7832 ta</p>
               </div>
               <div className={style.stas_black}></div>
@@ -810,7 +805,8 @@ export default class Dashboard extends Component {
                 >
                   <img
                     style={{ width: "100%" }}
-                    src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
+                    // src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
+                  src={priz1}
                   />
                 </Col>
               </Row>
@@ -868,14 +864,14 @@ export default class Dashboard extends Component {
                 responsive={responsive3}
               >
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={pic13} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={pic13} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                        Bog'ot tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -941,14 +937,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm1} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm1} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                        Gurlan tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1014,14 +1010,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm3} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm3} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                        	Xonqa tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1087,14 +1083,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm2} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm2} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                       Shovot tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1160,14 +1156,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm5} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm5} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                       Urganch shahri xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1233,14 +1229,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm8} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm8} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
+                       Urganch tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish
@@ -1306,8 +1302,154 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm6} />
+                  <Card  className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm6} />
+                    <Card.Body>
+                      <Card.Text
+                        style={{ fontSize: "16px" }}
+                        className={style.ptr}
+                      >
+                        Xazorasp tumani xaql ta'limi boshqarmasi
+                      </Card.Text>
+                      <a className={style.hov_btn} href="#">
+                        Bo'lim veb saytini ko'rish
+                      </a>
+                    </Card.Body>
+                  </Card>
+                  <div className={style.hov}>
+                    <div className={style.hov_item}>
+                      <div>
+                        <Tooltip placement="right" title="ittower01@gmail.com">
+                          {" "}
+                          <a
+                            target="_blank"
+                            href={`mailto: ittower01@gmail.com
+                    }`}
+                          >
+                            <i className="fas fa-envelope"></i>
+                          </a>
+                        </Tooltip>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://t.me/samarqand_33_maktab"
+                        >
+                          <i className="fab fa-telegram"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.instagram.com/33_maktab_official/"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                        >
+                          <i className="fab fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                        >
+                          <i className="fab fa-youtube"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className={style.tel}>
+                      <Tooltip placement="top" title="+998 93 082 03 72">
+                        {" "}
+                        <a target="_blank" href={`tel: +998 93 082 03 72}`}>
+                        <i class="fas fa-phone-alt"></i>
+                        </a>{" "}
+                      </Tooltip>
+                    </div>
+                  </div>
+                </div>
+                <div className={style.news_item}>
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm7} />
+                    <Card.Body>
+                      <Card.Text
+                        style={{ fontSize: "16px" }}
+                        className={style.ptr}
+                      >
+                        Xiva tumani xaql ta'limi boshqarmasi
+                      </Card.Text>
+                      <a className={style.hov_btn} href="#">
+                        Bo'lim veb saytini ko'rish
+                      </a>
+                    </Card.Body>
+                  </Card>
+                  <div className={style.hov}>
+                    <div className={style.hov_item}>
+                      <div>
+                        <Tooltip placement="right" title="ittower01@gmail.com">
+                          {" "}
+                          <a
+                            target="_blank"
+                            href={`mailto: ittower01@gmail.com
+                    }`}
+                          >
+                            <i className="fas fa-envelope"></i>
+                          </a>
+                        </Tooltip>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://t.me/samarqand_33_maktab"
+                        >
+                          <i className="fab fa-telegram"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.instagram.com/33_maktab_official/"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
+                        >
+                          <i className="fab fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
+                        >
+                          <i className="fab fa-youtube"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className={style.tel}>
+                      <Tooltip placement="top" title="+998 93 082 03 72">
+                        {" "}
+                        <a target="_blank" href={`tel: +998 93 082 03 72}`}>
+                        <i class="fas fa-phone-alt"></i>
+                        </a>{" "}
+                      </Tooltip>
+                    </div>
+                  </div>
+                </div>
+                <div className={style.news_item}>
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm9}  />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
@@ -1379,160 +1521,14 @@ export default class Dashboard extends Component {
                   </div>
                 </div>
                 <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm7} />
+                  <Card className={style.news_itemcard1} style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px" }}>
+                    <Card.Img className={style.news_itemcard2}  variant="top" src={drasm10} />
                     <Card.Body>
                       <Card.Text
                         style={{ fontSize: "16px" }}
                         className={style.ptr}
                       >
-                        Xonqa tumani xaql ta'limi boshqarmasi
-                      </Card.Text>
-                      <a className={style.hov_btn} href="#">
-                        Bo'lim veb saytini ko'rish
-                      </a>
-                    </Card.Body>
-                  </Card>
-                  <div className={style.hov}>
-                    <div className={style.hov_item}>
-                      <div>
-                        <Tooltip placement="right" title="ittower01@gmail.com">
-                          {" "}
-                          <a
-                            target="_blank"
-                            href={`mailto: ittower01@gmail.com
-                    }`}
-                          >
-                            <i className="fas fa-envelope"></i>
-                          </a>
-                        </Tooltip>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://t.me/samarqand_33_maktab"
-                        >
-                          <i className="fab fa-telegram"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/33_maktab_official/"
-                        >
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
-                        >
-                          <i className="fab fa-facebook"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
-                        >
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className={style.tel}>
-                      <Tooltip placement="top" title="+998 93 082 03 72">
-                        {" "}
-                        <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                        <i class="fas fa-phone-alt"></i>
-                        </a>{" "}
-                      </Tooltip>
-                    </div>
-                  </div>
-                </div>
-                <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"  }}>
-                    <Card.Img variant="top" src={drasm9}  />
-                    <Card.Body>
-                      <Card.Text
-                        style={{ fontSize: "16px" }}
-                        className={style.ptr}
-                      >
-                        Xonqa tumani xaql ta'limi boshqarmasi
-                      </Card.Text>
-                      <a className={style.hov_btn} href="#">
-                        Bo'lim veb saytini ko'rish
-                      </a>
-                    </Card.Body>
-                  </Card>
-                  <div className={style.hov}>
-                    <div className={style.hov_item}>
-                      <div>
-                        <Tooltip placement="right" title="ittower01@gmail.com">
-                          {" "}
-                          <a
-                            target="_blank"
-                            href={`mailto: ittower01@gmail.com
-                    }`}
-                          >
-                            <i className="fas fa-envelope"></i>
-                          </a>
-                        </Tooltip>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://t.me/samarqand_33_maktab"
-                        >
-                          <i className="fab fa-telegram"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/33_maktab_official/"
-                        >
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.facebook.com/people/Samarqand-Tuman-Idum/100072115398865/"
-                        >
-                          <i className="fab fa-facebook"></i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
-                        >
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className={style.tel}>
-                      <Tooltip placement="top" title="+998 93 082 03 72">
-                        {" "}
-                        <a target="_blank" href={`tel: +998 93 082 03 72}`}>
-                        <i class="fas fa-phone-alt"></i>
-                        </a>{" "}
-                      </Tooltip>
-                    </div>
-                  </div>
-                </div>
-                <div className={style.news_item}>
-                  <Card style={{ border: "1px solid lightgrey", boxShadow:"rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px" }}>
-                    <Card.Img variant="top" src={drasm10} />
-                    <Card.Body>
-                      <Card.Text
-                        style={{ fontSize: "16px" }}
-                        className={style.ptr}
-                      >
-                        Baxmal tumani xaql ta'limi boshqarmasi
+                        Yangiariq tumani xaql ta'limi boshqarmasi
                       </Card.Text>
                       <a className={style.hov_btn} href="#">
                         Bo'lim veb saytini ko'rish

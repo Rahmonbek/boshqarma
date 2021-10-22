@@ -7,13 +7,13 @@
 .navB{width:200px; display: flex;}
 .birinchi{margin-left:20%;}
 .navG .birinchi{margin-left: 30%;}
-.navlik{color:white;margin-right: 15px; font-size:17px}
+.navlik{color:white;margin-right: 15px; font-size:17px; display:flex}
 .navlik:hover{color:rgb(255, 247, 0)}
 /* .text{position: absolute; top:230px; width:100%;} */
 .lrt{display:none !important}
 @media (min-width:1500px){
   .lrt{display:none !important;}
- 
+ .navlik{margin: auto;}
 
 }
 
@@ -24,7 +24,7 @@ margin-right: 24px;
 
 }
 @media (max-width:991px){
-  
+  .navlik{margin: auto;}
   #nav{
       margin: auto;
   text-align: center;

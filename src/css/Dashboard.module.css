@@ -1,4 +1,9 @@
 
+.news_itemcard2{
+    height: 250px;
+
+}
+
 .image{height:100vh; width:100%;}
 .car_item{width:100%; position:relative;}
 .car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
@@ -409,6 +414,7 @@ justify-content: center;
     justify-content: space-between;
 
 }
+
 .stas_item{
     width: 40%;
     /* flex: 50% !important; */

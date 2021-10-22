@@ -9,10 +9,10 @@
   background-color: #f5f5f5;
 }
 .head {
-  margin-top: 95px;
+  margin-top: 0px;
   width: 100%;
   height: 100vh;
-  background-size: cover;
+  background-size: 100% 100%;
   background-image: url("https://president.uz/uploads/66a32e19-b8bb-31ec-bb1b-7b9ca371e3e0_pages_3184.jpg");
   padding-top: 60vh;
   background-attachment: fixed;
@@ -22,10 +22,11 @@
 .head_text {
   background-color: rgba(0, 0, 0, 0.611);
   color: white;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
-  padding: 20px 80px;
+  padding: 20px 60px;
 }
+
 .rahbariyatTitle h3 {
   text-align: center;
   font-family: "Lobster";
