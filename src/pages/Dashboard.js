@@ -60,7 +60,7 @@ import dxorazm6 from "../img/dxorazm6.jpg";
 import dxorazm7 from "../img/dxorazm7.jpg";
 import dxorazm8 from "../img/dxorazm8.jpg";
 import dxorazm9 from "../img/dxorazm9.jpg";
-
+import priz1 from "../img/priz1.jpg"
 
 
 
@@ -522,7 +522,7 @@ export default class Dashboard extends Component {
                 <p>
                   <i className="fas fa-chalkboard-teacher"></i>
                 </p>
-                <p className={style.tit}>O'quvchilar</p>
+                <p className={style.tit}>O'qituvchilar</p>
                 <p className={style.num}>7832 ta</p>
               </div>
               <div className={style.stas_black}></div>
@@ -810,7 +810,8 @@ export default class Dashboard extends Component {
                 >
                   <img
                     style={{ width: "100%" }}
-                    src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
+                    // src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
+                  src={priz1}
                   />
                 </Col>
               </Row>

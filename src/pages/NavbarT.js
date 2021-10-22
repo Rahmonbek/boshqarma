@@ -46,7 +46,7 @@ export default class NavbarT extends Component {
                     style={{ textDecoration: "none" }}
                     to="/"
                   >
-                    Bosh_sahifa
+                    Bosh sahifa
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
