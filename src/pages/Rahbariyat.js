@@ -3,9 +3,10 @@ import NavbarT from "./NavbarT";
 import FooterA from "./FooterA";
 import { Modal } from "antd";
 import styles from "../css/Rahbariyat.module.css";
-import sanakulov from "../img/sanakulov.jpg";
+import rahbar from "../img/rahbar.jpg";
 import sharahmetov from "../img/sharahmetov.jpg";
 import djulibekov from "../img/djulibekov.jpg";
+
 // import {
 //   MDBCard,
 //   MDBCardBody,
@@ -36,7 +37,7 @@ export default class Rahbariyat extends Component {
         email: "info@gmail.com",
         describe: "DASDAdasdasdasd saddasdas dasdasda dasdasdasd",
         lavozimi: "Bosh direktor",
-        image: sanakulov,
+        image: rahbar,
         daraja: 1,
       },
       {
@@ -172,9 +173,10 @@ export default class Rahbariyat extends Component {
                     </Col>
                     <Col lg={3} sm={12}>
                       <div className={styles.card1}>
-                        <h4>Rahbariyat</h4>
+                        <h4 style={{ textAlign:"center",color:"rgb(11, 0, 36)" }}>Rahbariyat</h4>
+                        <div className={styles.line}></div>
                         <ul style={{ listStyle: "none" }}>
-                          <li
+                        <br/><li
                             onClick={() => this.setState({ daraja: 1 })}
                             style={{
                               cursor: "pointer",
@@ -183,7 +185,7 @@ export default class Rahbariyat extends Component {
                             }}
                           >
                         Rahbariyat a'zolari
-                          </li>
+                          </li><br/>
                           <li
                             onClick={() => this.setState({ daraja: 2 })}
                             style={{
