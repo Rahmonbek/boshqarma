@@ -92,7 +92,7 @@
 
 .footer .dk-footer {
   padding: 75px 0 0;
-  background-color: #1105e6;
+  background-color: #1b3aaa;
   position: relative;
   z-index: 2; }
   .footer .dk-footer .contact-us {
@@ -112,7 +112,7 @@
 .footer .dk-footer-box-info {
   position: absolute;
   top: -20px;
-  background: #1105fa;
+  background: #007bff;
   padding: 40px;
   z-index: 2; }
   .footer .dk-footer-box-info .footer-social-link h3 {
