@@ -30,13 +30,13 @@ export default class Tumanlar extends Component {
             <NavbarT />
             <div className={style.head}>
               <div className={style.head_text}>
-                O'zbekiston Respublikasi Jizzax viloyati xalq ta'limi
+                O'zbekiston Respublikasi Xorazm viloyati xalq ta'limi
                 boshqarmasining tumanlaridagi bo'limlari
               </div>
             </div>
             <div className={style.tumanlar}>
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Xonqa tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -145,7 +145,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                      Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
@@ -158,7 +158,7 @@ export default class Tumanlar extends Component {
               </div>
               <br />
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Gurlan tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -267,7 +267,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                      Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
@@ -280,7 +280,7 @@ export default class Tumanlar extends Component {
               </div>
               <br />
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Xazorasp tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -389,7 +389,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                      Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
@@ -402,7 +402,7 @@ export default class Tumanlar extends Component {
               </div>
               <br />
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Urganch tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -511,7 +511,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                      Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
@@ -524,7 +524,7 @@ export default class Tumanlar extends Component {
               </div>
               <br />
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Yangibozor tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -633,7 +633,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                        Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>
@@ -646,7 +646,7 @@ export default class Tumanlar extends Component {
               </div>
               <br />
               <div className={style.tumanlar_item}>
-                <h1 className="title">Baxmal tumani</h1>
+                <h1 className="title">Yangiariq tumani</h1>
 
                 <div className="chiziq"></div>
                 <br />
@@ -755,7 +755,7 @@ export default class Tumanlar extends Component {
                         className={style.video}
                       />
                       <p   className={style.pp}>
-                        Jizzax viloyati xalq ta'limi boshqarmasiga virtual
+                      Xorazm viloyati xalq ta'limi boshqarmasiga virtual
                         sayohat qiling va boshqarma haqida ko'proq ma'lumotga
                         ega bo'ling.
                       </p>

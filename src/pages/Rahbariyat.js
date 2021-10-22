@@ -109,7 +109,7 @@ export default class Rahbariyat extends Component {
             <div>
               <div className={styles.head}>
                 <div className={styles.head_text}>
-                  O'zbekiston Respublikasi Jizzax viloyati xalq ta'limi
+                  O'zbekiston Respublikasi Xorazm viloyati xalq ta'limi
                   boshqarmasining rahbariyati
                 </div>
               </div>

@@ -4,7 +4,7 @@
 .car_item::before{content:''; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.433); position:absolute; top:0px; left:0px;  }
 .navT{position:absolute;  top:30px; left:0px; width:100%; padding:0px 30px;}
 .brand_img,.brand_text{display:inline-block}
-.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 20px; background-color:#1105e6}
+.navG{position:sticky; top:0px; left:0px; z-index: 4567; margin-top: -500px; width:100%; padding:10px 20px; background-color:#243779}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
@@ -33,9 +33,9 @@
          margin-top: 360px; 
      }
      .rahbar p{text-align: center;}
-.colimg{width:400px; position:relative; left:-30px;}
-/* .colimg::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; } */
-.colimg img{width:100%;  }
+.colimg1{width:400px; position:relative; left:-30px;}
+/* .colimg1::before{content:''; position:absolute; top:-10px; z-index: -1; right:-20px; width:100%; height:100%; background-color:rgb(5, 5, 162); border-radius:50%; } */
+.colimg1 img{width:100%;  }
 .text h1{font-size: 45px;  color:white; text-shadow:1px 1px 6px black; text-transform: uppercase; width:50%; margin:auto; line-height:1.5; text-align: center;}
 .iconsHead{
     width: 100% ;
@@ -54,10 +54,10 @@ bottom:-20px ;
     align-items: center ;
     justify-content: center ;
     border-radius: 50% ;
-    border:1px solid blue ;
+    border:1px solid #243779 ;
 margin-top: 30px;
     color:white ;
-    background:blue ;
+    background:#1b3aaa ;
 }
 .hov a{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -71,7 +71,7 @@ margin-top: 30px;
     border:1px solid blue ;
 margin-top: 10px;
     color:white ;
-    background:blue ;
+    background:#1b3aaa ;
 }
 
 .fio{
@@ -85,7 +85,7 @@ margin-top: 10px;
 .icon img{width:40px; height:40px; }
 .icon {height:40px; display: flex; justify-content:center; align-items:center;padding-top:60px !important;}
 .ahref:hover{
-    color:blue;
+    color:#243779;
     background-color: white;
     border-color:transparent;
 }
@@ -139,17 +139,17 @@ margin-top: 10px;
 
 .vaqt{font-size: 13px; color:rgb(172, 170, 170);}
 .vaqt i{ color:rgb(172, 170, 170);}
-.bar{color:rgb(0, 8, 255); margin-top:30px; font-size:25px; text-align: center;;margin: a
+.bar{color:#1b3aaa; margin-top:30px; font-size:25px; text-align: center;;margin: a
     ;}
 .bar:hover{color:red;}
-.elem{margin-top:40px; height:180px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid blue;
-     border-bottom: 2px solid blue;}
+.elem{margin-top:40px; height:180px; padding-left: 5%; display: flex; align-items: center; border-top: 2px solid #243779;
+     border-bottom: 2px solid #243779;}
 .elem img{width:30px;}
-.elem h2{color:blue; font-size:23px}
+.elem h2{color:#0e1942; font-size:23px}
 .lrt{display: none !important;}
 
 .colT{display: flex;color:black; align-items: center; justify-content: center; width:100%; height:30px;}
-.colT:hover{color:blue;}
+.colT:hover{color:#1b3aaa;}
 .colT p{margin-left:10px; margin-top:13px; font-size: 15px;}
 .gal{padding:60px 30px;}
 .gal img{width:100%; height:200px; border-radius: 30px 0px; transition:1s;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
@@ -157,12 +157,13 @@ margin-top: 10px;
 .pp{font-size:20px; color:rgb(140, 139, 139); margin-top:20px;}
 .sliderHomiy {
     width: 100%;
-    border-top:2px solid blue;
+    border-top:2px solid #243779;
     padding-top:50px;
-    border-bottom:2px solid blue;
+    border-bottom:2px solid #243779;
     padding-bottom:50px;
     height: max-content;
     text-align: center;
+    
   }
   
   .toolpat {
@@ -267,8 +268,8 @@ margin-right: 24px;
     .fio{font-size: 18px; font-weight: bold;}
     .qabul{font-size: 15px;}
     .ahref{margin-left: -20px !important;}
-    .colimg{transform:scale(1.3, 1.3); left:-13px; padding:0px;}
-    .colimg img{transform:scale(1.6, 1.6);}
+    .colimg1{transform:scale(1.6, 1.6); padding:0px;}
+    .colimg1 img{transform:scale(2, 2);}
     .stas{display: flex; align-items: center; flex-wrap: wrap; justify-content: center;
         padding: 5%;
         height: auto;
@@ -335,13 +336,19 @@ margin-right: 24px;
         font-size: 17px;
     }
 
-    .colimg {
-        height: 80px;
+    .colimg1 {
+        width: 50vw;
+        padding: 0 0; 
+        position: relative;
+        top:30px;
+        left: -10px;
+    scale: 2;
+    }
+    .colimg1 img{
+        scale: 1.5;
         padding: 0 0;
     }
-    .colimg img{
-        margin-top: -20%;
-    }
+    
     #mediaa11:nth-child(2) {
         display: none;
     }
@@ -482,7 +489,7 @@ justify-content: center;
     height: 100%;
     margin-top: 0px;
 }
-.colimg{
+.colimg1{
     overflow: hidden;
 }
 .bar{

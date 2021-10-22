@@ -1,9 +1,9 @@
 .brand_img,.brand_text{display:inline-block}
-.navG{position:fixed; top:0px; left:0px; z-index: 5567;width:100%; padding:10px 20px; background-color:#1105e6}
+.navG{position:fixed; top:0px; left:0px; z-index: 5567;width:100%; padding:10px 20px; background-color:#243779}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
-.brand_text p{font-size: 16px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
+.brand_text p{font-size: 18px; width:90px;height:50px; display: flex; position: relative; top:18px; left:15px; align-items:center;} 
 .navB{width:200px; display: flex;}
 .birinchi{margin-left:20%;}
 .navG .birinchi{margin-left: 30%;}
