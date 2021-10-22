@@ -72,7 +72,7 @@ export default class Footer extends Component {
                       </div>
 
                       <div className="contact-info">
-                        <h3>Jizzax viloyati Jizzax shahri</h3>
+                        <h3>Xorazm viloyati Urganch shahri</h3>
                         <p>Ortiqho'jayev ko'chasi 5 - uy</p>
                       </div>
                     </div>
