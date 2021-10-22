@@ -8,6 +8,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import YouTube from "react-youtube";
 import Loader from "./Loader";
+import sanakulov from "../img/sanakulov.jpg";
+import sharahmetov from "../img/sharahmetov.jpg";
+import djulibekov from "../img/djulibekov.jpg";
 export default class Tumanlar extends Component {
   constructor(props) {
     super(props);
