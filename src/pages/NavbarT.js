@@ -43,7 +43,7 @@ export default class NavbarT extends Component {
                 >
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none",  width:"100px" }}
                     to="/"
                   >
                     Bosh sahifa
@@ -52,7 +52,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none" ,  width:"100px" }}
                     to="/rahbariyat"
                   >
                     Rahbariyat
@@ -61,7 +61,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none" ,  width:"100px" }}
                     to="/yangiliklar"
                   >
                     Yangiliklar
@@ -70,7 +70,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none" ,  width:"100px" }}
                     to="/tumanlar"
                   >
                     Tumanlar
@@ -79,7 +79,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none" ,  width:"100px" }}
                     to="/boglanish"
                   >
                     Bog'lanish
