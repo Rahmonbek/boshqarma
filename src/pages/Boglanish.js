@@ -30,8 +30,9 @@ export default class Boglanish extends Component {
                 fontWeight:'bold',
                 textAlign: "center",
                 marginTop: "160px",
-                width:'100%',
+                width:'300px',
                 marginBottom: "50px",
+                borderBottom:'3px solid blue'
               }}
             >
               Bizning Manzilimiz

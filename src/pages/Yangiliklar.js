@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
 import { getNews } from "../host/Config";
 import FadeLoader from "react-spinners/FadeLoader";
 import { Carousel } from "antd";
-import Footer from "./Footer";
+import Footer from "./FooterA";
 import NavbarT from "./NavbarT";
 
 // import {DownCircleOutlined} from '@ant-design/icons'
