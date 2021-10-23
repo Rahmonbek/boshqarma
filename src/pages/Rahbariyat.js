@@ -173,15 +173,15 @@ export default class Rahbariyat extends Component {
                     </Col>
                     <Col lg={3} sm={12}>
                       <div className={styles.card1}>
-                        <h4 style={{ textAlign:"center",color:"rgb(11, 0, 36)" }}>Rahbariyat</h4>
-                        <div className={styles.line}></div>
+                        {/* <h4 style={{ textAlign:"center",color:"rgb(11, 0, 36)",fontSize:"30px" }}>Rahbariyat</h4> */}
+                        {/* <div className={styles.line}></div> */}
                         <ul style={{ listStyle: "none" }}>
                         <br/><li
                             onClick={() => this.setState({ daraja: 1 })}
                             style={{
                               cursor: "pointer",
                               // color: "#1105e6",
-                              fontSize: "20px",
+                              fontSize: "25px",
                             }}
                           >
                         Rahbariyat a'zolari
@@ -191,11 +191,11 @@ export default class Rahbariyat extends Component {
                             style={{
                               cursor: "pointer",
                               // color: "#1105e6",
-                              fontSize: "20px",
+                              fontSize: "22px",
                             }}
                           >
                             Xodimlar
-                          </li>
+                          </li><br/>
                         </ul>
                         {/* <Button
                       variant="primary"
