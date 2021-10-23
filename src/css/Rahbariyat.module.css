@@ -132,11 +132,10 @@
 }
 @media (min-width: 0px) and (max-width: 566px) {
   .head {
-     height: 630px;
-    background-size: 100% 62%;
-    margin-top: 0px;
-    padding-top: -40%;
-    background-position:top ;
+     height: 600px;
+    background-size: 100% 60%;
+    padding-top: 100%;
+    background-position-y: 35%;
   }
   .head_text {
     font-size: 18px;
@@ -168,11 +167,11 @@
   margin-top:30px; 
   }
 @media (min-width: 567px) and (max-width: 767px) {
-  .head {
+  /* .head {
     padding-top: 325px;
     height: 475px;
     background-size: 100% 100%;
-  }
+  } */
   .head_text {
     font-size: 23px;
     padding: 20px 40px;
@@ -222,7 +221,7 @@
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   .head {
-    padding-top: 295px;
+    padding-top: 30%;
     height: 550px;
     background-size: 100% 100%;
   }
