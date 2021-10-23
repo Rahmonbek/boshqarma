@@ -445,7 +445,6 @@
 @media screen and (min-width: 1500px) {
   .head {
     padding-top: 70vh;
-    height: 100%;
   }
   .head_text {
     font-size: 40px;
