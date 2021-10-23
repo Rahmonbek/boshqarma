@@ -132,8 +132,11 @@
 }
 @media (min-width: 0px) and (max-width: 566px) {
   .head {
-    padding-top: 410px; height: 630px;
+     height: 630px;
     background-size: 100% 62%;
+    margin-top: 0px;
+    padding-top: -40%;
+    background-position:top ;
   }
   .head_text {
     font-size: 18px;
