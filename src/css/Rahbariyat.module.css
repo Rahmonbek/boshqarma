@@ -15,7 +15,7 @@
   width: 100%;
   height: 100vh;
   background-size: 100% 100%;
-  background-image: url(../img/dxorazm0.jpg);
+  background-image: url(../img/dxorazm15.jpg.png);
   padding-top: 60vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -134,6 +134,7 @@
   .head {
     padding-top: 235px;
     height: 450px;
+    background-size: 100% 100%;
   }
   .head_text {
     font-size: 18px;
@@ -168,6 +169,7 @@
   .head {
     padding-top: 255px;
     height: 475px;
+    background-size: 100% 100%;
   }
   .head_text {
     font-size: 23px;
@@ -193,6 +195,7 @@
   .head {
     padding-top: 260px;
     height: 500px;
+    background-size: 100% 100%;
   }
   .head_text {
     font-size: 28px;
@@ -220,6 +223,7 @@
   .head {
     padding-top: 275px;
     height: 550px;
+    background-size: 100% 100%;
   }
   .head_text {
     padding: 20px 120px;
@@ -266,6 +270,7 @@
 @media screen and (min-width: 1500px) {
   .head {
     padding-top: 70vh;
+    background-size: 100% 100%;
   }
   .head_text {
     font-size: 45px;
@@ -293,7 +298,7 @@
 }
 @media screen and (min-width: 1920px) {
   .head {
-    padding-top: 75vh;
+    padding-top: 75vh;background-size: 100% 100%;
   }
   .head_text {
     font-size: 50px;
