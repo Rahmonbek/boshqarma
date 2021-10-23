@@ -274,7 +274,7 @@
   .head {
     padding-top: 105%;
     background-size: 100% 70%;
-    background-position-y: 32%;
+    background-position-y: 33%;
   }
   .head_text {
     font-size: 18px;
@@ -368,6 +368,7 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
   .head {
+    background-position-y: 5%;
     padding-top: 100%;background-size: 100% 80%;
   }
   .head_text {
