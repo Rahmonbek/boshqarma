@@ -179,7 +179,7 @@ body {
 
 .head{
   background-size: 200% 100%;
-
+ 
 }
       .but {
         width: 100%;
@@ -230,10 +230,10 @@ body {
 @media (max-width:650px) {
   .head_text{
 margin: 0px;
-font-size: 20px;
+font-size: 18px;
   }
   .head{
-    padding-top: 100px;
+    padding-top: 485px;
   } 
 
 
