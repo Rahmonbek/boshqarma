@@ -143,7 +143,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -265,7 +265,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -387,7 +387,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -509,7 +509,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -631,7 +631,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -753,7 +753,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -876,7 +876,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -999,7 +999,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -1127,7 +1127,7 @@ export default class Tumanlar extends Component {
 
                       {/* <YouTube
                       
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -1253,7 +1253,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
@@ -1376,7 +1376,7 @@ export default class Tumanlar extends Component {
                       <div className={style.chiziq}></div>
                       <br />
                       <YouTube
-                        videoId="vRypTFwbdqI"
+                        videoId="qaJGUdMi_kc"
                         opts={{
                           playerVars: {
                             // https://developers.google.com/youtube/player_parameters
