@@ -20,18 +20,28 @@
   background-image: url("../img/school4.jpg");
   background-size: cover;
 }
-.headerImage {
+.head {
+  margin-top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url(../img/dxorazm0.jpg);
+  padding-top: 73vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* .headerImage {
   width: 100%;
   height: 650px;
   position: relative;
   object-fit: cover;
   background-position: center center;
-  background-image: url("../img/bg5t.jpg");
+  background-image: url(../img/dxorazm16.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(90%); */
-  z-index: 5 !important;
-}
+  z-index: 5 !important;} */
 .overlay {
   position: absolute;
   width: 100%;
@@ -52,7 +62,7 @@
   width: 100%;
   height: 100vh;
   background-size: 100% 100%;
-  background-image: url("https://president.uz/uploads/66a32e19-b8bb-31ec-bb1b-7b9ca371e3e0_pages_3184.jpg");
+  background-image: url(../img/dxorazm16.jpg);
   padding-top: 60vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
