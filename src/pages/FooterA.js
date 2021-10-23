@@ -17,21 +17,21 @@ export default class Boglanish extends Component {
                       <h5 className="footer-title">Manzil:</h5>
                       <div className="gem-contacts">
                         <div className="gem-contacts-item gem-contacts-address">
-                          Bosh Offis :<br /> Chilonzor, B-275(A),Yashnobot,
+                          Bosh Office :<br /> Chilonzor, B-275(A),Yashnobod,
                           Mahalla idorasi 2
                         </div>
                         <div className="gem-contacts-item gem-contacts-phone">
                           <i className="fa fa-phone" aria-hidden="true"></i>{" "}
-                          Tel: <a href="Tel:+996487223">+99 648 72 23</a>
+                          Tel: <a href="Tel:+996487223">+999 93 648 72 23</a>
                         </div>
 
                         <div className="gem-contacts-item gem-contacts-address mt-2">
-                          Qo`shimcha Offis :<br /> Chilonzor,
-                          B-275(A),Yashnobot, Mahalla idorasi 2.
+                          Qo`shimcha Office :<br /> Chilonzor,
+                          B-275(A),Yashnobod, Mahalla idorasi 2.
                         </div>
                         <div className="gem-contacts-item gem-contacts-phone">
                           <i className="fa fa-phone" aria-hidden="true"></i>{" "}
-                          Phone: <a>+91 9122588799</a>
+                          Tel: <a>+998 91 225 88 79</a>
                         </div>
                       </div>
                     </div>
@@ -40,17 +40,17 @@ export default class Boglanish extends Component {
                     <div className="row">
                       <div className="col-6 col-lg-6 col-md-6 col-sm-6">
                         <div className="widget footer_widget">
-                          <h5 className="footer-title">Yoriqnoma:</h5>
+                          <h5 className="footer-title">Yo'riqnoma:</h5>
                           <ul className="posts  styled">
                             <li className="clearfix gem-pp-posts">
                               <div className="gem-pp-posts-text">
                                 <div className="gem-pp-posts-item">
                                   <a href="#">
-                                    Bosh ish o`rinlari va ish masalasi bo`yicha.
+                                    Bo'sh ish o`rinlari va ish masalasi bo`yicha.
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +91-9122588799
+                                  Tel: +998 91 225 88 79
                                 </div>
                               </div>
                             </li>
@@ -58,12 +58,12 @@ export default class Boglanish extends Component {
                               <div className="gem-pp-posts-text">
                                 <div className="gem-pp-posts-item">
                                   <a href="#">
-                                    Kredit masalasi xususiy tadbirkirlik
+                                    Kredit masalasi xususiy tadbirkorlik
                                     bo`yicha.
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +91-9122588799, +91-9122588799
+                                  Tel: +998 91 225 88 79, +998 91 225 88 78
                                 </div>
                               </div>
                             </li>
@@ -71,11 +71,11 @@ export default class Boglanish extends Component {
                               <div className="gem-pp-posts-text">
                                 <div className="gem-pp-posts-item">
                                   <a href="">
-                                    Talim tizimi va boshqa masalalar bo`yicha.
+                                    Ta'lim tizimi va boshqa masalalar bo`yicha.
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +91-9122588799, +91-9122588799
+                                  Tel: +998 91 225 88 79, +998 91 225 88 78
                                 </div>
                               </div>
                             </li>
@@ -116,7 +116,7 @@ export default class Boglanish extends Component {
                                   <p>
                                     <span className="wpcf7-form-control-wrap your-email_1">
                                       <input
-                                        type="email"
+                                        type="text"
                                         name="your-email_1"
                                         value=""
                                         size="40"
@@ -223,7 +223,7 @@ export default class Boglanish extends Component {
                           id="menu-item-29"
                           className="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"
                         >
-                          <a href="#">Bo`g`lanish</a>
+                          <a href="#">Bog`lanish</a>
                         </li>
                       </ul>
                     </nav>
