@@ -110,7 +110,7 @@ export default class Rahbariyat extends Component {
             <div>
               <div className={styles.head}>
                 <div className={styles.head_text}>
-                  O'zbekiston Respublikasi Xorazm viloyati xalq ta'limi
+                  O'zbekiston Respublikasi Xorazm viloyati Bog`ot tumani xalq ta'limi
                   boshqarmasining rahbariyati
                 </div>
               </div>
@@ -175,28 +175,7 @@ export default class Rahbariyat extends Component {
                       <div className={styles.card1}>
                         {/* <h4 style={{ textAlign:"center",color:"rgb(11, 0, 36)",fontSize:"30px" }}>Rahbariyat</h4> */}
                         {/* <div className={styles.line}></div> */}
-                        <ul style={{ listStyle: "none" }}>
-                        <br/><li
-                            onClick={() => this.setState({ daraja: 1 })}
-                            style={{
-                              cursor: "pointer",
-                              // color: "#1105e6",
-                              fontSize: "25px",
-                            }}
-                          >
-                        Rahbariyat a'zolari
-                          </li><br/>
-                          <li
-                            onClick={() => this.setState({ daraja: 2 })}
-                            style={{
-                              cursor: "pointer",
-                              // color: "#1105e6",
-                              fontSize: "22px",
-                            }}
-                          >
-                            Xodimlar
-                          </li><br/>
-                        </ul>
+                     <img src="https://storage.kun.uz/source/4/-6TTtUhrlyWnlYMZt67cdHHPOurXdggs.jpg" style={{width:'100%'}}/>
                         {/* <Button
                       variant="primary"
                       style={{ marginRight: "10px" }}

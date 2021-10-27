@@ -17,21 +17,21 @@ export default class Boglanish extends Component {
                       <h5 className="footer-title">Manzil:</h5>
                       <div className="gem-contacts">
                         <div className="gem-contacts-item gem-contacts-address">
-                          Bosh Office :<br /> Chilonzor, B-275(A),Yashnobod,
-                          Mahalla idorasi 2
+                          Bosh Office :<br />220200, Bog‘ot shaharchasi, O‘zbekiston ko‘chasi, 11-uy. 
+                          Tel/faks: (8362)31-52-967, 
                         </div>
                         <div className="gem-contacts-item gem-contacts-phone">
                           <i className="fa fa-phone" aria-hidden="true"></i>{" "}
-                          Tel: <a href="Tel:+996487223">+999 93 648 72 23</a>
+                          Tel: <a href="Tel:+996487223">(8362)31-52-967</a>
                         </div>
 
                         <div className="gem-contacts-item gem-contacts-address mt-2">
-                          Qo`shimcha Office :<br /> Chilonzor,
-                          B-275(A),Yashnobod, Mahalla idorasi 2.
+                          Qo`shimcha Office :<br />220200, Bog‘ot shaharchasi, O‘zbekiston ko‘chasi, 11-uy. 
+                          Tel/faks: (8362)31-52-967, 
                         </div>
                         <div className="gem-contacts-item gem-contacts-phone">
                           <i className="fa fa-phone" aria-hidden="true"></i>{" "}
-                          Tel: <a>+998 91 225 88 79</a>
+                          Tel: <a>(8362)31-52-967</a>
                         </div>
                       </div>
                     </div>
@@ -50,7 +50,7 @@ export default class Boglanish extends Component {
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +998 91 225 88 79
+                                  Tel: (8362)31-52-967
                                 </div>
                               </div>
                             </li>
@@ -63,7 +63,7 @@ export default class Boglanish extends Component {
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +998 91 225 88 79, +998 91 225 88 78
+                                  Tel: +998 99 999 99 99 , +998 99 999 99 99
                                 </div>
                               </div>
                             </li>
@@ -75,7 +75,7 @@ export default class Boglanish extends Component {
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +998 91 225 88 79, +998 91 225 88 78
+                                  Tel: +998 99 999 99 99 , +998 99 999 99 99
                                 </div>
                               </div>
                             </li>
@@ -183,7 +183,8 @@ export default class Boglanish extends Component {
                     <div className="footer-site-info">
                       2021 ©{" "}
                       <a
-                        href="https://www.youtube.com/watch?v=pdr4IzBpacI/t=34s"
+                      title="tel:+998 93 082 03 72"
+                        href="tel:+998 93 082 03 72"
                         target="_blank"
                       >
                         IT Tower{" "}
@@ -217,7 +218,7 @@ export default class Boglanish extends Component {
                           id="menu-item-28"
                           className="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"
                         >
-                          <a href="#">Tumanlar</a>
+                          <a href="#">Fotolavhalar</a>
                         </li>
                         <li
                           id="menu-item-29"
@@ -233,7 +234,7 @@ export default class Boglanish extends Component {
                     <div id="footer-socials">
                       <div className="socials inline-inside socials-colored">
                         <a
-                          href="#"
+                          href="https://www.facebook.com/bogotxtb"
                           target="_blank"
                           title="Facebook"
                           className="socials-item"
@@ -241,7 +242,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-facebook-f facebook"></i>
                         </a>
                         <a
-                          href="#"
+                          href="https://www.facebook.com/bogotxtb"
                           target="_blank"
                           title="Twitter"
                           className="socials-item"
@@ -249,7 +250,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-twitter twitter"></i>
                         </a>
                         <a
-                          href="#"
+                          href="https://www.facebook.com/bogotxtb"
                           target="_blank"
                           title="Instagram"
                           className="socials-item"
@@ -257,7 +258,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-instagram instagram"></i>
                         </a>
                         <a
-                          href="#"
+                          href="https://t.me/bogotijro"
                           target="_blank"
                           title="YouTube"
                           className="socials-item"
@@ -265,7 +266,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-youtube youtube"></i>
                         </a>
                         <a
-                          href="#"
+                          href="https://t.me/bogotijro"
                           target="_blank"
                           title="Telegram"
                           className="socials-item"
