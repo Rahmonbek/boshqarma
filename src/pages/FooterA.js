@@ -63,7 +63,7 @@ export default class Boglanish extends Component {
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +998 99 999 99 99 , +998 99 999 99 99
+                                  Tel: (8362)31-52-967 , (8362)31-52-967
                                 </div>
                               </div>
                             </li>
@@ -75,7 +75,7 @@ export default class Boglanish extends Component {
                                   </a>
                                 </div>
                                 <div className="gem-pp-posts-date">
-                                  Tel: +998 99 999 99 99 , +998 99 999 99 99
+                                  Tel: (8362)31-52-967 , (8362)31-52-967
                                 </div>
                               </div>
                             </li>
