@@ -79,7 +79,7 @@ export default class Yangiliklar extends Component {
             <NavbarT />
             <div className={styles.head}>
               <div className={styles.head_text}>
-                O'zbekiston Respublikasi Xorazm viloyati xalq ta'limi
+                O'zbekiston Respublikasi Xorazm viloyati Bog`ot tumani  xalq ta'limi
                 boshqarmasining yangiliklari
               </div>
             </div>

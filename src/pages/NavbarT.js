@@ -21,11 +21,11 @@ export default class NavbarT extends Component {
                 </div>
                 <div class={style.brand_text} id={style.mediaa11}>
                   <p className={style.lrt}>
-                    O'zbekiston Respublikasi <br /> Xorazm viloyati <br /> xalq
+                    O'zbekiston Respublikasi <br /> Xorazm viloyati <br />Bog`ot tumani xalq
                     ta'limi boshqarmasi{" "}
                   </p>
                   <p>
-                    O'zbekiston Respublikasi Xorazm viloyati <br /> xalq ta'limi
+                    O'zbekiston Respublikasi Xorazm viloyati <br />Bog`ot tumani xalq ta'limi
                     boshqarmasi{" "}
                   </p>
                 </div>
@@ -71,9 +71,9 @@ export default class NavbarT extends Component {
                   <NavLink
                     className={style.navlik}
                     style={{ textDecoration: "none" ,  width:"100px" }}
-                    to="/tumanlar"
+                    to="/lavhalar"
                   >
-                    Tumanlar
+                   Fotolavhalar
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>

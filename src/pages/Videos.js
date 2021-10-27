@@ -48,7 +48,7 @@ export default class Videos extends Component {
                     <div class="w-100 ">
                       <div class="container">
                         <p class="text">
-                          O`zbekiston Respublikasi Jizzaxt viloyati xalq ta`lim
+                          O`zbekiston Respublikasi Xorazm viloyati Bog`ot tumani xalq ta`lim
                           boshqarmasi
                         </p>
                       </div>
