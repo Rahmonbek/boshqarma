@@ -3,6 +3,11 @@ import FooterA from "./FooterA";
 import style from "../css/Lavhalar.module.css";
 import NavbarT from "./NavbarT";
 import Loader from "./Loader";
+import til1 from "../img/til1.jpg"
+import til2 from "../img/til2.jpg"
+import til3 from "../img/til3.jpg"
+import til4 from "../img/til4.jpg"
+import til5 from "../img/til5.jpg"
 
 export default class Lavhalar extends Component {
   constructor(props) {
@@ -35,24 +40,24 @@ export default class Lavhalar extends Component {
             <div className={style.still}>
               <div className={style.container}>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Al_mabruk_Qorabuloq.jpg" />
-                  <div className={style.card__head}>Maktab qurilishi</div>
+                  <img src="https://telegra.ph/file/42b77ca090a647c5f5d6c.jpg" />
+                  <div className={style.card__head}>Majlis jarayoni</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/17maktab.jpg" />
-                  <div className={style.card__head}>Obod mahalla</div>
+                  <img src="https://telegra.ph/file/7367cb57f8f72240c7e8d.jpg" />
+                  <div className={style.card__head}>Taqdirlash marosimi</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Qorabuloq_kiraverish.jpg" />
-                  <div className={style.card__head}>Madiyat ishlari</div>
+                  <img src="https://telegra.ph/file/8826f1e7dfe9e79195730.jpg" />
+                  <div className={style.card__head}>Taqdirlash marosimi</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Qorabuloq.kollej.jpg/1920px-Qorabuloq.kollej.jpg" />
-                  <div className={style.card__head}>Maktab ochilishi</div>
+                  <img src="https://telegra.ph/file/e873fa99463535a46e774.jpg" />
+                  <div className={style.card__head}>Taqdirlash marosimi</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Qorabuloq.Alisher_Navoiy.jpg/1920px-Qorabuloq.Alisher_Navoiy.jpg" />
-                  <div className={style.card__head}>Yutuqlarimiz</div>
+                  <img src="https://telegra.ph/file/eb7a95c1cbb8fd2eda1bb.jpg" />
+                  <div className={style.card__head}>Faxriylar bilan surat</div>
                 </div>
               </div>
             </div>
@@ -61,24 +66,24 @@ export default class Lavhalar extends Component {
             <div className={style.still}>
               <div className={style.container}>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/17maktab.jpg" />
-                  <div className={style.card__head}>Plotting Cat</div>
+                  <img src={til1} />
+                  <div className={style.card__head}>Ona tili bayrami </div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Arofat_opa.JPG/1280px-Arofat_opa.JPG" />
-                  <div className={style.card__head}>Angry Cat</div>
+                  <img src={til2} />
+                  <div className={style.card__head}>Til haqida she`rlar</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Qorabuloq_02.jpg/1920px-Qorabuloq_02.jpg" />
-                  <div className={style.card__head}>Curious Cat</div>
+                  <img src={til3} />
+                  <div className={style.card__head}>Tarixiy sahna ko`rinishi</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Karabula_masjid.jpg/1920px-Karabula_masjid.jpg" />
-                  <div className={style.card__head}>Prowling Cat</div>
+                  <img src={til4}/>
+                  <div className={style.card__head}>Ajoyib raqslar</div>
                 </div>
                 <div className={style.card}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Xiyobon.jpg/1920px-Xiyobon.jpg" />
-                  <div className={style.card__head}>Sleepy Cat</div>
+                  <img src={til5} />
+                  <div className={style.card__head}>Jamoviy surat</div>
                 </div>
               </div>
             </div>

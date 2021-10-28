@@ -23,7 +23,7 @@ import her5 from "../img/h5.png";
 import her6 from "../img/h6.png";
 import yil from "../img/yil.jpg";
 import pic1 from "../img/TzSlyW15681190612830_l.jpg";
-import pic2 from "../img/1400__100_1004528215.jpg";
+import pic2 from "../img/carousel.jpg";
 import pic3 from "../img/ILAspvrLpXnT0IHX_5BbxdhZePCWP4X3.jpg";
 import pic4 from "../img/ac2ba8c2-8cea-312b-591a-b5e87feba57b.jpg";
 import pic5 from "../img/YKARQQicDmPFAXIZ5k0pbMWHclKl1UeR.jpg";

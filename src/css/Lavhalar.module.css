@@ -13,7 +13,7 @@
   width: 20rem;
   height: 20rem;
   cursor: pointer;
-  background: url(https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60/1600x1000) no-repeat 100% 50%;
+  background: url('../img/carousel.jpg') no-repeat 100% 50%;
   background-size: 120%;
   border-radius: 50%;
   transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
