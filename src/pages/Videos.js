@@ -5,6 +5,11 @@ import "./videos.css";
 import natural from "../video/natural.mp4";
 import { Container } from "react-bootstrap";
 import Loader from "./Loader";
+import video3 from '../video/video3.mp4'
+import video2 from '../video/video2.mp4'
+import video1 from '../video/video1.mp4'
+import video4 from '../video/video4.mp4'
+import video5 from '../video/video5.mp4'
 export default class Videos extends Component {
   constructor(props) {
     super(props);
@@ -75,15 +80,14 @@ export default class Videos extends Component {
                         <div class="card">
                           <div class="card-block p-3">
                             <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Responsive video</strong>
+                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi </strong>
                             </h3>
 
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe
-                                class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                                allowfullscreen
-                              ></iframe>
+                            <video width="100%" height="100%" controls>
+  <source src={video3} type="video/mp4"/>
+</video> 
+                            
                             </div>
                           </div>
                         </div>
@@ -95,15 +99,14 @@ export default class Videos extends Component {
                         <div class="card">
                           <div class="card-block p-3">
                             <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>YouTube Iframe</strong>
+                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi</strong>
                             </h3>
 
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe
-                                class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/v64KOxKVLVg"
-                                allowfullscreen
-                              ></iframe>
+                            <video width="100%" height="100%" controls>
+  <source src={video2} type="video/mp4"/>
+</video> 
+              
                             </div>
                           </div>
                         </div>
@@ -113,15 +116,14 @@ export default class Videos extends Component {
                         <div class="card">
                           <div class="card-block p-3">
                             <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>YouTube Iframe</strong>
+                              <strong>Xorazm viloyati Bog'ot tumani 46-son maktabi</strong>
                             </h3>
 
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe
-                                class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/v64KOxKVLVg"
-                                allowfullscreen
-                              ></iframe>
+                            <video width="100%" height="100%" controls>
+  <source src={video1} type="video/mp4"/>
+</video> 
+              
                             </div>
                           </div>
                         </div>
@@ -131,15 +133,13 @@ export default class Videos extends Component {
                         <div class="card">
                           <div class="card-block p-3">
                             <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Vimeo Iframe</strong>
+                              <strong>Xorazm viloyati Boģot tumanidagi 9-son maktabi</strong>
                             </h3>
 
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe
-                                class="embed-responsive-item"
-                                src="https://player.vimeo.com/video/137857207"
-                                allowfullscreen
-                              ></iframe>
+                            <video width="100%" height="100%" controls>
+  <source src={video4} type="video/mp4"/>
+</video> 
                             </div>
                           </div>
                         </div>
@@ -149,15 +149,13 @@ export default class Videos extends Component {
                         <div class="card">
                           <div class="card-block p-3">
                             <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Vimeo Iframe</strong>
+                              <strong>Xorazm viloyati Bog‘ot tumanidagi 44-son maktab jamoasi </strong>
                             </h3>
 
                             <div class="embed-responsive embed-responsive-16by9">
-                              <iframe
-                                class="embed-responsive-item"
-                                src="https://player.vimeo.com/video/137857207"
-                                allowfullscreen
-                              ></iframe>
+                            <video width="100%" height="100%" controls>
+  <source src={video5} type="video/mp4"/>
+</video> 
                             </div>
                           </div>
                         </div>
@@ -174,7 +172,7 @@ export default class Videos extends Component {
                       <a
                         class="btn btn-primary"
                         style={{ marginBottom: "20px" }}
-                        href="https://mdbootstrap.com/components/bootstrap-video/"
+                        href="https://t.me/bogotijro"
                         target="_blank"
                       >
                         Obuna bo`lish

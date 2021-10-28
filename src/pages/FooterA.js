@@ -250,7 +250,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-twitter twitter"></i>
                         </a>
                         <a
-                          href="https://www.facebook.com/bogotxtb"
+                          href=" https://www.instagram.com/bogotxtb/"
                           target="_blank"
                           title="Instagram"
                           className="socials-item"

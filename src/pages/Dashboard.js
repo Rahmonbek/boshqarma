@@ -426,7 +426,7 @@ export default class Dashboard extends Component {
                       <a
                         target="_blank"
                         className={style.ahref}
-                        href="https://www.facebook.com/bogotxtb"
+                        href=" https://www.instagram.com/bogotxtb/"
                       >
                         <i className="fab fa-instagram"></i>
                       </a>

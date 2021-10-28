@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import yangilik1 from "../img/yangilik1.jpg";
+import yangilik1 from "../img/shaxmat.jpg";
 import yangilik2 from "../img/yangilik2.jpg";
 import new1 from "../img/new1.jpg";
 import new2 from "../img/new2.jpg";
@@ -138,10 +138,10 @@ export default class Yangiliklar extends Component {
                   {this.state.news.length !== 0 ? (
                     <div className={styles.news} data-aos="zoom-in-right">
                       <img
-                        src={this.state.news[this.state.id].image}
+                        src={yangilik1}
                         alt="Foto lavha"
                       />
-                      <h3>{this.state.news[this.state.id].title}</h3>
+                      <h3>BOGʼOTLIK ShАXMАTChILАR UMUMJАMOА HISOBIDА BIRINChI BOʼLIShDI!</h3>
 
                       <p className={styles.date}>
                         <i
@@ -153,7 +153,10 @@ export default class Yangiliklar extends Component {
                         ].published_time.substring(0, 10)}
                       </p>
                       <p style={{ height: "100%" }}>
-                        {this.state.news[this.state.id].text}
+                      22 oktyabrь sanasida Urganch shahrida shaxmat sport turi boʼyicha maktab oʼquvchilarining Respublika chempionati viloyat bosqichi boʼlib oʼtdi. Qizgʼin kurashlarga boy boʼlgan bahslarda Bogʼot tumani 47-son IDUM oʼquvchilari Olimboev Muhammadjon va Olimboeva Husnida, 6-son maktab oʼquvchisi Rahimberdieva Ruxshona va 2-son maktab oʼquvchisi Karimov Muhammadjonlar faxrli 1-oʼrinni qoʼlga kiritishib, joriy yilning 3 noyabrь sanasida boshlanadigan Respublika chempionatiga yoʼllanma olishdi. 
+Taʼlim tarbiya berayotgan maktab jamoasini va ustozlariga tashakkur bildiramiz!
+Bogʼot tumani jamoasi umumiy hisobda birinchi oʼrinni olishdi!
+Ushbu aql gimnastika sohiblariga Oʼzbekiston chempionatida omad tilaymiz!
                       </p>
                     </div>
                   ) : (
@@ -167,9 +170,7 @@ export default class Yangiliklar extends Component {
                     </div>
                     <div className={styles.body}>
                       <Row>
-                        {this.state.news.map((item, key) => {
-                          return (
-                            <Col
+                      <Col
                               lg={12}
                               md={12}
                               sm={12}
@@ -177,9 +178,7 @@ export default class Yangiliklar extends Component {
                               className={styles.body_card}
                             >
                               <MDBCard
-                                onClick={() => {
-                                  this.setState({ id: key });
-                                }}
+                              
                                 style={{
                                   maxWidth: "540px",
                                   borderRadius: "10px",
@@ -188,7 +187,7 @@ export default class Yangiliklar extends Component {
                                 <MDBRow className="g-0">
                                   <MDBCol md="4">
                                     <MDBCardImage
-                                      src={item.image}
+                                      src={new1}
                                       alt="..."
                                       fluid
                                       style={{
@@ -199,7 +198,7 @@ export default class Yangiliklar extends Component {
                                   </MDBCol>
                                   <MDBCol md="8">
                                     <MDBCardBody>
-                                      <MDBCardTitle>{item.title}</MDBCardTitle>
+                                      <MDBCardTitle>Bogot tumani istiroxat bogida Yoshlarni vatanparvarlik ruhida tarbiyalash boʼyicha oʼtkazilgan tadbirda 5-son maktab oʼquvchisi Urinboev Foziljon Stol armrestling boʼyicha faxrli 1-oʼrinni qoʼlga kiritdi</MDBCardTitle>
 
                                       <MDBCardText>
                                         <small className="text-muted">
@@ -211,10 +210,7 @@ export default class Yangiliklar extends Component {
                                               style={{ marginRight: "10px" }}
                                               class="far fa-calendar-alt"
                                             ></i>
-                                            {item.published_time.substring(
-                                              0,
-                                              10
-                                            )}{" "}
+                                          2021-09-07
                                           </p>{" "}
                                         </small>
                                       </MDBCardText>
@@ -223,8 +219,105 @@ export default class Yangiliklar extends Component {
                                 </MDBRow>
                               </MDBCard>
                             </Col>
-                          );
-                        })}
+                            <Col
+                              lg={12}
+                              md={12}
+                              sm={12}
+                              style={{ marginBottom: "10px" }}
+                              className={styles.body_card}
+                            >
+                              <MDBCard
+                              
+                                style={{
+                                  maxWidth: "540px",
+                                  borderRadius: "10px",
+                                }}
+                              >
+                                <MDBRow className="g-0">
+                                  <MDBCol md="4">
+                                    <MDBCardImage
+                                      src={new2}
+                                      alt="..."
+                                      fluid
+                                      style={{
+                                        margin: "7px",
+                                        borderRadius: "5px",
+                                      }}
+                                    />
+                                  </MDBCol>
+                                  <MDBCol md="8">
+                                    <MDBCardBody>
+                                      <MDBCardTitle>Bog‘ot tumanidagi 39-son maktabning 1-sinf o‘quvchisi Ramatullayeva Munira 2014-yilda tug‘ilgan gimnastikachi qizlar o‘rtasida Sirdaryo viloyati ochiq turnirida fahrli 1-o‘rinni egalladi.</MDBCardTitle>
+
+                                      <MDBCardText>
+                                        <small className="text-muted">
+                                          <p
+                                            className={styles.date}
+                                            style={{ fontSize: "15px" }}
+                                          >
+                                            <i
+                                              style={{ marginRight: "10px" }}
+                                              class="far fa-calendar-alt"
+                                            ></i>
+                                          2021-09-13
+                                          </p>{" "}
+                                        </small>
+                                      </MDBCardText>
+                                    </MDBCardBody>
+                                  </MDBCol>
+                                </MDBRow>
+                              </MDBCard>
+                            </Col>
+
+                            <Col
+                              lg={12}
+                              md={12}
+                              sm={12}
+                              style={{ marginBottom: "10px" }}
+                              className={styles.body_card}
+                            >
+                              <MDBCard
+                              
+                                style={{
+                                  maxWidth: "540px",
+                                  borderRadius: "10px",
+                                }}
+                              >
+                                <MDBRow className="g-0">
+                                  <MDBCol md="4">
+                                    <MDBCardImage
+                                      src={new3}
+                                      alt="..."
+                                      fluid
+                                      style={{
+                                        margin: "7px",
+                                        borderRadius: "5px",
+                                      }}
+                                    />
+                                  </MDBCol>
+                                  <MDBCol md="8">
+                                    <MDBCardBody>
+                                      <MDBCardTitle>27-сон мактабда узбек тилига Давлат тили макоми берилганлигининг 32 йиллигига багишлаб "Кадринг баланд булсин- Она тилим" мавзусида кеча ташкил этилди.</MDBCardTitle>
+
+                                      <MDBCardText>
+                                        <small className="text-muted">
+                                          <p
+                                            className={styles.date}
+                                            style={{ fontSize: "15px" }}
+                                          >
+                                            <i
+                                              style={{ marginRight: "10px" }}
+                                              class="far fa-calendar-alt"
+                                            ></i>
+                                          2021-10-21
+                                          </p>{" "}
+                                        </small>
+                                      </MDBCardText>
+                                    </MDBCardBody>
+                                  </MDBCol>
+                                </MDBRow>
+                              </MDBCard>
+                            </Col>
                       </Row>
                     </div>
                   </div>
