@@ -355,7 +355,7 @@ export default class Dashboard extends Component {
                         style={{ textDecoration: "none" }}
                         to="/lavhalar"
                       >
-                       Lavhalar
+                       Fotolavhalar
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
