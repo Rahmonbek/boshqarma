@@ -76,6 +76,15 @@ export default class NavbarT extends Component {
                    Fotolavhalar
                   </NavLink>
                 </Nav.Link>
+                <Nav.Link style={{ textAlign: "center", }}>
+                      <NavLink
+                        className={style.navlik}
+                        style={{ textDecoration: "none" }}
+                        to="/videos"
+                      >
+                       Videolavhalar
+                      </NavLink>
+                    </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
