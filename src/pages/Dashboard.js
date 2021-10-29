@@ -199,9 +199,9 @@ export default class Dashboard extends Component {
               </div>
             </Carousel>
 
-            <div style={{height:'auto'}} className="fixed-top">
+            <div style={{height:'auto'}} className="fixed-top" style={{position:'absolute'}}>
 
-            <div className={style.navT}>
+            <div className={style.navT} style={{position:'absolute'}}>
               <Navbar style={{ position: "relative" }} expand="lg">
                 <Container>
                   <Navbar.Brand>
