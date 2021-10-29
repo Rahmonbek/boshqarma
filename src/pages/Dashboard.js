@@ -62,6 +62,7 @@ import dxorazm8 from "../img/dxorazm8.jpg";
 import dxorazm9 from "../img/dxorazm9.jpg";
 import priz1 from "../img/priz1.jpg"
 import dir2 from "../img/dir2.jpg"
+import gozal from '../img/gozal.png'
 
 // import drasm4 from "../img/drasm4.jpeg"
 
@@ -425,7 +426,7 @@ this.getNews()
                     </h2>
                   </div>
                   <br />
-                  <p className={style.fio}><b>Xudoyberganov Odilbek Shixnazarovich</b></p>
+                  <p className={style.fio}><b>Raximova Guzal Bekturdievna</b></p>
                   <p className={style.qabul}>
                     Dushanba, Shanba - soat 9:00 dan 17:00 gacha
                   </p>
@@ -516,7 +517,7 @@ this.getNews()
                   }}
                 >
                   <div className={style.colimg1} >
-                    <img src={dir2} />
+                    <img src={gozal} />
                   </div>
                 </Col>
               </Row>
