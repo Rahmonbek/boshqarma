@@ -39,7 +39,7 @@
         padding-top:100px;
         padding-bottom:100px;
         background-image: url(../img/formnaqsh.jpg);
-        background-size: 200px 180px;
+        background-size: 100px 80px;
         background-attachment: fixed;
          margin-top: 360px; 
      }
@@ -127,7 +127,7 @@ margin-top: 10px;
 }
 .stas_item{
     flex:20%;
-    z-index: 2324;
+    z-index: 324;
     display: flex;
     justify-content: center;
     flex-direction: column;

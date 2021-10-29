@@ -1,96 +1,149 @@
-import React, { Component } from "react";
-import FooterA from "./FooterA";
-import style from "../css/Lavhalar.module.css";
-import NavbarT from "./NavbarT";
-import Loader from "./Loader";
-import til1 from "../img/til1.jpg"
-import til2 from "../img/til2.jpg"
-import til3 from "../img/til3.jpg"
-import til4 from "../img/til4.jpg"
-import til5 from "../img/til5.jpg"
+import video2 from '../video/bosh3.mp4'
+import React, { Component } from 'react'
+import style from '../css/Lavhalar.module.css'
+import { Col, Row } from 'react-bootstrap'
+import "react-multi-carousel/lib/styles.css";
+import NavbarT from './NavbarT'
+import Footer from './Footer'
+import Loader from './Loader';
+import drasm1 from '../img/drasm1.jpeg'
+import drasm2 from '../img/drasm2.png'
+import drasm3 from '../img/drasm3.jpeg'
+import drasm4 from '../img/drasm4.jpeg'
+import drasm5 from '../img/drasm5.png'
+import drasm6 from '../img/drasm6.jpg'
+import drasm7 from '../img/drasm7.jpg'
+import drasm8 from '../img/drasm8.png'
+import drasm9 from '../img/drasm9.jpg'
+import dxorazm1 from '../img/dxorazm1.jpg'
+import dxorazm3 from '../img/dxorazm3.jpg'
+import dxorazm4 from '../img/dxorazm4.jpg'
+import dxorazm5 from '../img/dxorazm5.jpg'
+import dxorazm6 from '../img/dxorazm6.jpg'
+import dxorazm7 from '../img/dxorazm7.jpg'
 
-export default class Lavhalar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      timePassed: false,
-    };
-  }
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ timePassed: true });
-    }, 2500);
-  }
-  render() {
-    return (
-      <div>
-        {this.state.timePassed == false ? (
-          <Loader />
-        ) : (
-          <div>
-            <NavbarT />
-            <div>
-              <header className={style.header}>
-                <div className={style.badge}>
-                  <div className={style.text}>Suratlar</div>
-                </div>
-              </header>
-            </div>
-            <h3 className={style.title}>Tashkiliy topshiriqlar</h3>
-            <div className={style.still}>
-              <div className={style.container}>
-                <div className={style.card}>
-                  <img src="https://telegra.ph/file/42b77ca090a647c5f5d6c.jpg" />
-                  <div className={style.card__head}>Majlis jarayoni</div>
-                </div>
-                <div className={style.card}>
-                  <img src="https://telegra.ph/file/7367cb57f8f72240c7e8d.jpg" />
-                  <div className={style.card__head}>Taqdirlash marosimi</div>
-                </div>
-                <div className={style.card}>
-                  <img src="https://telegra.ph/file/8826f1e7dfe9e79195730.jpg" />
-                  <div className={style.card__head}>Taqdirlash marosimi</div>
-                </div>
-                <div className={style.card}>
-                  <img src="https://telegra.ph/file/e873fa99463535a46e774.jpg" />
-                  <div className={style.card__head}>Taqdirlash marosimi</div>
-                </div>
-                <div className={style.card}>
-                  <img src="https://telegra.ph/file/eb7a95c1cbb8fd2eda1bb.jpg" />
-                  <div className={style.card__head}>Faxriylar bilan surat</div>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <h3 className={style.title}>Milliy bayramlar</h3>
-            <div className={style.still}>
-              <div className={style.container}>
-                <div className={style.card}>
-                  <img src={til1} />
-                  <div className={style.card__head}>Ona tili bayrami </div>
-                </div>
-                <div className={style.card}>
-                  <img src={til2} />
-                  <div className={style.card__head}>Til haqida she`rlar</div>
-                </div>
-                <div className={style.card}>
-                  <img src={til3} />
-                  <div className={style.card__head}>Tarixiy sahna ko`rinishi</div>
-                </div>
-                <div className={style.card}>
-                  <img src={til4}/>
-                  <div className={style.card__head}>Ajoyib raqslar</div>
-                </div>
-                <div className={style.card}>
-                  <img src={til5} />
-                  <div className={style.card__head}>Jamoviy surat</div>
-                </div>
-              </div>
-            </div>
-            <FooterA />
-          </div>
-        )}
-      </div>
-    );
-  }
+export default class Gallery extends Component {
+     state={
+    loader:true,
+   
+    school:null,
+  
 }
+  
+  componentDidMount() {
+    
+    setTimeout(() => {
+      this.setState({
+        loader: false,
+      });
+    }, 4000);
+  
+  
+   
+    }
+    render() {
+       
+        return (
+          <>
+            {this.state.timePassed == false ? (
+          <Loader />): <div>
+                <NavbarT/>
+                <div className={style.video}>
+                <video loop={true} autoPlay={true} muted={true}>
+      <source src={video2} type="video/mp4" />
+  </video>
+  </div>
+  <div className={style.binaf}>
+      <h1>
+      O`zbekiston Respublikasi Xorazm viloyati Bog`ot tumani xalq ta`lim
+                          boshqarmasi fotolavhalari
+        </h1>
+      </div>
+
+<div className={style.rasmlar}>
+    <Row style={{justifyContent:'center'}}>
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm1}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm2}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm3}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm4}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm5}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm6}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm7}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm8}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={drasm9}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm1}/>
+     </Col>
+     }
+   
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm3}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm4}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm5}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm6}/>
+     </Col>
+     }
+    {
+        <Col style={{padding:"10px"}} lg={4} md={6} sm={12}>
+         <img src={dxorazm7}/>
+     </Col>
+     }
+        
+    </Row>
+</div>
+<Footer/>
+            </div>
+    }</>)
+    }
+}
+

@@ -80,6 +80,15 @@ export default class NavbarT extends Component {
                   <NavLink
                     className={style.navlik}
                     style={{ textDecoration: "none" ,  width:"100px" }}
+                    to="/videos"
+                  >
+                   Videolavhalar
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none" ,  width:"100px" }}
                     to="/boglanish"
                   >
                     Bog'lanish

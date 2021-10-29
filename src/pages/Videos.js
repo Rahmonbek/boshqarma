@@ -76,7 +76,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
  <YouTube
-  video="Xjp5L7QvilA"                
+  video="xa1iZ1LIIHU"                
   style={{width:'100%', height:'100%'}}
   autoplay={true}
   muted={true}  />
@@ -94,7 +94,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
     <YouTube
-  video="Xjp5L7QvilA"                
+  video="GJqgmxT7lVs"                
   style={{width:'100%', height:'100%'}}
   autoplay={true}
   muted={true}  />
@@ -111,7 +111,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
     <YouTube
-  video="Xjp5L7QvilA"                
+  video="GVdFaADego0"                
   style={{width:'100%', height:'100%'}}
   autoplay={true}
   muted={true}  />
@@ -128,7 +128,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <YouTube
-  video="Xjp5L7QvilA"                
+  video="cEt9sbSQE-4"                
   style={{width:'100%', height:'100%'}}
   autoplay={true}
   muted={true}  />
@@ -144,7 +144,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <YouTube
-  video="Xjp5L7QvilA"                
+  video="6fHPQKvcgNw"                
   style={{width:'100%', height:'100%'}}
   autoplay={true}
   muted={true}  />
