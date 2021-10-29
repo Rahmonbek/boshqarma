@@ -5,11 +5,7 @@ import "./videos.css";
 import natural from "../video/natural.mp4";
 import { Container } from "react-bootstrap";
 import Loader from "./Loader";
-import video3 from '../video/video3.mp4'
-import video2 from '../video/video2.mp4'
-import video from '../video/video1.mp4'
-import video4 from '../video/video4.mp4'
-import video5 from '../video/video5.mp4'
+
 export default class Videos extends Component {
   constructor(props) {
     super(props);
