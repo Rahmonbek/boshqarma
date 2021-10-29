@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 import Loader from "./Loader";
 import video3 from '../video/video3.mp4'
 import video2 from '../video/video2.mp4'
-import video1 from '../video/video1.mp4'
+import video from '../video/video1.mp4'
 import video4 from '../video/video4.mp4'
 import video5 from '../video/video5.mp4'
 export default class Videos extends Component {
@@ -85,7 +85,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <video width="100%" height="100%" controls>
-  <source src={video3} type="video/mp4"/>
+  <source src="https://www.youtube.com/watch?v=EHa94tQpqI0" type="video/mp4"/>
 </video> 
                             
                             </div>
@@ -104,7 +104,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <video width="100%" height="100%" controls>
-  <source src={video2} type="video/mp4"/>
+  <source src="https://www.youtube.com/watch?v=EHa94tQpqI0" type="video/mp4"/>
 </video> 
               
                             </div>
@@ -121,7 +121,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <video width="100%" height="100%" controls>
-  <source src={video1} type="video/mp4"/>
+  <source src="https://www.youtube.com/watch?v=EHa94tQpqI0" type="video/mp4"/>
 </video> 
               
                             </div>
@@ -138,7 +138,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <video width="100%" height="100%" controls>
-  <source src={video4} type="video/mp4"/>
+  <source src="https://www.youtube.com/watch?v=EHa94tQpqI0" type="video/mp4"/>
 </video> 
                             </div>
                           </div>
@@ -154,7 +154,7 @@ export default class Videos extends Component {
 
                             <div class="embed-responsive embed-responsive-16by9">
                             <video width="100%" height="100%" controls>
-  <source src={video5} type="video/mp4"/>
+  <source src="https://www.youtube.com/watch?v=EHa94tQpqI0" type="video/mp4"/>
 </video> 
                             </div>
                           </div>
