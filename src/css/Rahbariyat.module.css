@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .rahbariyat {
   width: 100%;
   height: 100%;
@@ -61,12 +60,12 @@
   padding: 15px;
   width: 90%;
 }
-.card1 li{
+.card1 li {
   color: #040135;
   border-bottom: 2px rgb(68, 57, 224) solid;
   width: 90%;
 }
-.card1 ul :hover{
+.card1 ul :hover {
   background-color: rgba(255, 255, 255, 0.404);
 }
 
@@ -132,9 +131,9 @@
 }
 @media (min-width: 0px) and (max-width: 566px) {
   .head {
-     height: 600px;
+    height: 550px;
     background-size: 100% 60%;
-    padding-top: 100%;
+    padding-top: 80%;
     background-position-y: 35%;
   }
   .head_text {
@@ -151,6 +150,7 @@
     font-size: 14px;
   }
   .cardBody {
+    padding-bottom: 50px;
     min-height: 300px;
   }
   .cardBodyBtn > .btn {
@@ -163,9 +163,10 @@
     border-top-right-radius: 10px;
   }
 }
-.card h4,.card h6  {
-  margin-top:30px; 
-  }
+.card h4,
+.card h6 {
+  margin-top: 30px;
+}
 @media (min-width: 567px) and (max-width: 767px) {
   /* .head {
     padding-top: 325px;
@@ -194,7 +195,8 @@
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .head {
-    padding-top: 620px;background-size: 100% 80.5%;
+    padding-top: 620px;
+    background-size: 100% 80.5%;
     height: 810px;
   }
   .head_text {
@@ -204,6 +206,7 @@
     min-width: 600px;
   }
   .cardBody {
+    padding-bottom: 50px;
     min-height: 250px;
   }
   .rahbariyatTitle > h3 {
@@ -298,7 +301,8 @@
 }
 @media screen and (min-width: 1920px) {
   .head {
-    padding-top: 75vh;background-size: 100% 100%;
+    padding-top: 75vh;
+    background-size: 100% 100%;
   }
   .head_text {
     font-size: 50px;
@@ -408,12 +412,44 @@
 .maincontainer:hover > .back {
   transform: perspective(600px) rotateY(0deg);
 }
-.saytlar{background-color: white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 10px; position: sticky; top:117px; padding:10px; width:120%;}
-.saytlar ul{list-style-type:none; padding:0px;}
-.saytlar li{height:70px; margin: 10px 0px; width:100%; padding:20px 20px 10px 20px; border-top: 1px solid darkblue; display: flex; align-items: center;}
-.saytlar a{text-decoration: none; color:black; margin-left:5px; font-size: 15px;}
-.saytlar img{width:50px; position: relative; left:-10px;}
-.saytlar a:hover{color:blue;}
-@media (max-width:900px){
-  .saytlar{display: none !important;}
+.saytlar {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  position: sticky;
+  top: 117px;
+  padding: 10px;
+  width: 120%;
+}
+.saytlar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.saytlar li {
+  height: 70px;
+  margin: 10px 0px;
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  border-top: 1px solid darkblue;
+  display: flex;
+  align-items: center;
+}
+.saytlar a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.saytlar img {
+  width: 50px;
+  position: relative;
+  left: -10px;
+}
+.saytlar a:hover {
+  color: blue;
+}
+@media (max-width: 900px) {
+  .saytlar {
+    display: none !important;
+  }
 }

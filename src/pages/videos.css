@@ -1,111 +1,114 @@
-.container{
-	width: 100%;
+.container {
+  width: 100%;
 }
 
-.text{
-	font-family: 'arial black';
-	font-size: 30px;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	margin-left: 50%;
-	transform: translateX(-200%);
-	opacity: 0;
-	animation: slide-in-anim 1.5s ease-out forwards;
+.text {
+  font-family: "arial black";
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 50%;
+  transform: translateX(-200%);
+  opacity: 0;
+  animation: slide-in-anim 1.5s ease-out forwards;
 }
 
 @keyframes slide-in-anim {
-	20% {
-		opacity: 0;
-	}
-	60% {
-		transform: translateX(-45%);
-	}
-	75% {
-		transform: translateX(-52%);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(-50%);
-	}
+  20% {
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-45%);
+  }
+  75% {
+    transform: translateX(-52%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
 }
-
-
-
-
-
-
 
 header {
-    
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
   }
-  
+
   header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-   min-width: 100%;
-     min-height: 100%; 
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    display: none;
   }
-  
-  header .container {
-    position: relative;
-    z-index: 2;
-  }
-  
-  header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  
-  /* Media Query for devices withi coarse pointers and no hover functionality */
-  
-  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-  
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-  
-    header video {
-      display: none;
-    }
-  }
-  
+}
 
-
-
-  .hm-gradient {
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+.hm-gradient {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
 }
 .darken-grey-text {
-    color: #2E2E2E;
+  color: #2e2e2e;
 }
 .embed-responsive-16by9::before {
   background-color: blanchedalmond;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-  
-
-
+@media (max-width: 768px) {
+  .text {
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .text {
+    font-size: 20px;
+  }
+}
