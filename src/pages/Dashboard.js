@@ -271,15 +271,6 @@ export default class Dashboard extends Component {
                         </NavLink>
                       </Nav.Link>
                       <Nav.Link style={{ textAlign: "center", }}>
-                      <NavLink
-                        className={style.navlik}
-                        style={{ textDecoration: "none" }}
-                        to="/videos"
-                      >
-                       Videolavhalar
-                      </NavLink>
-                    </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", }}>
                         <NavLink
                           className={style.navlik}
                           style={{ textDecoration: "none" }}
@@ -365,15 +356,6 @@ export default class Dashboard extends Component {
                         to="/lavhalar"
                       >
                        Fotolavhalar
-                      </NavLink>
-                    </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
-                      <NavLink
-                        className={style.navlik}
-                        style={{ textDecoration: "none" }}
-                        to="/videos"
-                      >
-                       Videolavhalar
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
