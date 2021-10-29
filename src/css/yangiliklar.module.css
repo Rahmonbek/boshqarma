@@ -473,7 +473,7 @@
 .yozuv p:nth-child(odd){ font-size:16px; margin-top:20px;}
 .yozuv p i{margin-right: 10px;}
 @media (max-width:700px){
-    .newsY{margin-top: 70vh;}  
+    .newsY{margin-top: 0px;}  
     .newsY h1{font-size: 25px;}    
    
  
@@ -484,6 +484,6 @@
     .yozuv p:nth-child(odd){ font-size:21px; margin-top:20px;}
    }
    @media  (min-width:701px) and (max-width:900px){
-    .newsY{margin-top: 50vh;} 
+    .newsY{margin-top: 0px;} 
     .newsY h1{font-size: 25px;}    
    }
