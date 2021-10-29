@@ -101,7 +101,7 @@ header {
     color: #2E2E2E;
 }
 .embed-responsive-16by9::before {
-    background-image: url('https://mdbootstrap.com/img/screens/yt/video.png');
+  background-color: blanchedalmond;
     background-repeat: no-repeat;
     background-size: cover;
 }
