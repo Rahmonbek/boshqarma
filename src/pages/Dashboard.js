@@ -425,7 +425,7 @@ this.getNews()
                     </h2>
                   </div>
                   <br />
-                  <p className={style.fio}>Xudoyberganov Odilbek Shixnazarovich</p>
+                  <p className={style.fio}><b>Xudoyberganov Odilbek Shixnazarovich</b></p>
                   <p className={style.qabul}>
                     Dushanba, Shanba - soat 9:00 dan 17:00 gacha
                   </p>

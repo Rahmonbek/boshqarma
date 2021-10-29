@@ -3,10 +3,6 @@
     height: 200px;
 
 }
-/* .news_itemcard1{
-    height: 250px;
-
-} */
 .yang1{
     height: 250px;
 }
@@ -30,7 +26,7 @@
 .rahbar div{width:80%; margin-left:10%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     position:relative;
-    padding:40px 40px 60px 40px;
+    padding:40px 40px 40px 40px;
     background-color:white;
  
         
