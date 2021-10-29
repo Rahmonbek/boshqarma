@@ -290,6 +290,15 @@ this.getNews()
                           Fotolavhalar
                         </NavLink>
                       </Nav.Link>
+                      <Nav.Link style={{ textAlign: "center",  }}>
+                        <NavLink
+                          className={style.navlik}
+                          style={{ textDecoration: "none" }}
+                          to="/videos"
+                        >
+                          Videolavhalar
+                        </NavLink>
+                      </Nav.Link>
                       <Nav.Link style={{ textAlign: "center", }}>
                         <NavLink
                           className={style.navlik}
@@ -375,7 +384,16 @@ this.getNews()
                         style={{ textDecoration: "none" }}
                         to="/lavhalar"
                       >
-                       Lavhalar
+                       Fotolavhalar
+                      </NavLink>
+                    </Nav.Link>
+                    <Nav.Link style={{ textAlign: "center", }}>
+                      <NavLink
+                        className={style.navlik}
+                        style={{ textDecoration: "none" }}
+                        to="/videos"
+                      >
+                       Videolavhalar
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center", }}>
@@ -403,13 +421,13 @@ this.getNews()
                 <Col lg="6" md="6" sm="12">
                   <div className={style.ManagerItem}>
                     <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-                      Boshqarma rahbari
+                    Tuman xalq ta'limi bo‘limi mudiri
                     </h2>
                   </div>
                   <br />
-                  <p className={style.fio}>Ismoilov Rahmon Zohidovich</p>
+                  <p className={style.fio}>Xudoyberganov Odilbek Shixnazarovich</p>
                   <p className={style.qabul}>
-                    Seshanba, Juma - soat 10:00 dan 12:00 gacha
+                    Dushanba, Shanba - soat 9:00 dan 17:00 gacha
                   </p>
                   <div className={style.icon}>
                     <img src="https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=s180-rw" />

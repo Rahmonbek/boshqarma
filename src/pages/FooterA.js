@@ -266,7 +266,7 @@ export default class Boglanish extends Component {
                           <i className="fab fa-youtube youtube"></i>
                         </a>
                         <a
-                          href="https://t.me/bogotijro"
+                          href="https://www.youtube.com/channel/UCPYJ3hJC1l8mPHKMqxIGHhw"
                           target="_blank"
                           title="Telegram"
                           className="socials-item"

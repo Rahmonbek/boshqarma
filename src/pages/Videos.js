@@ -5,6 +5,7 @@ import "./videos.css";
 import natural from "../video/natural.mp4";
 import { Container } from "react-bootstrap";
 import Loader from "./Loader";
+import YouTube from '@u-wave/react-youtube';
 
 export default class Videos extends Component {
   constructor(props) {
@@ -74,9 +75,11 @@ export default class Videos extends Component {
 
 
                             <div class="embed-responsive embed-responsive-16by9">
-<iframe  width="100%" height="100%"
-src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
-</iframe> 
+ <YouTube
+  video="Xjp5L7QvilA"                
+  style={{width:'100%', height:'100%'}}
+  autoplay={true}
+  muted={true}  />
                             </div>
                           </div>
                         </div>
@@ -90,9 +93,11 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
 
                             <div class="embed-responsive embed-responsive-16by9">
-   <iframe  width="100%" height="100%"
-src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
-</iframe> 
+    <YouTube
+  video="Xjp5L7QvilA"                
+  style={{width:'100%', height:'100%'}}
+  autoplay={true}
+  muted={true}  />
               
                             </div>
                           </div>
@@ -105,9 +110,11 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
 
                             <div class="embed-responsive embed-responsive-16by9">
-   <iframe  width="100%" height="100%"
-src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
-</iframe> 
+    <YouTube
+  video="Xjp5L7QvilA"                
+  style={{width:'100%', height:'100%'}}
+  autoplay={true}
+  muted={true}  />
               
                             </div>
                           </div>
@@ -120,10 +127,12 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
 
                             <div class="embed-responsive embed-responsive-16by9">
-   <iframe  width="100%" height="100%"
-src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
-</iframe> 
-                            </div>
+                            <YouTube
+  video="Xjp5L7QvilA"                
+  style={{width:'100%', height:'100%'}}
+  autoplay={true}
+  muted={true}  />
+   </div>
                           </div>
                         </div>
                       </div>
@@ -134,10 +143,11 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
 
                             <div class="embed-responsive embed-responsive-16by9">
-   <iframe  width="100%" height="100%"
-src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
-</iframe> 
-                            </div>
+                            <YouTube
+  video="Xjp5L7QvilA"                
+  style={{width:'100%', height:'100%'}}
+  autoplay={true}
+  muted={true}  />
                           </div>
                         </div>
                       </div>
@@ -146,7 +156,9 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                     <hr class="my-4" />
 
             
-                  </div>
+                    </div>
+                    </div>
+                
                 </main>
               </div>
             </div>

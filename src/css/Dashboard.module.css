@@ -23,7 +23,7 @@
 .navB{width:200px; display: flex; }
 .birinchi{margin-left:20%;}
 
-.navG .birinchi{margin-left: 30%;}
+.navG .birinchi{margin-left: 20%;}
 .navlik{color:white;margin-right: 15px; font-size:17px}
 .navlik:hover{color:rgb(255, 247, 0)}
 .text{position: absolute; top:230px; width:100%;}
