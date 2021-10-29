@@ -42,11 +42,11 @@ import pic17 from "../img/emvxsz12yg0ks0osw0kw8s4wk.jpg";
 import pic18 from "../img/Tashkent-City_name_statue.jpg";
 import pic19 from "../img/920__95_745261863.jpg";
 import pic20 from "../img/twitter 2.png";
-import drasm1 from "../img/drasm1.jpeg"
-import drasm3 from "../img/drasm3.jpeg"
-import drasm2 from "../img/drasm2.png"
-import drasm8 from "../img/drasm8.png"
-import drasm5 from "../img/drasm5.png"
+import drasm1 from "../img/drasm1.jpeg";
+import drasm3 from "../img/drasm3.jpeg";
+import drasm2 from "../img/drasm2.png";
+import drasm8 from "../img/drasm8.png";
+import drasm5 from "../img/drasm5.png";
 import drasm6 from "../img/drasm6.jpg";
 import drasm7 from "../img/drasm7.jpg";
 import drasm9 from "../img/drasm9.jpg";
@@ -60,8 +60,8 @@ import dxorazm6 from "../img/dxorazm6.jpg";
 import dxorazm7 from "../img/dxorazm7.jpg";
 import dxorazm8 from "../img/dxorazm8.jpg";
 import dxorazm9 from "../img/dxorazm9.jpg";
-import priz1 from "../img/priz1.jpg"
-import dir2 from "../img/dir2.jpg"
+import priz1 from "../img/priz1.jpg";
+import dir2 from "../img/dir2.jpg";
 
 // import drasm4 from "../img/drasm4.jpeg"
 
@@ -88,7 +88,7 @@ import {
 import FooterA from "./FooterA";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
-import AOS from 'aos';
+import AOS from "aos";
 
 export default class Dashboard extends Component {
   state = { timePassed: false };
@@ -96,8 +96,8 @@ export default class Dashboard extends Component {
     setTimeout(() => {
       this.setState({ timePassed: true });
     }, 5000);
-    
-  AOS.init();
+
+    AOS.init();
   }
   render() {
     const responsive = {
@@ -181,7 +181,7 @@ export default class Dashboard extends Component {
           <Loader />
         ) : (
           <div>
-          <Carousel
+            <Carousel
               infinite={true}
               autoPlay={true}
               autoPlaySpeed={3000}
@@ -199,98 +199,101 @@ export default class Dashboard extends Component {
               </div>
             </Carousel>
 
-            <div style={{height:'auto'}} className="fixed-top">
-
-            <div className={style.navT}>
-              <Navbar style={{ position: "relative" }} expand="lg">
-                <Container>
-                  <Navbar.Brand>
-                    <NavLink
-                      className={style.navB}
-                      style={{ color: "white", textDecoration: "none" }}
-                      to="/"
-                    >
-                      {" "}
-                      <div class={style.brand_img}>
-                        <img src={gerb} />
-                      </div>
-                      <div class={style.brand_text}>
-                        <p className={style.lrt}>
-                          O'zbekiston Respublikasi <br /> Xorazm viloyati  <br />{" "}
-                        Bog`at tumani xalq ta'limi boshqarmasi{" "}
-                        </p>
-                        <p>
-                          O'zbekiston Respublikasi Xorazm viloyati  <br />Bog`at tumani xalq
-                          ta'limi boshqarmasi{" "}
-                        </p>
-                      </div>  
-                    </NavLink>
-                  </Navbar.Brand>
-                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-
-                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
-                  <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" id={style.nav}>
-                      <Nav.Link
-                        style={{ textAlign: "center", }}
-                        className={style.birinchi}
+            <div style={{ height: "auto" }} className="fixed-top">
+              <div className={style.navT}>
+                <Navbar style={{ position: "relative" }} expand="lg">
+                  <Container>
+                    <Navbar.Brand>
+                      <NavLink
+                        className={style.navB}
+                        style={{ color: "white", textDecoration: "none" }}
+                        to="/"
                       >
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/"
+                        {" "}
+                        <div class={style.brand_img}>
+                          <img src={gerb} />
+                        </div>
+                        <div class={style.brand_text}>
+                          <p className={style.lrt}>
+                            O'zbekiston Respublikasi <br /> Xorazm viloyati{" "}
+                            <br /> Bog`at tumani xalq ta'limi boshqarmasi{" "}
+                          </p>
+                          <p>
+                            O'zbekiston Respublikasi Xorazm viloyati <br />
+                            Bog`at tumani xalq ta'limi boshqarmasi{" "}
+                          </p>
+                        </div>
+                      </NavLink>
+                    </Navbar.Brand>
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
+                    <Navbar.Collapse id="basic-navbar-nav">
+                      <Nav className="me-auto" id={style.nav}>
+                        <Nav.Link
+                          style={{ textAlign: "center" }}
+                          className={style.birinchi}
                         >
-                          Bosh sahifa
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/rahbariyat"
-                        >
-                          Rahbariyat
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/yangiliklar"
-                        >
-                          Yangiliklar
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/lavhalar"
-                        >
-                          Fotolavhalar
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/boglanish"
-                        >
-                          Bog'lanish
-                        </NavLink>
-                      </Nav.Link>
-                    </Nav>
-                  </Navbar.Collapse>
-                </Container>
-              </Navbar>
-            </div>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/"
+                          >
+                            Bosh sahifa
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/rahbariyat"
+                          >
+                            Rahbariyat
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/yangiliklar"
+                          >
+                            Yangiliklar
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/lavhalar"
+                          >
+                            Fotolavhalar
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/boglanish"
+                          >
+                            Bog'lanish
+                          </NavLink>
+                        </Nav.Link>
+                      </Nav>
+                    </Navbar.Collapse>
+                  </Container>
+                </Navbar>
+              </div>
             </div>
             <div
               className={style.navG}
-          data-aos={"fade-down"}
-           data-aos-anchor-placement={"top-top"}
+              data-aos={"fade-down"}
+              data-aos-anchor-placement={"top-top"}
             >
-              <Navbar className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
+              <Navbar
+                className={style.NavbarMenu}
+                style={{ position: "relative" }}
+                expand="lg"
+              >
                 <Navbar.Brand>
                   <NavLink
                     className={style.navB}
@@ -303,24 +306,24 @@ export default class Dashboard extends Component {
                     </div>
                     <div class={style.brand_text}>
                       <p className={style.lrt}>
-                        O'zbekiston Respublikasi  <br /> Xorazm viloyati  <br />{" "}
-                       Bog`at tumani xalq ta'limi boshqarmasi{" "}
+                        O'zbekiston Respublikasi <br /> Xorazm viloyati <br />{" "}
+                        Bog`at tumani xalq ta'limi boshqarmasi{" "}
                       </p>
                       <p>
-                        O'zbekiston Respublikasi Xorazm viloyati <br /> Bog`at tumani xalq
-                        ta'limi boshqarmasi{" "}
+                        O'zbekiston Respublikasi Xorazm viloyati <br /> Bog`at
+                        tumani xalq ta'limi boshqarmasi{" "}
                       </p>
                     </div>
                   </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle
                   aria-controls="basic-navbar-nav"
-                  style={{ zIndex: 345,}}
+                  style={{ zIndex: 345 }}
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto" id={style.nav}>
                     <Nav.Link
-                      style={{ textAlign: "center", }}
+                      style={{ textAlign: "center" }}
                       className={style.birinchi}
                     >
                       <NavLink
@@ -331,7 +334,7 @@ export default class Dashboard extends Component {
                         Bosh sahifa
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -340,7 +343,7 @@ export default class Dashboard extends Component {
                         Rahbariyat
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -349,16 +352,16 @@ export default class Dashboard extends Component {
                         Yangiliklar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
                         to="/lavhalar"
                       >
-                       Fotolavhalar
+                        Fotolavhalar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -371,7 +374,7 @@ export default class Dashboard extends Component {
                 </Navbar.Collapse>
               </Navbar>
             </div>
-           
+
             <div className={style.text}>
               <h1>
                 Yoshlarimizning bilim olishi biz uchun katta ahamiyatga ega
@@ -413,7 +416,7 @@ export default class Dashboard extends Component {
                         </a>
                       </Tooltip>
                     </div>
-                    <div id={style.mediaa12} >
+                    <div id={style.mediaa12}>
                       <a
                         target="_blank"
                         className={style.ahref}
@@ -443,7 +446,6 @@ export default class Dashboard extends Component {
                     <div id={style.mediaa11}>
                       <a
                         target="_blank"
-                       
                         className={style.ahref}
                         href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
                       >
@@ -451,7 +453,7 @@ export default class Dashboard extends Component {
                       </a>
                     </div>
                     <div id={style.mediaa11}>
-                      <Tooltip  placement="bottom" title="(8362)31-52-967">
+                      <Tooltip placement="bottom" title="(8362)31-52-967">
                         {" "}
                         <a
                           target="_blank"
@@ -477,7 +479,7 @@ export default class Dashboard extends Component {
                     alignItems: "center",
                   }}
                 >
-                  <div className={style.colimg1} >
+                  <div className={style.colimg1}>
                     <img src={dir2} />
                   </div>
                 </Col>
@@ -503,7 +505,7 @@ export default class Dashboard extends Component {
                 <p>
                   <i className="fas fa-university"></i>
                 </p>
-                <p className={style.tit} >B.A.M. lar</p>
+                <p className={style.tit}>B.A.M. lar</p>
                 <p className={style.num}>25 ta</p>
               </div>
               <div className={style.stas_item}>
@@ -545,7 +547,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic4}
@@ -573,7 +576,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic5}
@@ -601,7 +605,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic6}
@@ -629,7 +634,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic7}
@@ -657,7 +663,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic8}
@@ -685,7 +692,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic9}
@@ -713,7 +721,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic10}
@@ -741,7 +750,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic11}
@@ -769,7 +779,8 @@ export default class Dashboard extends Component {
                           height: "400px",
                         }}
                       >
-                        <Card.Img className={style.yang1}
+                        <Card.Img
+                          className={style.yang1}
                           variant="top"
                           // style={{ height: "250px" }}
                           src={pic12}
@@ -806,7 +817,7 @@ export default class Dashboard extends Component {
                   <img
                     style={{ width: "100%" }}
                     // src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
-                  src={priz1}
+                    src={priz1}
                   />
                 </Col>
               </Row>
@@ -1601,7 +1612,7 @@ export default class Dashboard extends Component {
               </Link>
               <br />
             </div> <div className="blue"></div>*/}
-            
+
             <div className={style.gal}>
               <Row>
                 <Col lg={4} md={12} sm={12}>
@@ -1609,10 +1620,9 @@ export default class Dashboard extends Component {
                   <div className="chiziq1"></div>
                   <br />
                   <YouTube
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   
+                    // <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                  videoId="qaJGUdMi_kc"
+                    videoId="qaJGUdMi_kc"
                     opts={{
                       width: "100%",
                       height: "300px",
@@ -1625,8 +1635,9 @@ export default class Dashboard extends Component {
                   />
                   <p className={style.pp}>
                     <i>
-                    Xorazm viloyati Bog`at tumani xalq ta'limi boshqarmasiga virtual sayohat
-                      qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.
+                      Xorazm viloyati Bog`at tumani xalq ta'limi boshqarmasiga
+                      virtual sayohat qiling va boshqarma haqida ko'proq
+                      ma'lumotga ega bo'ling.
                     </i>
                   </p>
                   <Link to="/videos" className={style.bar}>
@@ -1835,7 +1846,7 @@ export default class Dashboard extends Component {
                     </YMaps>
                     <br />
                     <Row
-                    className={style.AdviceImg}
+                      className={style.AdviceImg}
                       style={{
                         width: "100%",
                         marginTop: "20px",
