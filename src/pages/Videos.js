@@ -65,12 +65,13 @@ export default class Videos extends Component {
                   
 
                     <div class="row">
+
                       <div class="col-md-12 mb-4">
+                      <br/>
+                      <br/>
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi </strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
 <iframe  width="100%" height="100%"
@@ -86,9 +87,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -103,9 +102,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Bog'ot tumani 46-son maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -120,9 +117,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Boģot tumanidagi 9-son maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -136,9 +131,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Bog‘ot tumanidagi 44-son maktab jamoasi </strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
