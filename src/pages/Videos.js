@@ -62,14 +62,7 @@ export default class Videos extends Component {
               <div class="hm-gradient">
                 <main>
                   <div class="container mt-4">
-                    <div class="text-center darken-grey-text mb-4">
-                      <h1
-                        class="font-bold mt-4 mb-3 h5"
-                        style={{ fontSize: "50px" }}
-                      >
-                        Video lavhalar
-                      </h1>
-                    </div>
+                  
 
                     <div class="row">
                       <div class="col-md-12 mb-4">
@@ -159,20 +152,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
                     <hr class="my-4" />
 
-                    <div class="text-center darken-grey-text mb-4">
-                      <h3 class="font-bold mb-3">
-                        Yangiliklardan Habardor bo`lib turish uchun YouTobe
-                        kanalimizga obuna bo`ling:
-                      </h3>
-                      <a
-                        class="btn btn-primary"
-                        style={{ marginBottom: "20px" }}
-                        href="https://t.me/bogotijro"
-                        target="_blank"
-                      >
-                        Obuna bo`lish
-                      </a>
-                    </div>
+            
                   </div>
                 </main>
               </div>
