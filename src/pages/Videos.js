@@ -62,22 +62,16 @@ export default class Videos extends Component {
               <div class="hm-gradient">
                 <main>
                   <div class="container mt-4">
-                    <div class="text-center darken-grey-text mb-4">
-                      <h1
-                        class="font-bold mt-4 mb-3 h5"
-                        style={{ fontSize: "50px" }}
-                      >
-                        Video lavhalar
-                      </h1>
-                    </div>
+                  
 
                     <div class="row">
+
                       <div class="col-md-12 mb-4">
+                      <br/>
+                      <br/>
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi </strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
 <iframe  width="100%" height="100%"
@@ -93,9 +87,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Bogʼot tumanidagi 18-sonli umumiy oʼrta taʼlim maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -110,9 +102,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Bog'ot tumani 46-son maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -127,9 +117,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Boģot tumanidagi 9-son maktabi</strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -143,9 +131,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-                            <h3 class="text-center font-up font-bold indigo-text py-2 mb-3">
-                              <strong>Xorazm viloyati Bog‘ot tumanidagi 44-son maktab jamoasi </strong>
-                            </h3>
+
 
                             <div class="embed-responsive embed-responsive-16by9">
    <iframe  width="100%" height="100%"
@@ -159,20 +145,7 @@ src="https://www.youtube.com/embed/EHa94tQpqI0?controls=1">
 
                     <hr class="my-4" />
 
-                    <div class="text-center darken-grey-text mb-4">
-                      <h3 class="font-bold mb-3">
-                        Yangiliklardan Habardor bo`lib turish uchun YouTobe
-                        kanalimizga obuna bo`ling:
-                      </h3>
-                      <a
-                        class="btn btn-primary"
-                        style={{ marginBottom: "20px" }}
-                        href="https://t.me/bogotijro"
-                        target="_blank"
-                      >
-                        Obuna bo`lish
-                      </a>
-                    </div>
+            
                   </div>
                 </main>
               </div>

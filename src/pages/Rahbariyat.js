@@ -9,8 +9,11 @@ import axmedov from "../img/axmedov.png";
 import sapayev from "../img/sapayev.jpg";
 import matyoqubov from "../img/matyoqubov.png";
 import abdurahmonov from "../img/abdurahmonov.png";
-
-
+import gerb from '../img/gerb.png'
+import lex from '../img/h3.jpg'
+import gov from '../img/h4.jpg'
+import par from '../img/logo_small.png'
+import xalq from '../img/logo.png'
 
 // import {
 //   MDBCard,
@@ -264,156 +267,24 @@ export default class Rahbariyat extends Component {
                       </Row>
                     </Col>
                     <Col lg={3} sm={12}>
-                      <div className={styles.card1}>
-                        {/* <h4 style={{ textAlign:"center",color:"rgb(11, 0, 36)",fontSize:"30px" }}>Rahbariyat</h4> */}
-                        {/* <div className={styles.line}></div> */}
-                     <img src="https://storage.kun.uz/source/4/-6TTtUhrlyWnlYMZt67cdHHPOurXdggs.jpg" style={{width:'100%'}}/>
-                        {/* <Button
-                      variant="primary"
-                      style={{ marginRight: "10px" }}
-                      onClick={() => this.setState({ daraja: 1 })}
-                    >
-                      Rahbariyat
-                    </Button>
-                    <Button
-                      variant="primary"
-                      onClick={() => this.setState({ daraja: 2 })}
-                    >
-                      Xodimlar
-                    </Button> */}
-                      </div>
+                    <div className={styles.saytlar}>
+                    <ul>
+                    <li><img src={gerb}/><a href="https://president.uz/uz" target="_blank">O'zbekiston Respublikasi prezidentining veb sayti</a></li>
+                    <li><img src={lex}/><a href="https://lex.uz/" target="_blank">O'zbekiston Respublikasi Qonunchilik ma'lumotlari milliy bazasi</a></li>
+
+                      <li><img src={xalq}/><a href="https://uzedu.uz/oz" target="_blank">O'zbekiston Respublikasi Xalq ta'limi veb sayti</a></li>
+                      {/* <li><img src={gerb}/><a href="https://dtm.uz/" target="_blank">O'zbekiston Respublikasi vazirlar mahamasi huzuridagi Davlat text markazi veb sayti</a></li> */}
+                      <li><img src={gov}/><a href="https://my.gov.uz/oz" target="_blank">Yagona interaktiv davlat xizmatlari portali</a></li>
+                      <li><img src={gerb}/><a href="https://xorazm.uz/" target="_blank">O'zbekiston Respublikasi Xorazm viloyat hokimligi veb sayti</a></li>
+                      {/* <li><img src={gerb}/><a href="https://piima.uz/" target="_blank">O'zbekiston Respublikasi prezident, ijod va ixtisoslashtirilgan maktablarni rivojlantirish agentligi</a></li> */}
+                      <li><img src={par}/><a href="https://parliament.gov.uz/uz/" target="_blank">O'zbekiston Respublikasi Oliy majlis qonunchilik palatasi</a></li>
+                      {/* <li><a href="#" target="_blank"><img src={gerb}/>O'zbekiston Respublikasi prezidentining veb sayti</a></li> */}
+                    </ul>
+                  </div>
                     </Col>
                   </Row>
                 </Container>
-                {/* <div className={styles.cardButton}>
-              <Button
-                variant="primary"
-                style={{ marginRight: "10px" }}
-                onClick={() => this.setState({ daraja: 1 })}
-              >
-                Rahbariyat
-              </Button>
-              <Button
-                variant="primary"
-                onClick={() => this.setState({ daraja: 2 })}
-              >
-                Xodimlar
-              </Button>
-            </div> */}
-                {/* <div className={styles.cards}>
-              <Row>
-                {this.state.rahbariyat !== []
-                  ? this.state.rahbariyat.map((item, key) => {
-                      return item.daraja === this.state.daraja ? (
-                        // <Col
-                        //   className={styles.cardsCol}
-                        //   xxl={2}
-                        //   xl={3}
-                        //   lg={3}
-                        //   md={4}
-                        //   sm={6}
-                        //   xs={12}
-                        // >
-                        //   <Card
-                        //     style={{
-                        //       width: "100%",
-                        //       boxShadow:
-                        //         "rgba(17, 5, 230, 0.4) 0px 0px 0px 2px, rgba(17, 5, 230, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
-                        //     }}
-                        //   >
-                        //     <Card.Img variant="top" src={item.image} />
-                        //     <Card.Body>
-                        //       <Card.Text>
-                        //         <p style={{ textAlign: "center" }}>
-                        //           <b>{item.fullName}</b>
-                        //         </p>
-                        //         <p style={{ textAlign: "center" }}>
-                        //           <b>{item.lavozimi}</b>
-                        //         </p>
-                        //         <p style={{ marginTop: "25px" }}>
-                        //           <b>Telefon raqami:</b> {item.phone}
-                        //         </p>
-                        //         <p>
-                        //           <b>Email:</b> {item.email}
-                        //         </p>
-                        //       </Card.Text>
-                        //       <Button
-                        //         variant="primary"
-                        //         onClick={() => this.openModal(key)}
-                        //       >
-                        //         Ma'lumot
-                        //       </Button>
-                        //     </Card.Body>
-                        //   </Card>
-                        // </Col>
-                        // <MDBCard style={{ maxWidth: "22rem" }}>
-                        //   <MDBCardImage
-                        //     src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg"
-                        //     position="top"
-                        //     alt="..."
-                        //     style={{ width: "100%" }}
-                        //   />
-                        //   <MDBCardBody>
-                        //     <MDBCardTitle>Card title</MDBCardTitle>
-                        //     <MDBCardText>
-                        //       Some quick example text to build on the card title
-                        //       and make up the bulk of the card's content.
-                        //     </MDBCardText>
-                        //     <MDBBtn href="#">Button</MDBBtn>
-                        //   </MDBCardBody>
-                        // </MDBCard>
-                        <Col
-                          className={styles.cardsCol}
-                          xxl={2}
-                          xl={3}
-                          lg={3}
-                          md={4}
-                          sm={6}
-                          xs={12}
-                        >
-                          <div className={styles.maincontainer}>
-                            <div className={styles.back}>
-                              <h2 className={styles.backH2}>
-                                <b>{item.fullName}</b>
-                              </h2>
-                              <p className={styles.backp}>
-                                <b>Tel. raqami:</b> {item.phone}
-                              </p>
-                              <p className={styles.backp}>
-                                <b>Email:</b> {item.email}
-                              </p>
-                              <p className={styles.backp}>
-                                <b>Ma'lumot:</b> {item.describe}
-                              </p>
-                            </div>
-                            <div className={styles.front}>
-                              <div>
-                                <div className={styles.overlay}></div>
-                                <img
-                                  className={styles.image}
-                                  alt=""
-                                  src={item.image}
-                                  style={{ width: "302px", height: "290px" }}
-                                />
-                              </div>
-                              <div className={styles.frontText}>
-                                <h2 className={styles.frontH2}>
-                                  <span>{item.lavozimi}</span>
-                                  <br />
-                                  {item.fullName}
-                                </h2>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                      ) : (
-                        ""
-                      );
-                    })
-                  : ""}
-              </Row>
-            </div> */}
-              </div>
+                </div>
             </div>
             <Modal
             width="100%"
