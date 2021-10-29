@@ -89,13 +89,33 @@ import FooterA from "./FooterA";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
 import AOS from 'aos';
+import { getNews } from "../host/Config";
 
 export default class Dashboard extends Component {
-  state = { timePassed: false };
+  state = { timePassed: false, 
+  news:null,
+ };
+  getNews = () => {
+    getNews()
+      .then((res) => {
+      this.setState({
+        news:res.data
+      })
+      setTimeout(() => {
+        this.setState({
+     timePassed: true
+  
+        });
+      }, 2000);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  
+
   componentDidMount() {
-    setTimeout(() => {
-      this.setState({ timePassed: true });
-    }, 5000);
+this.getNews()
     
   AOS.init();
   }
@@ -538,258 +558,37 @@ export default class Dashboard extends Component {
                     autoPlaySpeed={3000}
                     responsive={responsive1}
                   >
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic4}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Shavkat Mirziyoyev O‘zLiDeP partiyasidan
-                            prezidentlikka nomzod sifatida tasdiqlandi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic5}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            1-kursga qabul qilingan talabalar uchun tanishtiruv
-                            haftaligi 6 sentyabrdan boshlanadi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic6}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Mahalliy OTMlardan o‘qishni ko‘chirish natijalari 6
-                            sentyabrda e'lon qilinadi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic7}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Ta'lim inspeksiyasi abituriyentlardan hujjat qabul
-                            qilayotgan nodavlat OTMlar haqida ma'lumot berdi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic8}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Mercedes-Benz kompaniyasi S-Class sedanining
-                            zirhlangan versiyasini ishlab chiqdi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic9}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            SpaceX sentyabrda butun sayyorani sun'iy yo‘ldosh
-                            interneti bilan ta'minlamoqchi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic10}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Mustaqillik bayrami arafasida O‘zbekiston bayrog‘i
-                            stratosferaga uchirildi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic11}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Xitoy fazoda quyosh energiyasini yig‘ib, uni Yerga
-                            jo‘natish ustida ish olib bormoqda
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
-                    <div className={style.news_item}>
-                      <Card
-                        style={{
-                          border: "1px solid lightgrey",
-                          height: "400px",
-                        }}
-                      >
-                        <Card.Img className={style.yang1}
-                          variant="top"
-                          // style={{ height: "250px" }}
-                          src={pic12}
-                        />
-                        <Card.Body>
-                          <p className={style.vaqt}>
-                            {" "}
-                            <i
-                              style={{ marginRight: "10px" }}
-                              className="far fa-calendar-alt"
-                            ></i>
-                            12.03.2021
-                          </p>
-                          <Card.Text style={{ fontSize: "16px" }}>
-                            Toyota kompaniyasi Corolla modelining 50
-                            millioninchi nusxasini sotdi
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </div>
+                   {this.state.news!==null?this.state.news.map(item=>{
+return( <div className={style.news_item}>
+  <Card
+    style={{
+      border: "1px solid lightgrey",
+      height: "400px",
+    }}
+  >
+    <Card.Img className={style.yang1}
+      variant="top"
+      // style={{ height: "250px" }}
+      src={item.image}
+    />
+    <Card.Body>
+      <p className={style.vaqt}>
+        {" "}
+        <i
+          style={{ marginRight: "10px" }}
+          className="far fa-calendar-alt"
+        ></i>
+        {item.published_time.substring(0,10)}
+      </p>
+      <Card.Text style={{ fontSize: "16px" }}>
+      {item.title}
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</div>)
+                   }):''}
+                   
+                   
                   </Carousel>
                   <Link to="/yangiliklar" className={style.bar}>
                     Barcha yangiliklar <i className="fas fa-arrow-right"></i>
