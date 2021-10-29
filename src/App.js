@@ -6,7 +6,7 @@ import Yangiliklar from "./pages/Yangiliklar";
 import Footer from "./pages/Footer";
 
 import "./App.css";
-import Lavhalar from "./pages/Lavhalar";
+import Lavhalar from "./pages/Gallery";
 import Loader from "./pages/Loader";
 import Tumanlar from "./pages/Tumanlar";
 import Boglanish from "./pages/Boglanish";

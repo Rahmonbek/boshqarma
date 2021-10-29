@@ -51,13 +51,13 @@
   margin: 10px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(17, 1, 230, 0.24) 0px 3px 8px;
 }
 .card1 {
   margin: 10px;
   border-radius: 10px;
   background-color: rgba(3, 110, 231, 0.445);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(17, 1, 230, 0.24) 0px 3px 8px;
   padding: 15px;
   width: 90%;
 }
@@ -407,13 +407,4 @@
 
 .maincontainer:hover > .back {
   transform: perspective(600px) rotateY(0deg);
-}
-.saytlar{background-color: white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 10px; position: sticky; top:117px; padding:10px; width:120%;}
-.saytlar ul{list-style-type:none; padding:0px;}
-.saytlar li{height:70px; margin: 10px 0px; width:100%; padding:20px 20px 10px 20px; border-top: 1px solid darkblue; display: flex; align-items: center;}
-.saytlar a{text-decoration: none; color:black; margin-left:5px; font-size: 15px;}
-.saytlar img{width:50px; position: relative; left:-10px;}
-.saytlar a:hover{color:blue;}
-@media (max-width:900px){
-  .saytlar{display: none !important;}
 }
