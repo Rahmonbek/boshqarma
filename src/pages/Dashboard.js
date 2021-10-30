@@ -151,7 +151,7 @@ this.getNews()
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 1,
+        items: 2,
       },
       mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -223,7 +223,7 @@ this.getNews()
             <div style={{height:'auto'}} className="fixed-top" style={{position:'absolute'}}>
 
             <div className={style.navT} style={{position:'absolute'}}>
-              <Navbar style={{ position: "relative" }} expand="lg">
+              <Navbar variant="dark" style={{ position: "relative" }} expand="lg">
                 <Container>
                   <Navbar.Brand>
                     <NavLink
@@ -238,10 +238,10 @@ this.getNews()
                       <div class={style.brand_text}>
                         <p className={style.lrt}>
                           O'zbekiston Respublikasi <br /> Xorazm viloyati  <br />{" "}
-                        Bog`at tumani xalq ta'limi boshqarmasi{" "}
+                        Bog'at tumani xalq ta'limi boshqarmasi{" "}
                         </p>
                         <p>
-                          O'zbekiston Respublikasi Xorazm viloyati  <br />Bog`at tumani xalq
+                          O'zbekiston Respublikasi Xorazm viloyati  <br />Bog'at tumani xalq
                           ta'limi boshqarmasi{" "}
                         </p>
                       </div>  
@@ -249,7 +249,9 @@ this.getNews()
                   </Navbar.Brand>
                   {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
 
-                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
+                  {/* <Navbar.Toggle aria-controls="basic-navbar-nav"                   
+                  style={{ zIndex: 345, color:'white', position:'absolute', top:'30px', right:'30px'}}
+ /> */}
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" id={style.nav}>
                       <Nav.Link
@@ -320,7 +322,7 @@ this.getNews()
           data-aos={"fade-down"}
            data-aos-anchor-placement={"top-top"}
             >
-              <Navbar className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
+              <Navbar variant="dark" className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
                 <Navbar.Brand>
                   <NavLink
                     className={style.navB}
@@ -334,10 +336,10 @@ this.getNews()
                     <div class={style.brand_text}>
                       <p className={style.lrt}>
                         O'zbekiston Respublikasi  <br /> Xorazm viloyati  <br />{" "}
-                       Bog`at tumani xalq ta'limi boshqarmasi{" "}
+                       Bog'at tumani xalq ta'limi boshqarmasi{" "}
                       </p>
                       <p>
-                        O'zbekiston Respublikasi Xorazm viloyati <br /> Bog`at tumani xalq
+                        O'zbekiston Respublikasi Xorazm viloyati <br /> Bog'at tumani xalq
                         ta'limi boshqarmasi{" "}
                       </p>
                     </div>
@@ -345,7 +347,8 @@ this.getNews()
                 </Navbar.Brand>
                 <Navbar.Toggle
                   aria-controls="basic-navbar-nav"
-                  style={{ zIndex: 345,}}
+                  style={{ zIndex: 345, color:'white'}}
+
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto" id={style.nav}>
@@ -426,7 +429,7 @@ this.getNews()
                     </h2>
                   </div>
                   <br />
-                  <p className={style.fio}><b>Raximova Guzal Bekturdievna</b></p>
+                  <p className={style.fio}><b>Raximova Go'zal Bekturdiyevna</b></p>
                   <p className={style.qabul}>
                     Dushanba, Shanba - soat 9:00 dan 17:00 gacha
                   </p>
@@ -1443,7 +1446,7 @@ return( <div className={style.news_item}>
                   />
                   <p className={style.pp}>
                     <i>
-                    Xorazm viloyati Bog`at tumani xalq ta'limi boshqarmasiga virtual sayohat
+                    Xorazm viloyati Bog'at tumani xalq ta'limi boshqarmasiga virtual sayohat
                       qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.
                     </i>
                   </p>

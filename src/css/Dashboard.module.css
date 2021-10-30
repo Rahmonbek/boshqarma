@@ -446,6 +446,7 @@
     margin-left: 0px;
     text-align: center;
   }
+  
 }
 
 @media (min-width: 451px) and (max-width: 991px) {
@@ -474,16 +475,20 @@
   .qabul {
     font-size: 15px;
   }
+  #mediaa12, #mediaa11{
+height: 70px !important;
+width:80px !important;
+
+margin:20px;
+  }
   .ahref {
-    margin-left: -20px !important;
+    margin-left: -12px !important;
+    margin-top: -18px !important;
   }
   .colimg1 {
-    transform: scale(1.6, 1.6);
     padding: 0px;
   }
-  .colimg1 img {
-    transform: scale(2, 2);
-  }
+  
   .stas {
     display: flex;
     align-items: center;

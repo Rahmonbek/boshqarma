@@ -40,7 +40,7 @@ export default class Rahbariyat extends Component {
      
       {
         id: 1,
-        fullName: "Raximova  Guzal  Bekturdievna",
+        fullName: "Raximova  Go'zal  Bekturdiyevna",
         phone:"+99800-000-00-00",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
@@ -74,7 +74,7 @@ export default class Rahbariyat extends Component {
       },
       {
         id: 2,
-        fullName: "Axmedov  Anvarbek  Yo'ldoshboevich",
+        fullName: "Axmedov  Anvarbek  Yo'ldoshboyevich",
         phone:"+99800-000-00-00",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
