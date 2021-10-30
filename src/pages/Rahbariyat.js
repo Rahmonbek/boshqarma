@@ -40,7 +40,7 @@ export default class Rahbariyat extends Component {
       {
         id: 1,
         fullName: "Raximova  Go'zal  Bekturdiyevna",
-        phone:"+99800-000-00-00",
+        phone:"+998-91-452-40-02",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
         describe:
@@ -60,55 +60,8 @@ export default class Rahbariyat extends Component {
       },
       {
         id: 2,
-        fullName: "Xudoyberganov Odilbek Shixnazarovich",
-        phone: "+99800-000-00-00",
-        qabul: "Dushanba - Shanba 9:00 - 17:00",
-        email: "bogot__txtb@umail.uz",
-        describe: "2001-2005 yil - Urganch davlat universiteti talabasi",
-        describe1:
-          "2005-2007 yil - Toshkent axborot texnologiyalari universiteti Urganch filiali magistranti",
-        describe2: "2007-2013 yil - Urganch davlat universiteti o'qituvchisi",
-        describe3:
-          "2013-2014 yil - Bog'ot qishloq xo'jalik kasb-hunar kollejining ishlab chiqarish ta'limi ustasi",
-        describe4:
-          "2014-2018 yil - Bog'ot tuman xalq ta'limi bo'limi davlat ta'lim standart monitoringi mutaxassisi",
-        describe5:
-          "2018-2021 yil - Bog'ot tuman xalq ta'limi bo'limi mudiri o'rinbosari",
-        describe6:
-          "2021 yil - Bog'ot tuman xalq ta'limi bo'limi ma'naviy-axloqiy tarbiya va bolalarning ijtimoiy himoya sho''basi rahbari",
-        lavozimi:
-          "Bog'ot tuman xalq ta'limi bo'limi ma'naviyat bo'yicha sho'ba raxbari",
-        image: rahbar,
-        daraja: 1,
-      },
-      {
-        id: 2,
-        fullName: "Axmedov  Anvarbek  Yo'ldoshboyevich",
-        phone:"+99800-000-00-00",
-        qabul: "Dushanba - Shanba 9:00 - 17:00",
-        email: "bogot__txtb@umail.uz",
-        describe:
-          "2007-2008 yy. -O'zbekiston Respublikasi Milliy Xavfsizlik Xizmati Chegara qo'shinlarida oddiy askar ",
-        describe1:
-          "2009-2013 yy. -Toshkent Axborot texnologiyalari universiteti talabasi ",
-        describe2:
-          "2013-2014 yy. -Bog'ot yengil sanoat kasb-hunar kollejida ishlab chiqarish ta'limi ustasi ",
-        describe3:
-          "2014-2017 yy. -Bog'ot yengil sanoat kasb-hunar kollejida o'quv ishlari bo'yicha direktor o'rinbosari ",
-        describe4:
-          "2017-2018 yy. -O'zbekiston yoshlar ittifoqi Bog'ot tuman Kengashi bosh mutaxassisi ",
-        describe5:
-          "2018 - h.v        - Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
-        describe6: "",
-        lavozimi:
-          "Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
-        image: axmedov,
-        daraja: 1,
-      },
-      {
-        id: 2,
         fullName: "Sapaev Ulug'bek Ollayarovich",
-        phone: "+99800-000-00-00",
+        phone: "+998-91-234-40-50",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
         describe: "1996-2000 yy.-Urganch davlat universiteti talabasi",
@@ -129,28 +82,77 @@ export default class Rahbariyat extends Component {
       },
       {
         id: 2,
-        fullName: "Matyakubov   Farxod   Axmedovich",
-        phone: "+99800-000-00-00",
+        fullName: "Xudoyberganov Odilbek Shixnazarovich",
+        phone: "+998-91-143-40-02",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
-        describe:
-          "1977-1983 yy -  Toshkent  ulgurji  kitob  savdosi  “Tashkoopkniga”ishchi ",
+        describe: "2001-2005 yil - Urganch davlat universiteti talabasi",
         describe1:
-          "1983-1984 yy – Tashtrans  spes  stroy trest  sleser  trubaukladchik",
-        describe2: "1984-1986-yy    Bogot  rayijroko'm  instruktor",
-        describe3: "1986-2000-yy     Mexnat  bo'limi direktor  birja  truda",
-        describe4: "2000-2005-yy     Bog'ot  ASM KUK  maslaxatchi",
-        describe5: "2010-2011- yy    Maishiy  xizmat  KXK yordamchi  buxgalter",
+          "2005-2007 yil - Toshkent axborot texnologiyalari universiteti Urganch filiali magistranti",
+        describe2: "2007-2013 yil - Urganch davlat universiteti o'qituvchisi",
+        describe3:
+          "2013-2014 yil - Bog'ot qishloq xo'jalik kasb-hunar kollejining ishlab chiqarish ta'limi ustasi",
+        describe4:
+          "2014-2018 yil - Bog'ot tuman xalq ta'limi bo'limi davlat ta'lim standart monitoringi mutaxassisi",
+        describe5:
+          "2018-2021 yil - Bog'ot tuman xalq ta'limi bo'limi mudiri o'rinbosari",
         describe6:
-          "2015-x/v     Bagat  XTB muhandis xozirgi  kunda MTEX  boshligi",
-        lavozimi: "Bog'ot tumani  xalq ta'limi bo'limida muhandisi",
-        image: matyoqubov,
+          "2021 yil - Bog'ot tuman xalq ta'limi bo'limi ma'naviy-axloqiy tarbiya va bolalarning ijtimoiy himoya sho''basi rahbari",
+        lavozimi:
+          "Bog'ot tuman xalq ta'limi bo'limi ma'naviyat bo'yicha sho'ba raxbari",
+        image: rahbar,
         daraja: 1,
       },
+    
+      // {
+      //   id: 2,
+      //   fullName: "Axmedov  Anvarbek  Yo'ldoshboyevich",
+      //   phone:"+998-91-000-00-00",
+      //   qabul: "Dushanba - Shanba 9:00 - 17:00",
+      //   email: "bogot__txtb@umail.uz",
+      //   describe:
+      //     "2007-2008 yy. -O'zbekiston Respublikasi Milliy Xavfsizlik Xizmati Chegara qo'shinlarida oddiy askar ",
+      //   describe1:
+      //     "2009-2013 yy. -Toshkent Axborot texnologiyalari universiteti talabasi ",
+      //   describe2:
+      //     "2013-2014 yy. -Bog'ot yengil sanoat kasb-hunar kollejida ishlab chiqarish ta'limi ustasi ",
+      //   describe3:
+      //     "2014-2017 yy. -Bog'ot yengil sanoat kasb-hunar kollejida o'quv ishlari bo'yicha direktor o'rinbosari ",
+      //   describe4:
+      //     "2017-2018 yy. -O'zbekiston yoshlar ittifoqi Bog'ot tuman Kengashi bosh mutaxassisi ",
+      //   describe5:
+      //     "2018 - h.v        - Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
+      //   describe6: "",
+      //   lavozimi:
+      //     "Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
+      //   image: axmedov,
+      //   daraja: 1,
+      // },
+    
+      // {
+      //   id: 2,
+      //   fullName: "Matyakubov   Farxod   Axmedovich",
+      //   phone: "+998-91-000-00-00",
+      //   qabul: "Dushanba - Shanba 9:00 - 17:00",
+      //   email: "bogot__txtb@umail.uz",
+      //   describe:
+      //     "1977-1983 yy -  Toshkent  ulgurji  kitob  savdosi  “Tashkoopkniga”ishchi ",
+      //   describe1:
+      //     "1983-1984 yy – Tashtrans  spes  stroy trest  sleser  trubaukladchik",
+      //   describe2: "1984-1986-yy    Bogot  rayijroko'm  instruktor",
+      //   describe3: "1986-2000-yy     Mexnat  bo'limi direktor  birja  truda",
+      //   describe4: "2000-2005-yy     Bog'ot  ASM KUK  maslaxatchi",
+      //   describe5: "2010-2011- yy    Maishiy  xizmat  KXK yordamchi  buxgalter",
+      //   describe6:
+      //     "2015-x/v     Bagat  XTB muhandis xozirgi  kunda MTEX  boshligi",
+      //   lavozimi: "Bog'ot tumani  xalq ta'limi bo'limida muhandisi",
+      //   image: matyoqubov,
+      //   daraja: 1,
+      // },
       {
         id: 2,
         fullName: "Аbduraxmanov Oybek Rustamovich",
-        phone: "+99800-000-00-00",
+        phone: "+998-91-653-34-77",
         qabul: "Dushanba - Shanba 9:00 - 17:00",
         email: "bogot__txtb@umail.uz",
         describe: "1994-1999 yy- Urganch davlat universiteti talabasi",

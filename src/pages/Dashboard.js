@@ -248,92 +248,68 @@ export default class Dashboard extends Component {
                   {/* <Navbar.Toggle aria-controls="basic-navbar-nav"                   
                   style={{ zIndex: 345, color:'white', position:'absolute', top:'30px', right:'30px'}}
  /> */}
-                  <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" id={style.nav}>
-                      <Nav.Link
-                        style={{ textAlign: "center", }}
-                        className={style.birinchi}
-                      >
-                        {" "}
-                        <div class={style.brand_img}>
-                          <img src={gerb} />
-                        </div>
-                        <div class={style.brand_text}>
-                          <p className={style.lrt}>
-                            O'zbekiston Respublikasi <br /> Xorazm viloyati{" "}
-                            <br /> Bog'ot tumani xalq ta'limi boshqarmasi{" "}
-                          </p>
-                          <p>
-                            O'zbekiston Respublikasi Xorazm viloyati <br />
-                            Bog'ot tumani xalq ta'limi boshqarmasi{" "}
-                          </p>
-                        </div>
-                      </NavLink>
-                    </Navbar.Brand>
-                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-
-                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
                     <Navbar.Collapse id="basic-navbar-nav">
-                      <Nav className="me-auto" id={style.nav}>
-                        <Nav.Link
-                          style={{ textAlign: "center" }}
-                          className={style.birinchi}
-                        >
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/"
-                          >
-                            Bosh sahifa
-                          </NavLink>
-                        </Nav.Link>
-                        <Nav.Link style={{ textAlign: "center" }}>
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/rahbariyat"
-                          >
-                            Rahbariyat
-                          </NavLink>
-                        </Nav.Link>
-                        <Nav.Link style={{ textAlign: "center" }}>
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/yangiliklar"
-                          >
-                            Yangiliklar
-                          </NavLink>
-                        </Nav.Link>
-                        <Nav.Link style={{ textAlign: "center" }}>
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/lavhalar"
-                          >
-                            Fotolavhalar
-                          </NavLink>
-                        </Nav.Link>
-                        <Nav.Link style={{ textAlign: "center" }}>
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/videos"
-                          >
-                            Videolavhalar
-                          </NavLink>
-                        </Nav.Link>
-                        <Nav.Link style={{ textAlign: "center" }}>
-                          <NavLink
-                            className={style.navlik}
-                            style={{ textDecoration: "none" }}
-                            to="/boglanish"
-                          >
-                            Bog'lanish
-                          </NavLink>
-                        </Nav.Link>
-                      </Nav>
-                    </Navbar.Collapse>
+              <Nav className="me-auto" id={style.nav}>
+                <Nav.Link
+                  style={{ textAlign: "center" }}
+                  className={style.birinchi}
+                >
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/"
+                  >
+                    Bosh sahifa
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/rahbariyat"
+                  >
+                    Rahbariyat
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/yangiliklar"
+                  >
+                    Yangiliklar
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/lavhalar"
+                  >
+                    Fotolavhalar
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/videos"
+                  >
+                    Videolavhalar
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link style={{ textAlign: "center" }}>
+                  <NavLink
+                    className={style.navlik}
+                    style={{ textDecoration: "none", width: "100px" }}
+                    to="/boglanish"
+                  >
+                    Bog'lanish
+                  </NavLink>
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          
                   </Container>
                 </Navbar>
               </div>

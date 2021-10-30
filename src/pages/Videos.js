@@ -144,6 +144,7 @@ export default class Videos extends Component {
                       <hr class="my-4" />
                     </div>
                   </div>
+                  </div>
                 </main>
               </div>
             </div>
