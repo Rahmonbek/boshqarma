@@ -39,7 +39,7 @@ export default class Gallery extends Component {
   render() {
     return (
       <>
-        {this.state.timePassed == false ? (
+        {this.state.loader ? (
           <Loader />
         ) : (
           <div>

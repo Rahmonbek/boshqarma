@@ -884,4 +884,25 @@
   .news {
     margin-top: 0;
   }
+  
+ .news img{height:350px}
+ .navlik{font-size: 22px;}
+ .brand_text p{font-size: 22px;}
+  .newText{font-size: 20px !important;}
+.text h1{margin-top: 150px;}
+.cardNew{height:500px !important}
+.vaqt{font-size: 18px !important;}
+.elem{width:100%; padding-left:10%}
+.colT p{font-size: 20px;}
+.colT img{width:45px;}
+.htr h2{font-size: 30px;}
+.jtr img{height:300px}
+.gtr img{height:700px}
+.pp{font-size: 26px;}
+.bar{font-size:27px}
+.sliderHomiy p{font-size: 20px !important;}
+.str{width:350px}
 }
+
+
+

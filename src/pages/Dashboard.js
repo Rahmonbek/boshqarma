@@ -581,6 +581,7 @@ export default class Dashboard extends Component {
                           return (
                             <div className={style.news_item}>
                               <Card
+                              className={style.cardNew}
                                 style={{
                                   border: "1px solid lightgrey",
                                   height: "400px",
@@ -601,7 +602,7 @@ export default class Dashboard extends Component {
                                     ></i>
                                     {item.published_time.substring(0, 10)}
                                   </p>
-                                  <Card.Text style={{ fontSize: "16px" }}>
+                                  <Card.Text className={style.newText} style={{ fontSize: "16px" }}>
                                     {item.title}
                                   </Card.Text>
                                 </Card.Body>
@@ -1430,7 +1431,7 @@ export default class Dashboard extends Component {
                   <br />
                   <YouTube
                     // <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+className={style.youVideo}
                     videoId="qaJGUdMi_kc"
                     opts={{
                       width: "100%",
@@ -1627,6 +1628,7 @@ export default class Dashboard extends Component {
                           center: [41.357659, 60.814373],
                           zoom: 13,
                         }}
+                        
                       >
                         <Clusterer
                           options={{

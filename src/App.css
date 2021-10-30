@@ -45,3 +45,9 @@ a {
   height: 6px;
   background-color: blue;
 }
+
+@media(min-width:1600px){
+  .bar{
+    font-size:27px
+  }
+}
