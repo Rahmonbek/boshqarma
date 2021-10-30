@@ -27,43 +27,38 @@ import FadeLoader from "react-spinners/FadeLoader";
 import { Carousel } from "antd";
 import Footer from "./FooterA";
 import NavbarT from "./NavbarT";
-import { Collapse  } from "antd";
+import { Collapse } from "antd";
 const { Panel } = Collapse;
 
 // import {DownCircleOutlined} from '@ant-design/icons'
 
 export default class Yangiliklar extends Component {
-  state={
-    loader:true,
-   news:null,
-    school:null,
-  
-}
-getNews = () => {
+  state = {
+    loader: true,
+    news: null,
+    school: null,
+  };
+  getNews = () => {
     getNews()
       .then((res) => {
-      this.setState({
-        news:res.data
-      })
-      setTimeout(() => {
         this.setState({
-          loader: false,
+          news: res.data,
         });
-      }, 3000);
+        setTimeout(() => {
+          this.setState({
+            loader: false,
+          });
+        }, 3000);
       })
       .catch((err) => {
         console.log(err);
       });
   };
-  
 
   componentDidMount() {
-    
     this.getNews();
+  }
 
-   
-    }
-  
   render() {
     const contentStyle = {
       width: "100%",
@@ -85,34 +80,38 @@ getNews = () => {
             <NavbarT />
             <div className={styles.head}>
               <div className={styles.head_text}>
-                O'zbekiston Respublikasi Xorazm viloyati Bog`ot tumani  xalq ta'limi
-                boshqarmasining yangiliklari
+                O'zbekiston Respublikasi Xorazm viloyati Bog'ot tumani xalq
+                ta'limi boshqarmasining yangiliklari
               </div>
             </div>
-          
+
             <div className={styles.newsY}>
-<Collapse accordion defaultActiveKey={['0']}>
-    {this.state.news!==null?this.state.news.map((item, key)=>{
-return(
-<Panel header={item.title} key={key}>
-      <div>
-          <Container>
-              <div className={styles.imag}>
-                  <img src={item.image}/>
-              </div>
-              <div className={styles.yozuv}>
-                  <h1>{item.title}</h1>
-                  <p><i className="fa fa-calendar"></i>{item.published_time.substring(0,10)}</p>
-                  <p>{item.text}</p>
-              </div>
-          </Container>
-      </div>
-    </Panel>
-  
-)
-    }):''}
-    </Collapse>
-</div>
+              <Collapse accordion defaultActiveKey={["0"]}>
+                {this.state.news !== null
+                  ? this.state.news.map((item, key) => {
+                      return (
+                        <Panel header={item.title} key={key}>
+                          <div>
+                            <Container>
+                              <div className={styles.imag}>
+                                <img src={item.image} />
+                              </div>
+                              <div className={styles.yozuv}>
+                                <h1>{item.title}</h1>
+                                <p>
+                                  <i className="fa fa-calendar"></i>
+                                  {item.published_time.substring(0, 10)}
+                                </p>
+                                <p>{item.text}</p>
+                              </div>
+                            </Container>
+                          </div>
+                        </Panel>
+                      );
+                    })
+                  : ""}
+              </Collapse>
+            </div>
             <Footer />
           </>
         )}

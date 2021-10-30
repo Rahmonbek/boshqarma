@@ -42,11 +42,11 @@ import pic17 from "../img/emvxsz12yg0ks0osw0kw8s4wk.jpg";
 import pic18 from "../img/Tashkent-City_name_statue.jpg";
 import pic19 from "../img/920__95_745261863.jpg";
 import pic20 from "../img/twitter 2.png";
-import drasm1 from "../img/drasm1.jpeg"
-import drasm3 from "../img/drasm3.jpeg"
-import drasm2 from "../img/drasm2.png"
-import drasm8 from "../img/drasm8.png"
-import drasm5 from "../img/drasm5.png"
+import drasm1 from "../img/drasm1.jpeg";
+import drasm3 from "../img/drasm3.jpeg";
+import drasm2 from "../img/drasm2.png";
+import drasm8 from "../img/drasm8.png";
+import drasm5 from "../img/drasm5.png";
 import drasm6 from "../img/drasm6.jpg";
 import drasm7 from "../img/drasm7.jpg";
 import drasm9 from "../img/drasm9.jpg";
@@ -60,9 +60,9 @@ import dxorazm6 from "../img/dxorazm6.jpg";
 import dxorazm7 from "../img/dxorazm7.jpg";
 import dxorazm8 from "../img/dxorazm8.jpg";
 import dxorazm9 from "../img/dxorazm9.jpg";
-import priz1 from "../img/priz1.jpg"
-import dir2 from "../img/dir2.jpg"
-import gozal from '../img/gozal.png'
+import priz1 from "../img/priz1.jpg";
+import dir2 from "../img/dir2.jpg";
+import gozal from "../img/gozal.png";
 
 // import drasm4 from "../img/drasm4.jpeg"
 
@@ -89,36 +89,32 @@ import {
 import FooterA from "./FooterA";
 import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
-import AOS from 'aos';
+import AOS from "aos";
 import { getNews } from "../host/Config";
 
 export default class Dashboard extends Component {
-  state = { timePassed: false, 
-  news:null,
- };
+  state = { timePassed: false, news: null };
   getNews = () => {
     getNews()
       .then((res) => {
-      this.setState({
-        news:res.data
-      })
-      setTimeout(() => {
         this.setState({
-     timePassed: true
-  
+          news: res.data,
         });
-      }, 2000);
+        setTimeout(() => {
+          this.setState({
+            timePassed: true,
+          });
+        }, 2000);
       })
       .catch((err) => {
         console.log(err);
       });
   };
-  
 
   componentDidMount() {
-this.getNews()
-    
-  AOS.init();
+    this.getNews();
+
+    AOS.init();
   }
   render() {
     const responsive = {
@@ -198,11 +194,11 @@ this.getNews()
     };
     return (
       <div>
-        {this.state.timePassed == false ? (
+        {this.state.timePassed === false ? (
           <Loader />
         ) : (
           <div>
-          <Carousel
+            <Carousel
               infinite={true}
               autoPlay={true}
               autoPlaySpeed={3000}
@@ -258,69 +254,94 @@ this.getNews()
                         style={{ textAlign: "center", }}
                         className={style.birinchi}
                       >
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/"
+                        {" "}
+                        <div class={style.brand_img}>
+                          <img src={gerb} />
+                        </div>
+                        <div class={style.brand_text}>
+                          <p className={style.lrt}>
+                            O'zbekiston Respublikasi <br /> Xorazm viloyati{" "}
+                            <br /> Bog'ot tumani xalq ta'limi boshqarmasi{" "}
+                          </p>
+                          <p>
+                            O'zbekiston Respublikasi Xorazm viloyati <br />
+                            Bog'ot tumani xalq ta'limi boshqarmasi{" "}
+                          </p>
+                        </div>
+                      </NavLink>
+                    </Navbar.Brand>
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={{zIndex:345}} /> */}
+                    <Navbar.Collapse id="basic-navbar-nav">
+                      <Nav className="me-auto" id={style.nav}>
+                        <Nav.Link
+                          style={{ textAlign: "center" }}
+                          className={style.birinchi}
                         >
-                          Bosh sahifa
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/rahbariyat"
-                        >
-                          Rahbariyat
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/yangiliklar"
-                        >
-                          Yangiliklar
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/lavhalar"
-                        >
-                          Fotolavhalar
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center",  }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/videos"
-                        >
-                          Videolavhalar
-                        </NavLink>
-                      </Nav.Link>
-                      <Nav.Link style={{ textAlign: "center", }}>
-                        <NavLink
-                          className={style.navlik}
-                          style={{ textDecoration: "none" }}
-                          to="/boglanish"
-                        >
-                          Bog'lanish
-                        </NavLink>
-                      </Nav.Link>
-                    </Nav>
-                  </Navbar.Collapse>
-                </Container>
-              </Navbar>
-            </div>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/"
+                          >
+                            Bosh sahifa
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/rahbariyat"
+                          >
+                            Rahbariyat
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/yangiliklar"
+                          >
+                            Yangiliklar
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/lavhalar"
+                          >
+                            Fotolavhalar
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/videos"
+                          >
+                            Videolavhalar
+                          </NavLink>
+                        </Nav.Link>
+                        <Nav.Link style={{ textAlign: "center" }}>
+                          <NavLink
+                            className={style.navlik}
+                            style={{ textDecoration: "none" }}
+                            to="/boglanish"
+                          >
+                            Bog'lanish
+                          </NavLink>
+                        </Nav.Link>
+                      </Nav>
+                    </Navbar.Collapse>
+                  </Container>
+                </Navbar>
+              </div>
             </div>
             <div
               className={style.navG}
-          data-aos={"fade-down"}
-           data-aos-anchor-placement={"top-top"}
+              data-aos={"fade-down"}
+              data-aos-anchor-placement={"top-top"}
             >
               <Navbar variant="dark" className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
                 <Navbar.Brand>
@@ -353,7 +374,7 @@ this.getNews()
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto" id={style.nav}>
                     <Nav.Link
-                      style={{ textAlign: "center", }}
+                      style={{ textAlign: "center" }}
                       className={style.birinchi}
                     >
                       <NavLink
@@ -364,7 +385,7 @@ this.getNews()
                         Bosh sahifa
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -373,7 +394,7 @@ this.getNews()
                         Rahbariyat
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -382,25 +403,25 @@ this.getNews()
                         Yangiliklar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
                         to="/lavhalar"
                       >
-                       Fotolavhalar
+                        Fotolavhalar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
                         to="/videos"
                       >
-                       Videolavhalar
+                        Videolavhalar
                       </NavLink>
                     </Nav.Link>
-                    <Nav.Link style={{ textAlign: "center", }}>
+                    <Nav.Link style={{ textAlign: "center" }}>
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
@@ -413,7 +434,7 @@ this.getNews()
                 </Navbar.Collapse>
               </Navbar>
             </div>
-           
+
             <div className={style.text}>
               <h1>
                 Yoshlarimizning bilim olishi biz uchun katta ahamiyatga ega
@@ -425,7 +446,7 @@ this.getNews()
                 <Col lg="6" md="6" sm="12">
                   <div className={style.ManagerItem}>
                     <h2 style={{ textAlign: "center", fontWeight: "bold" }}>
-                    Tuman xalq ta'limi bo‘limi mudiri
+                      Tuman xalq ta'limi bo'limi mudiri
                     </h2>
                   </div>
                   <br />
@@ -455,7 +476,7 @@ this.getNews()
                         </a>
                       </Tooltip>
                     </div>
-                    <div id={style.mediaa12} >
+                    <div id={style.mediaa12}>
                       <a
                         target="_blank"
                         className={style.ahref}
@@ -485,7 +506,6 @@ this.getNews()
                     <div id={style.mediaa11}>
                       <a
                         target="_blank"
-                       
                         className={style.ahref}
                         href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg"
                       >
@@ -493,7 +513,7 @@ this.getNews()
                       </a>
                     </div>
                     <div id={style.mediaa11}>
-                      <Tooltip  placement="bottom" title="(8362)31-52-967">
+                      <Tooltip placement="bottom" title="(8362)31-52-967">
                         {" "}
                         <a
                           target="_blank"
@@ -519,7 +539,7 @@ this.getNews()
                     alignItems: "center",
                   }}
                 >
-                  <div className={style.colimg1} >
+                  <div className={style.colimg1}>
                     <img src={gozal} />
                   </div>
                 </Col>
@@ -545,7 +565,7 @@ this.getNews()
                 <p>
                   <i className="fas fa-university"></i>
                 </p>
-                <p className={style.tit} >B.A.M. lar</p>
+                <p className={style.tit}>B.A.M. lar</p>
                 <p className={style.num}>25 ta</p>
               </div>
               <div className={style.stas_item}>
@@ -580,37 +600,40 @@ this.getNews()
                     autoPlaySpeed={3000}
                     responsive={responsive1}
                   >
-                   {this.state.news!==null?this.state.news.map(item=>{
-return( <div className={style.news_item}>
-  <Card
-    style={{
-      border: "1px solid lightgrey",
-      height: "400px",
-    }}
-  >
-    <Card.Img className={style.yang1}
-      variant="top"
-      // style={{ height: "250px" }}
-      src={item.image}
-    />
-    <Card.Body>
-      <p className={style.vaqt}>
-        {" "}
-        <i
-          style={{ marginRight: "10px" }}
-          className="far fa-calendar-alt"
-        ></i>
-        {item.published_time.substring(0,10)}
-      </p>
-      <Card.Text style={{ fontSize: "16px" }}>
-      {item.title}
-      </Card.Text>
-    </Card.Body>
-  </Card>
-</div>)
-                   }):''}
-                   
-                   
+                    {this.state.news !== null
+                      ? this.state.news.map((item) => {
+                          return (
+                            <div className={style.news_item}>
+                              <Card
+                                style={{
+                                  border: "1px solid lightgrey",
+                                  height: "400px",
+                                }}
+                              >
+                                <Card.Img
+                                  className={style.yang1}
+                                  variant="top"
+                                  // style={{ height: "250px" }}
+                                  src={item.image}
+                                />
+                                <Card.Body>
+                                  <p className={style.vaqt}>
+                                    {" "}
+                                    <i
+                                      style={{ marginRight: "10px" }}
+                                      className="far fa-calendar-alt"
+                                    ></i>
+                                    {item.published_time.substring(0, 10)}
+                                  </p>
+                                  <Card.Text style={{ fontSize: "16px" }}>
+                                    {item.title}
+                                  </Card.Text>
+                                </Card.Body>
+                              </Card>
+                            </div>
+                          );
+                        })
+                      : ""}
                   </Carousel>
                   <Link to="/yangiliklar" className={style.bar}>
                     Barcha yangiliklar <i className="fas fa-arrow-right"></i>
@@ -627,7 +650,7 @@ return( <div className={style.news_item}>
                   <img
                     style={{ width: "100%" }}
                     // src="https://scontent.ftas6-1.fna.fbcdn.net/v/t1.6435-9/133830108_2002413663242809_1340753596329812727_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=gpk8gZgwJXkAX8b3NCo&_nc_ht=scontent.ftas6-1.fna&oh=a2027655adc6c7744e07a79152ca69fd&oe=6165BEE1"
-                  src={priz1}
+                    src={priz1}
                   />
                 </Col>
               </Row>
@@ -1422,7 +1445,7 @@ return( <div className={style.news_item}>
               </Link>
               <br />
             </div> <div className="blue"></div>*/}
-            
+
             <div className={style.gal}>
               <Row>
                 <Col lg={4} md={12} sm={12}>
@@ -1430,10 +1453,9 @@ return( <div className={style.news_item}>
                   <div className="chiziq1"></div>
                   <br />
                   <YouTube
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   
+                    // <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                  videoId="qaJGUdMi_kc"
+                    videoId="qaJGUdMi_kc"
                     opts={{
                       width: "100%",
                       height: "300px",
@@ -1656,7 +1678,7 @@ return( <div className={style.news_item}>
                     </YMaps>
                     <br />
                     <Row
-                    className={style.AdviceImg}
+                      className={style.AdviceImg}
                       style={{
                         width: "100%",
                         marginTop: "20px",
