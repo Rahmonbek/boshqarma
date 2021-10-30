@@ -8,7 +8,11 @@ export default class NavbarT extends Component {
     return (
       <div>
         <div className={style.navG}>
-          <Navbar className={style.NavbarMenu} style={{ position: "relative" }} expand="lg">
+          <Navbar
+            className={style.NavbarMenu}
+            style={{ position: "relative" }}
+            expand="lg"
+          >
             <Navbar.Brand>
               <NavLink
                 className={style.navB}
@@ -21,12 +25,12 @@ export default class NavbarT extends Component {
                 </div>
                 <div class={style.brand_text} id={style.mediaa11}>
                   <p className={style.lrt}>
-                    O'zbekiston Respublikasi <br /> Xorazm viloyati <br />Bog`ot tumani xalq
-                    ta'limi boshqarmasi{" "}
+                    O'zbekiston Respublikasi <br /> Xorazm viloyati <br />
+                    Bog'ot tumani xalq ta'limi boshqarmasi{" "}
                   </p>
                   <p>
-                    O'zbekiston Respublikasi Xorazm viloyati <br />Bog`ot tumani xalq ta'limi
-                    boshqarmasi{" "}
+                    O'zbekiston Respublikasi Xorazm viloyati <br />
+                    Bog'ot tumani xalq ta'limi boshqarmasi{" "}
                   </p>
                 </div>
               </NavLink>
@@ -43,7 +47,7 @@ export default class NavbarT extends Component {
                 >
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none",  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/"
                   >
                     Bosh sahifa
@@ -52,7 +56,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" ,  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/rahbariyat"
                   >
                     Rahbariyat
@@ -61,7 +65,7 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" ,  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/yangiliklar"
                   >
                     Yangiliklar
@@ -70,25 +74,25 @@ export default class NavbarT extends Component {
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" ,  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/lavhalar"
                   >
-                   Fotolavhalar
+                    Fotolavhalar
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" ,  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/videos"
                   >
-                   Videolavhalar
+                    Videolavhalar
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
                   <NavLink
                     className={style.navlik}
-                    style={{ textDecoration: "none" ,  width:"100px" }}
+                    style={{ textDecoration: "none", width: "100px" }}
                     to="/boglanish"
                   >
                     Bog'lanish

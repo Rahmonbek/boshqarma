@@ -5,7 +5,7 @@ import "./videos.css";
 import natural from "../video/natural.mp4";
 import { Container } from "react-bootstrap";
 import Loader from "./Loader";
-import YouTube from '@u-wave/react-youtube';
+import YouTube from "@u-wave/react-youtube";
 
 export default class Videos extends Component {
   constructor(props) {
@@ -22,7 +22,7 @@ export default class Videos extends Component {
   render() {
     return (
       <div>
-        {this.state.timePassed == false ? (
+        {this.state.timePassed === false ? (
           <Loader />
         ) : (
           <div>
@@ -50,8 +50,8 @@ export default class Videos extends Component {
                     <div class="w-100 ">
                       <div class="container">
                         <p class="text">
-                          O`zbekiston Respublikasi Xorazm viloyati Bog`ot tumani xalq ta`lim
-                          boshqarmasi
+                          O'zbekiston Respublikasi Xorazm viloyati Bog'ot tumani
+                          xalq ta'lim boshqarmasi
                         </p>
                       </div>
                     </div>
@@ -63,23 +63,19 @@ export default class Videos extends Component {
               <div class="hm-gradient">
                 <main>
                   <div class="container mt-4">
-                  
-
                     <div class="row">
-
                       <div class="col-md-12 mb-4">
-                      <br/>
-                      <br/>
+                        <br />
+                        <br />
                         <div class="card">
                           <div class="card-block p-3">
-
-
                             <div class="embed-responsive embed-responsive-16by9">
- <YouTube
-  video="xa1iZ1LIIHU"                
-  style={{width:'100%', height:'100%'}}
-  autoplay={true}
-  muted={true}  />
+                              <YouTube
+                                video="xa1iZ1LIIHU"
+                                style={{ width: "100%", height: "100%" }}
+                                autoplay={true}
+                                muted={true}
+                              />
                             </div>
                           </div>
                         </div>
@@ -90,15 +86,13 @@ export default class Videos extends Component {
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-
-
                             <div class="embed-responsive embed-responsive-16by9">
-    <YouTube
-  video="GJqgmxT7lVs"                
-  style={{width:'100%', height:'100%'}}
-  autoplay={true}
-  muted={true}  />
-              
+                              <YouTube
+                                video="GJqgmxT7lVs"
+                                style={{ width: "100%", height: "100%" }}
+                                autoplay={true}
+                                muted={true}
+                              />
                             </div>
                           </div>
                         </div>
@@ -107,15 +101,13 @@ export default class Videos extends Component {
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-
-
                             <div class="embed-responsive embed-responsive-16by9">
-    <YouTube
-  video="GVdFaADego0"                
-  style={{width:'100%', height:'100%'}}
-  autoplay={true}
-  muted={true}  />
-              
+                              <YouTube
+                                video="GVdFaADego0"
+                                style={{ width: "100%", height: "100%" }}
+                                autoplay={true}
+                                muted={true}
+                              />
                             </div>
                           </div>
                         </div>
@@ -124,15 +116,14 @@ export default class Videos extends Component {
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-
-
                             <div class="embed-responsive embed-responsive-16by9">
-                            <YouTube
-  video="cEt9sbSQE-4"                
-  style={{width:'100%', height:'100%'}}
-  autoplay={true}
-  muted={true}  />
-   </div>
+                              <YouTube
+                                video="cEt9sbSQE-4"
+                                style={{ width: "100%", height: "100%" }}
+                                autoplay={true}
+                                muted={true}
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -140,25 +131,21 @@ export default class Videos extends Component {
                       <div class="col-md-6 mb-4">
                         <div class="card">
                           <div class="card-block p-3">
-
-
                             <div class="embed-responsive embed-responsive-16by9">
-                            <YouTube
-  video="6fHPQKvcgNw"                
-  style={{width:'100%', height:'100%'}}
-  autoplay={true}
-  muted={true}  />
+                              <YouTube
+                                video="6fHPQKvcgNw"
+                                style={{ width: "100%", height: "100%" }}
+                                autoplay={true}
+                                muted={true}
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
 
-                    <hr class="my-4" />
-
-            
+                      <hr class="my-4" />
                     </div>
-                    </div>
-                
+                  </div>
                 </main>
               </div>
             </div>
