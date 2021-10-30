@@ -12,6 +12,7 @@ export default class NavbarT extends Component {
             className={style.NavbarMenu}
             style={{ position: "relative" }}
             expand="lg"
+            variant="dark"
           >
             <Navbar.Brand>
               <NavLink

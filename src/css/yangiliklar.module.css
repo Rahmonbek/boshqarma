@@ -522,14 +522,29 @@
 }
 @media (min-width: 701px) and (max-width: 900px) {
   .newsY {
-    margin-top: 0px;
+    margin-top: -350px;
   }
   .newsY h1 {
     font-size: 25px;
   }
+  .head{
+    height:100vh !important;
+    padding-top:33vh;
+    background-size:100% 50%; 
+  }
+  .newsY {
+    margin-top: -500px;
+  }
 }
 @media (min-width: 0) and (max-width: 566px) {
   .newsY {
-    margin-top: -80px;
+    margin-top: -270px;
+  }
+  .head{
+    height:100vh !important;
+    padding-top:30vh;
+    background-size:100% 40%;
+    background-position: 0px 70px ;
+    
   }
 }

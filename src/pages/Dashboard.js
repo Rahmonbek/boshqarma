@@ -74,7 +74,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Nav, Navbar, Container, Row, Col, Card } from "react-bootstrap";
 import { Tooltip } from "antd";
 import { NavLink, Link } from "react-router-dom";
-import YouTube from "react-youtube";
+import YouTube from "@u-wave/react-youtube";
 import {
   Clusterer,
   GeolocationControl,
@@ -94,6 +94,10 @@ import { getNews } from "../host/Config";
 
 export default class Dashboard extends Component {
   state = { timePassed: false, news: null };
+  
+_onEnd(event) {
+  // access to player in all event handlers via event.target
+  event.target.playVideo();}  
   getNews = () => {
     getNews()
       .then((res) => {
@@ -137,8 +141,7 @@ export default class Dashboard extends Component {
     };
     const responsive1 = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 3000 },
         items: 2,
       },
       desktop: {
@@ -156,8 +159,7 @@ export default class Dashboard extends Component {
     };
     const responsive2 = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 3000 },
         items: 7,
       },
       desktop: {
@@ -175,8 +177,7 @@ export default class Dashboard extends Component {
     };
     const responsive3 = {
       superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 3000 },
         items: 4,
       },
       desktop: {
@@ -1424,40 +1425,85 @@ export default class Dashboard extends Component {
             </div> <div className="blue"></div>*/}
 
             <div className={style.gal}>
+          
               <Row>
-                <Col lg={4} md={12} sm={12}>
+                <Col lg={12} md={12} sm={12}>
+                <Container>
                   <h1 className="title">Video lavhalar</h1>
                   <div className="chiziq1"></div>
                   <br />
-                  <YouTube
-                    // <iframe width="560" height="315" src="https://www.youtube.com/embed/byPu0TXE5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-className={style.youVideo}
-                    videoId="qaJGUdMi_kc"
-                    opts={{
-                      width: "100%",
-                      height: "300px",
-                      playerVars: {
-                        // https://developers.google.com/youtube/player_parameters
-                        autoplay: 0,
-                      },
-                    }}
-                    className={style.video}
-                  />
-                  <p className={style.pp}>
-                    <i>
-                    Xorazm viloyati Bog'at tumani xalq ta'limi boshqarmasiga virtual sayohat
-                      qiling va boshqarma haqida ko'proq ma'lumotga ega bo'ling.
-                    </i>
-                  </p>
-                  <Link to="/videos" className={style.bar}>
+                  <Row>
+      <Col lg={6} md={6} sm={12}>
+     
+              <div className={style.videos_item}>
+              <YouTube
+              onEnd={this._onEnd}
+  video='fFzLipInf0M'                
+  className={style.you}
+  autoplay={true}
+  muted={true}
+  
+  opts={{
+    playerVars: {
+     
+      rel:0
+    },
+  }}
+  />
+              </div>
+          </Col>
+          <Col lg={6} md={6} sm={12}>
+         
+              <div className={style.videos_item}>
+              <YouTube
+              onEnd={this._onEnd}
+  video="CdAYBuCc3Iw"                
+  className={style.you}
+  autoplay={true}
+  muted={true}                
+  />
+              </div>
+          </Col>
+          <Col lg={6} md={6} sm={12}>
+         
+              <div className={style.videos_item}>
+              <YouTube
+              onEnd={this._onEnd}
+  video="rvvBEdwPcSE"                
+  className={style.you}
+  autoplay={true}
+  muted={true}                
+  />
+              </div>
+          </Col>
+          <Col lg={6} md={6} sm={12}>
+         
+              <div className={style.videos_item}>
+              <YouTube
+              onEnd={this._onEnd}
+  video="x3M_2IBy_Lk"                
+  className={style.you}
+  autoplay={true}
+  muted={true}                
+  />
+              </div>
+          </Col>
+      </Row>
+      <Link to="/videos" className={style.bar}>
                     Barcha videolarni ko'rish{" "}
                     <i className="fas fa-arrow-right"></i>
                   </Link>
+      </Container>
+                 
                 </Col>
-                <Col lg={8} md={12} sm={12} className={style.jtr}>
+                <Col lg={12} md={12} sm={12} className={style.jtr}>
+                 <br/>
+                 <br/>
                   <h1 className="title">Foto lavhalar</h1>
+                 
                   <div className="chiziq1"></div>
                   <br />
+                 <Container>
                   <Row>
                     <Col lg={4} md={4} sm={6} style={{ paddingBottom: "20px" }}>
                       <img src={dxorazm1} />
@@ -1482,6 +1528,8 @@ className={style.youVideo}
                     Barcha rasmlarni ko'rish{" "}
                     <i className="fas fa-arrow-right"></i>
                   </Link>
+                  </Container>
+                  
                 </Col>
               </Row>
             </div>
@@ -1688,13 +1736,12 @@ className={style.youVideo}
                   <div className="formFER">
                     <div className="container">
                       <div className="brand-logo"></div>
-                      {/* <div className="brand-title">TWITTER</div> */}
                       <div className="inputs">
                         <form>
-                          <label>F.I.O.</label>
+                          <label>F.I.Sh.</label>
                           <input
                             type="text"
-                            placeholder="Ism Familiya Otchistva"
+                            placeholder="Ism Familiya Sharifi"
                           />
                           <label>Telefon raqam</label>
                           <input type="text" placeholder="+998 99 999 99 99" />

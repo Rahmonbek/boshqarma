@@ -1,5 +1,5 @@
 .brand_img,.brand_text{display:inline-block}
-.navG{position:fixed; top:0px; left:0px; z-index: 5567;width:100%; padding:10px 20px; background-color:#243779}
+.navG{position:fixed; top:0px; left:0px; z-index: 5567;width:100%; padding:10px 20px; background-color:#110560}
 
 .brand_img img{width:70px; height:70px}
 .brand_text{width:90px; height:50px; display: flex; align-items:center;}
@@ -95,4 +95,9 @@ margin-right: 24px;
     margin:0;
   }
  
+}
+
+
+@media (max-width:600px) {
+.brand_text p{display:none !important;}
 }

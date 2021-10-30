@@ -453,3 +453,23 @@
     display: none !important;
   }
 }
+@media (min-width: 701px) and (max-width: 900px) {
+  .head{
+    height:100vh !important;
+    padding-top:33vh;
+    background-size:100% 50%; 
+    background-position: 0px 70px ;
+  }
+  .rahbariyatBody{margin-top: -500px;}
+}
+@media (min-width: 0) and (max-width: 566px) {
+  .head{
+    height:100vh !important;
+    padding-top:30vh;
+    background-size:100% 40%;
+    background-position: 0px 70px ;
+    
+  }
+  .rahbariyatBody{margin-top: -380px;}
+}
+
