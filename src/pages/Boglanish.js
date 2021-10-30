@@ -18,7 +18,7 @@ export default class Boglanish extends Component {
   render() {
     return (
       <div>
-        {this.state.timePassed == false ? (
+        {this.state.timePassed === false ? (
           <Loader />
         ) : (
           <div>
@@ -27,12 +27,12 @@ export default class Boglanish extends Component {
             <h2
               style={{
                 margin: "auto",
-                fontWeight:'bold',
+                fontWeight: "bold",
                 textAlign: "center",
                 marginTop: "160px",
-                width:'300px',
+                width: "300px",
                 marginBottom: "50px",
-                borderBottom:'3px solid blue'
+                borderBottom: "3px solid blue",
               }}
             >
               Bizning Manzilimiz

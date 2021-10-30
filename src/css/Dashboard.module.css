@@ -40,7 +40,7 @@
   position: sticky;
   top: 0px;
   left: 0px;
-  z-index: 667;
+  z-index: 6670;
   margin-top: -500px;
   width: 100%;
   padding: 10px 20px;
@@ -446,7 +446,6 @@
     margin-left: 0px;
     text-align: center;
   }
-  
 }
 
 @media (min-width: 451px) and (max-width: 991px) {
@@ -475,11 +474,12 @@
   .qabul {
     font-size: 15px;
   }
-  #mediaa12, #mediaa11{
-height: 70px !important;
-width:80px !important;
+  #mediaa12,
+  #mediaa11 {
+    height: 70px !important;
+    width: 80px !important;
 
-margin:20px;
+    margin: 20px;
   }
   .ahref {
     margin-left: -12px !important;
@@ -488,7 +488,7 @@ margin:20px;
   .colimg1 {
     padding: 0px;
   }
-  
+
   .stas {
     display: flex;
     align-items: center;
@@ -755,6 +755,7 @@ margin:20px;
   }
   .colimg1 {
     overflow: hidden;
+    top: 0;
   }
   .bar {
     margin-left: 10%;
