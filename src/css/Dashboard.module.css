@@ -909,5 +909,20 @@
 
 
       
-
-
+.eslatma{
+  
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  position:fixed;
+  bottom:0px; 
+  right:0px;
+  background-color:white;
+  font-size: 16px;
+  padding:20px 10px;
+  z-index: 6789;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; 
+}
+.eslatma span{margin-left: 20px;
+text-shadow: 1px 1px 4px grey;
+}

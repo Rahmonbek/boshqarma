@@ -91,6 +91,7 @@ import Tumanlar from "./Tumanlar";
 import Loader from "./Loader";
 import AOS from "aos";
 import { getNews } from "../host/Config";
+import { ClockLoader} from "react-spinners";
 
 export default class Dashboard extends Component {
   state = { timePassed: false, news: null };
@@ -1424,6 +1425,7 @@ _onEnd(event) {
               <br />
             </div> <div className="blue"></div>*/}
 
+
             <div className={style.gal}>
           
               <Row>
@@ -1438,7 +1440,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video='fFzLipInf0M'                
+  video='x2cr1d3XNMU'                
   className={style.you}
   autoplay={true}
   muted={true}
@@ -1457,7 +1459,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video="CdAYBuCc3Iw"                
+  video="7Ykovrq6hwc"                
   className={style.you}
   autoplay={true}
   muted={true}                
@@ -1469,7 +1471,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video="rvvBEdwPcSE"                
+  video="7RPVyqc7Wlw"                
   className={style.you}
   autoplay={true}
   muted={true}                
@@ -1481,7 +1483,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video="x3M_2IBy_Lk"                
+  video="NSGYPeP6kA0"                
   className={style.you}
   autoplay={true}
   muted={true}                
@@ -1755,6 +1757,12 @@ _onEnd(event) {
                 </Col>
               </Row>
             </div>
+<div className={style.eslatma} style={{paddingLeft:'0px'}}>
+<ClockLoader color="blue" size={30} />
+
+<span>Sayt test rejimida ishlamoqda</span>
+</div>
+            
             <FooterA />
           </div>
         )}
