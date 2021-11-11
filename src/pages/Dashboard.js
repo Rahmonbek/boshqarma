@@ -93,6 +93,7 @@ import AOS from "aos";
 import { getNews } from "../host/Config";
 import { ClockLoader} from "react-spinners";
 
+
 export default class Dashboard extends Component {
   state = { timePassed: false, news: null };
   
@@ -295,9 +296,9 @@ _onEnd(event) {
                   <NavLink
                     className={style.navlik}
                     style={{ textDecoration: "none", width: "100px" }}
-                    to="/videos"
+                    to="/maktablar"
                   >
-                    Videolavhalar
+                    Maktablar
                   </NavLink>
                 </Nav.Link>
                 <Nav.Link style={{ textAlign: "center" }}>
@@ -394,9 +395,9 @@ _onEnd(event) {
                       <NavLink
                         className={style.navlik}
                         style={{ textDecoration: "none" }}
-                        to="/videos"
+                        to="/maktablar"
                       >
-                        Videolavhalar
+                        Maktablar
                       </NavLink>
                     </Nav.Link>
                     <Nav.Link style={{ textAlign: "center" }}>
@@ -643,25 +644,25 @@ _onEnd(event) {
                 </Col>
 
                 <Col className={style.htr} lg={2} md={6} sm={12}>
-                  <a src="#" className={style.colT} target="_blank">
+                  <a href="https://t.me/bogotijro" className={style.colT} target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Telegram_Messenger.png" />
                     <p>Telegram sahifasi</p>
                   </a>
                 </Col>
                 <Col className={style.htr} lg={2} md={6} sm={12}>
-                  <a src="#" className={style.colT} target="_blank">
+                  <a href=" https://www.instagram.com/bogotxtb/" className={style.colT} target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" />
                     <p>Instagram sahifasi</p>
                   </a>
                 </Col>
                 <Col className={style.htr} lg={2} md={6} sm={12}>
-                  <a src="#" className={style.colT} target="_blank">
+                  <a href="https://www.facebook.com/bogotxtb" className={style.colT} target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" />
                     <p>Facebook sahifasi</p>
                   </a>
                 </Col>
                 <Col className={style.htr} lg={2} md={6} sm={12}>
-                  <a src="#" className={style.colT} target="_blank">
+                  <a href="https://www.youtube.com/channel/UC4vQC9mOo5B6_imRFUA62Xg" className={style.colT} target="_blank">
                     <img src={pic20} />
                     <p>Twitter sahifasi</p>
                   </a>
@@ -1423,7 +1424,7 @@ _onEnd(event) {
                 <i className="fas fa-arrow-right"></i>
               </Link>
               <br />
-            </div> <div className="blue"></div>*/}
+            </div> <div className="blue"></div> */}
 
 
             <div className={style.gal}>

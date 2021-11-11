@@ -104,30 +104,30 @@ export default class Rahbariyat extends Component {
         daraja: 1,
       },
     
-      // {
-      //   id: 2,
-      //   fullName: "Axmedov  Anvarbek  Yo'ldoshboyevich",
-      //   phone:"+998-91-000-00-00",
-      //   qabul: "Dushanba - Shanba 9:00 - 17:00",
-      //   email: "bogot__txtb@umail.uz",
-      //   describe:
-      //     "2007-2008 yy. -O'zbekiston Respublikasi Milliy Xavfsizlik Xizmati Chegara qo'shinlarida oddiy askar ",
-      //   describe1:
-      //     "2009-2013 yy. -Toshkent Axborot texnologiyalari universiteti talabasi ",
-      //   describe2:
-      //     "2013-2014 yy. -Bog'ot yengil sanoat kasb-hunar kollejida ishlab chiqarish ta'limi ustasi ",
-      //   describe3:
-      //     "2014-2017 yy. -Bog'ot yengil sanoat kasb-hunar kollejida o'quv ishlari bo'yicha direktor o'rinbosari ",
-      //   describe4:
-      //     "2017-2018 yy. -O'zbekiston yoshlar ittifoqi Bog'ot tuman Kengashi bosh mutaxassisi ",
-      //   describe5:
-      //     "2018 - h.v        - Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
-      //   describe6: "",
-      //   lavozimi:
-      //     "Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
-      //   image: axmedov,
-      //   daraja: 1,
-      // },
+      {
+        id: 2,
+        fullName: "Axmedov  Anvarbek  Yo'ldoshboyevich",
+        phone:"+998-91-000-00-00",
+        qabul: "Dushanba - Shanba 9:00 - 17:00",
+        email: "bogot__txtb@umail.uz",
+        describe:
+          "2007-2008 yy. -O'zbekiston Respublikasi Milliy Xavfsizlik Xizmati Chegara qo'shinlarida oddiy askar ",
+        describe1:
+          "2009-2013 yy. -Toshkent Axborot texnologiyalari universiteti talabasi ",
+        describe2:
+          "2013-2014 yy. -Bog'ot yengil sanoat kasb-hunar kollejida ishlab chiqarish ta'limi ustasi ",
+        describe3:
+          "2014-2017 yy. -Bog'ot yengil sanoat kasb-hunar kollejida o'quv ishlari bo'yicha direktor o'rinbosari ",
+        describe4:
+          "2017-2018 yy. -O'zbekiston yoshlar ittifoqi Bog'ot tuman Kengashi bosh mutaxassisi ",
+        describe5:
+          "2018 - h.v        - Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
+        describe6: "",
+        lavozimi:
+          "Bog'ot tuman xalq bo'limi ta'lim muassasalari faoliyatini tashkil etish sho'basi bosh mutaxassisi",
+        image: axmedov,
+        daraja: 1,
+      },
     
       // {
       //   id: 2,

@@ -12,6 +12,7 @@ import Tumanlar from "./pages/Tumanlar";
 import Boglanish from "./pages/Boglanish";
 import Rahbariyat from "./pages/Rahbariyat";
 import Videos from "./pages/Videos";
+import {Xarita} from "./pages/Xarita";
 import { Height } from "@material-ui/icons";
 
 // import {Dashboard} from './pages/Dashboard'
@@ -41,6 +42,9 @@ export default class componentName extends Component {
 
           <Route exact path="/videos">
             <Videos />
+          </Route>
+          <Route exact path="/maktablar">
+            <Xarita />
           </Route>
         </BrowserRouter>
       </div>
