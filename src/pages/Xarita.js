@@ -20,6 +20,7 @@ import { url } from "../host/Host";
 import { message } from "antd";
 import Footer from "./Footer";
 import NavbarT from "./NavbarT";
+import Loader from "./Loader";
 
 export const Xarita=()=> {
   const [loading, setLoading] = useState(true);
@@ -28,9 +29,9 @@ export const Xarita=()=> {
   const [data, setData] = useState([
     {params:[41.352072,60.815304],
       nomi:'1-maktab'},
-      {params:[41.351428,60.810495],
+      {params:[41.341634,60.786080],
         nomi:'2-maktab'},
-        {params:[41.350912,60.780606],
+        {params:[41.334545,60.835895],
           nomi:'3-maktab'},
           {params:[41.347175,60.788851],
             nomi:'4-maktab'},
@@ -40,7 +41,7 @@ export const Xarita=()=> {
                 nomi:'6-maktab'},
                 {params:[41.338669,60.828703],
                   nomi:'7-maktab'},
-                  {params:[41.364184,60.832138],
+                  {params:[41.355294,60.824386],
                     nomi:'8-maktab'},
                     {params:[41.368435,60.806887],
                       nomi:'9-maktab'},
@@ -80,10 +81,7 @@ export const Xarita=()=> {
   return (
     <>
       {loading ? (
-        <div className={style.load}>
-        <GridLoader
-color="violet" loading={loading} size={40} />
-        </div>
+       <Loader />
         ) : (
         <>
         <NavbarT/>
@@ -93,7 +91,7 @@ color="violet" loading={loading} size={40} />
               height="95vh"
               state={{
                 center: data[0].params,
-                zoom:9,
+                zoom:13,
               }}
             >
               <Clusterer
