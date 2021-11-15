@@ -116,23 +116,32 @@
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5bfa14d04ae3429879830ee4_home-hero.jpg");
+  background-image: url("https://anhor.uz/wp-content/uploads/2020/11/17586.jpg");
+  background-size:100% 100% ;
+ 
+
 }
 .slideshow li:nth-child(2) span {
-  background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9ecd82b40364fc97f4b_bridge.jpg");
+  background-image: url("https://uzedu.uz/uploads/2020/06/2k2a9128.jpg");
   animation-delay: 6s;
+  background-size:cover ;
+  background-size:100% 100% ;
 }
 .slideshow li:nth-child(3) span {
-  background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9963ea913260bb41b0e_powerlines.jpg");
+  background-image: url("https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/93a5f1453a3cfaed5b509e0263e63602.jpg");
   animation-delay: 12s;
+  background-size:cover ;
+  background-size:100% 100% ;
 }
 .slideshow li:nth-child(4) span {
-  background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5bfa14d04ae3429879830ee4_home-hero.jpg");
+  background-image: url("https://old.qazaqtv.com/upload/anounces/big_19428abc2d3f02d18235b016ca5e0f43.jpg");
   animation-delay: 18s;
+  background-size:100% 100% ;
 }
 .slideshow li:nth-child(5) span {
-  background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9963ea913260bb41b0e_powerlines.jpg");
+  background-image: url("https://www.gazeta.uz/media/img/2019/12/QMWBpv15771681771682_l.jpg");
   animation-delay: 24s;
+  background-size:100% 100% ;
 }
 .head {
   margin-top: 0px;
