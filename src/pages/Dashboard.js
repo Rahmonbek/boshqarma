@@ -1441,7 +1441,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video='x2cr1d3XNMU'                
+  video='rWEnxaCRU0w'                
   className={style.you}
   autoplay={true}
   muted={true}
@@ -1472,7 +1472,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video="7RPVyqc7Wlw"                
+  video="VQgSWGA2HrU"                
   className={style.you}
   autoplay={true}
   muted={true}                
@@ -1484,7 +1484,7 @@ _onEnd(event) {
               <div className={style.videos_item}>
               <YouTube
               onEnd={this._onEnd}
-  video="NSGYPeP6kA0"                
+  video="x2cr1d3XNMU"                
   className={style.you}
   autoplay={true}
   muted={true}                
